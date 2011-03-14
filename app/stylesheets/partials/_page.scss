@@ -52,10 +52,21 @@ body {}
 
 header {
 	margin-top:5px;
-	h1{
+	.headerbar{
+
+	}
+	img{
+
+	}
+	h1.title{
 		height:113px;
 		margin:auto;
 		width:483px;
+	}
+	h1.sponsor{
+			height:156px;
+			margin:auto;
+			width:362px;
 	}
 }
 

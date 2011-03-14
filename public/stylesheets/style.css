@@ -330,39 +330,45 @@ input:invalid, textarea:invalid {
 header {
   margin-top: 5px;
 }
-/* line 55, ../../app/stylesheets/partials/_page.scss */
-header h1 {
+/* line 61, ../../app/stylesheets/partials/_page.scss */
+header h1.title {
   height: 113px;
   margin: auto;
   width: 483px;
 }
+/* line 66, ../../app/stylesheets/partials/_page.scss */
+header h1.sponsor {
+  height: 156px;
+  margin: auto;
+  width: 362px;
+}
 
-/* line 64, ../../app/stylesheets/partials/_page.scss */
+/* line 75, ../../app/stylesheets/partials/_page.scss */
 #main div#description {
   width: 700px;
   margin: auto;
   margin-top: 20px;
 }
-/* line 67, ../../app/stylesheets/partials/_page.scss */
+/* line 78, ../../app/stylesheets/partials/_page.scss */
 #main p {
   margin-top: 10px;
   text-align: justify;
 }
 
-/* line 73, ../../app/stylesheets/partials/_page.scss */
+/* line 84, ../../app/stylesheets/partials/_page.scss */
 div.follow_bar {
   width: 452px;
   margin: auto;
   vertical-align: middle;
 }
-/* line 77, ../../app/stylesheets/partials/_page.scss */
+/* line 88, ../../app/stylesheets/partials/_page.scss */
 div.follow_bar div.twitter {
   float: left;
   margin-top: 20px;
   height: 27px;
   width: 160px;
 }
-/* line 83, ../../app/stylesheets/partials/_page.scss */
+/* line 94, ../../app/stylesheets/partials/_page.scss */
 div.follow_bar div.facebook {
   float: left;
   width: 292px;
