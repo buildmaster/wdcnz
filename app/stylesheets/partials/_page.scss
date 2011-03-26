@@ -46,53 +46,106 @@ input:invalid, textarea:invalid {
 // Add your own custom styles below
 //-----------------------------------
 
-body {}
-
-#container {}
-
-header {
-	margin-top:5px;
-	.headerbar{
-
-	}
-	img{
-
-	}
-	h1.title{
-		height:113px;
-		margin:auto;
-		width:483px;
-	}
-	h1.sponsor{
-			height:156px;
-			margin:auto;
-			width:362px;
-	}
+body{
+	height:600px;
+	width:100%;
+	background-color:#000;
 }
-
+#container{
+	height:100%;
+}
 #main {
-	div#description
-		{width:700px;
-			margin:auto;
-			margin-top:20px;}
-			p{margin-top:10px;text-align:justify;}
-}
-#right{
+	height:100%;
+	width:100%;
+	.box{
+		background-color:#2F4F4F;
+		margin:auto;
+		margin-top:80px;
+		width:750px;
+		height:440px;
+		#box-header{
+			height:300px;
+			color:#FFF;
+			.words{
+				float:left;
+				margin-top:75px;
+				width:630px;
+			}
+			.header{
+			
+				font-size:74px;
+				font-weight:800;
+				width:310px;
+				line-height:55px;
+				height:55px;
+			}
+			.info{
+				font-size:24px;
+				font-weight:300;
+			}
+			.at{
+				margin-top:60px;
+				margin-left:63px;
+				font-size:74px;
+				font-weight:800;
+				}
+			.b-line{
+					top:150px;
+					//height:20px;
+					font-size:44px;
+					font-weight:800;
+					color:#1F3F3F;
+			}
+			.right{float:right;}
+			.left{float:left;}
+			.sponsor{
+				margin-right:40px;
+				font-size:16px;
+				font-weight:300;
+				width:140px;
+				.logo{
+					width:65px;
+				}
+			}
+			.pad{
+				margin-left:120px;
+			}
+		}
+		#box-footer{
+			height:140px;
+			.elements{
+				width:420px;
+				margin:auto;
+				.wide{
+					width:320px;
+					height:50px;
+				
+
+				}
+				.blue{
+					background-color:#2A4A4A;
+					border-radius: 10px;
+					border:1px solid #1C3C3C;
+					text-align:center;
+					font-size:19px;
+					font-weight:500;
+					color:#74C9DE;
+				}
+				.link-button{
+					border:none;
+					background:none;
+					color:#FFF;
+					width:75px;
+					font-size:19px;
+					text-align:middle;
+					padding:0px;
+					letter-spacing:1.5px;
+					
+				}
+			}
+		}
+		
+	}
 	
 }
-footer {}
-div.follow_bar{
-	width:452px;
-	margin:auto;
-	vertical-align:middle;
-	div.twitter{
-		float:left;
-		margin-top:20px;
-		height:27px;
-		width:160px;
-	}
-	div.facebook{
-		float:left;
-		width:292px;
-	}
-}
+

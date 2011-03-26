@@ -326,52 +326,126 @@ input:invalid, textarea:invalid {
   background-color: #f0dddd;
 }
 
-/* line 53, ../../app/stylesheets/partials/_page.scss */
-header {
-  margin-top: 5px;
+/* line 49, ../../app/stylesheets/partials/_page.scss */
+body {
+  height: 600px;
+  width: 100%;
+  background-color: #000;
 }
-/* line 61, ../../app/stylesheets/partials/_page.scss */
-header h1.title {
-  height: 113px;
+
+/* line 54, ../../app/stylesheets/partials/_page.scss */
+#container {
+  height: 100%;
+}
+
+/* line 57, ../../app/stylesheets/partials/_page.scss */
+#main {
+  height: 100%;
+  width: 100%;
+}
+/* line 60, ../../app/stylesheets/partials/_page.scss */
+#main .box {
+  background-color: #2F4F4F;
   margin: auto;
-  width: 483px;
+  margin-top: 80px;
+  width: 750px;
+  height: 440px;
 }
 /* line 66, ../../app/stylesheets/partials/_page.scss */
-header h1.sponsor {
-  height: 156px;
-  margin: auto;
-  width: 362px;
+#main .box #box-header {
+  height: 300px;
+  color: #FFF;
 }
-
-/* line 75, ../../app/stylesheets/partials/_page.scss */
-#main div#description {
-  width: 700px;
-  margin: auto;
-  margin-top: 20px;
-}
-/* line 78, ../../app/stylesheets/partials/_page.scss */
-#main p {
-  margin-top: 10px;
-  text-align: justify;
-}
-
-/* line 84, ../../app/stylesheets/partials/_page.scss */
-div.follow_bar {
-  width: 452px;
-  margin: auto;
-  vertical-align: middle;
-}
-/* line 88, ../../app/stylesheets/partials/_page.scss */
-div.follow_bar div.twitter {
+/* line 69, ../../app/stylesheets/partials/_page.scss */
+#main .box #box-header .words {
   float: left;
-  margin-top: 20px;
-  height: 27px;
-  width: 160px;
+  margin-top: 75px;
+  width: 630px;
 }
-/* line 94, ../../app/stylesheets/partials/_page.scss */
-div.follow_bar div.facebook {
+/* line 74, ../../app/stylesheets/partials/_page.scss */
+#main .box #box-header .header {
+  font-size: 74px;
+  font-weight: 800;
+  width: 310px;
+  line-height: 55px;
+  height: 55px;
+}
+/* line 82, ../../app/stylesheets/partials/_page.scss */
+#main .box #box-header .info {
+  font-size: 24px;
+  font-weight: 300;
+}
+/* line 86, ../../app/stylesheets/partials/_page.scss */
+#main .box #box-header .at {
+  margin-top: 60px;
+  margin-left: 63px;
+  font-size: 74px;
+  font-weight: 800;
+}
+/* line 92, ../../app/stylesheets/partials/_page.scss */
+#main .box #box-header .b-line {
+  top: 150px;
+  font-size: 44px;
+  font-weight: 800;
+  color: #1F3F3F;
+}
+/* line 99, ../../app/stylesheets/partials/_page.scss */
+#main .box #box-header .right {
+  float: right;
+}
+/* line 100, ../../app/stylesheets/partials/_page.scss */
+#main .box #box-header .left {
   float: left;
-  width: 292px;
+}
+/* line 101, ../../app/stylesheets/partials/_page.scss */
+#main .box #box-header .sponsor {
+  margin-right: 40px;
+  font-size: 16px;
+  font-weight: 300;
+  width: 140px;
+}
+/* line 106, ../../app/stylesheets/partials/_page.scss */
+#main .box #box-header .sponsor .logo {
+  width: 65px;
+}
+/* line 110, ../../app/stylesheets/partials/_page.scss */
+#main .box #box-header .pad {
+  margin-left: 120px;
+}
+/* line 114, ../../app/stylesheets/partials/_page.scss */
+#main .box #box-footer {
+  height: 140px;
+}
+/* line 116, ../../app/stylesheets/partials/_page.scss */
+#main .box #box-footer .elements {
+  width: 420px;
+  margin: auto;
+}
+/* line 119, ../../app/stylesheets/partials/_page.scss */
+#main .box #box-footer .elements .wide {
+  width: 320px;
+  height: 50px;
+}
+/* line 125, ../../app/stylesheets/partials/_page.scss */
+#main .box #box-footer .elements .blue {
+  background-color: #2A4A4A;
+  border-radius: 10px;
+  border: 1px solid #1C3C3C;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 500;
+  color: #74C9DE;
+}
+/* line 134, ../../app/stylesheets/partials/_page.scss */
+#main .box #box-footer .elements .link-button {
+  border: none;
+  background: none;
+  color: #FFF;
+  width: 75px;
+  font-size: 19px;
+  text-align: middle;
+  padding: 0px;
+  letter-spacing: 1.5px;
 }
 
 @media print {
