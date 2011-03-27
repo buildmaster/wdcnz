@@ -230,8 +230,6 @@ input.link-button:hover {
 	border:0px;
 }
 .slide.selected{
-	position:absolute;
-	float:left;
 	left:0%;
 }
 .slide.next{
@@ -240,10 +238,13 @@ input.link-button:hover {
 .slide.previous{
 	left:-100%;
 }
-.slide_in_left{
-	
-}
-.slide_out_left{
-	
+.paddle{
+	color: #FFF;
+	font-size: 60px;
+	font-weight: 700;
+	text-shadow: 0.5px 0.5px 1px #000;
+	a{
+		text-decoration:none;
+	}
 }
 

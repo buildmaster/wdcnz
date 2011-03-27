@@ -23,11 +23,37 @@
     
   #box-footer
     .slide.previous#slide1
-      %h1
-        Slide 1
+      .slide-header
+        %h1
+          Slide 1
+      .main
+        .left.paddle
+        .center
+          
+        .right.paddle
+          %a{:href=>"#"}
+            &gt;
     .slide.selected#slide2
-      %h1
-        Slide 2
+      .slide-header
+        %h1
+          Slide 2
+        .main
+          .left.paddle
+            %a{:href=>"#"}
+              &lt;
+        .center
+        
+        .right.paddle
+          %a{:href=>"#"}
+            &gt;
     .slide.next#slide3
-      %h1
-        Slide 3
+      .slide-header
+        %h1
+          Slide 3
+      .main
+        .left.paddle
+          %a{:href=>"#"}
+            &lt;
+        .center
+        
+        .right.paddle

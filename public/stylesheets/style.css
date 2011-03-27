@@ -555,19 +555,29 @@ input.link-button:hover {
 
 /* line 232, ../../app/stylesheets/partials/_page.scss */
 .slide.selected {
-  position: absolute;
-  float: left;
   left: 0%;
 }
 
-/* line 237, ../../app/stylesheets/partials/_page.scss */
+/* line 235, ../../app/stylesheets/partials/_page.scss */
 .slide.next {
   left: 100%;
 }
 
-/* line 240, ../../app/stylesheets/partials/_page.scss */
+/* line 238, ../../app/stylesheets/partials/_page.scss */
 .slide.previous {
   left: -100%;
+}
+
+/* line 241, ../../app/stylesheets/partials/_page.scss */
+.paddle {
+  color: #FFF;
+  font-size: 60px;
+  font-weight: 700;
+  text-shadow: 0.5px 0.5px 1px #000;
+}
+/* line 246, ../../app/stylesheets/partials/_page.scss */
+.paddle a {
+  text-decoration: none;
 }
 
 @media print {
