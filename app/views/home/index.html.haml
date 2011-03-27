@@ -1,21 +1,21 @@
 -content_for :javascripts do
   %script{:type=>'text/javascript',:src=>'/javascripts/jquery-watermark.js'}
   %script{:type=>'text/javascript',:src=>'/javascripts/email-form.js'}
-.box
+.box.tk-museo
   #box-header
-    .at.left.tk-museo
+    .at.left
       @
     .words
-      .header.tk-museo
-      .b-line.tk-museo
+      .header
+      %h1.b-line
         Web Dev Community
-      .info.tk-museo
+      .info
         14 JULY 2011 
         %span.divider
           |
         WELLINGTON, NZ
     .sponsor.right
-      .tk-museo.left.cheers
+      .left.cheers
         Sponsored by
       .logo.right
         %a{:href=>'http://www.xero.com'}
@@ -23,14 +23,14 @@
     
   #box-footer
     -if params[:address]
-      .followup.tk-museo
+      .followup
         .thanks
-          .title
+          %h1
             Sorted!
           .text
             You'll be first to receive event updates, speaker info, earlybird details & all that!
         .share
-          .title
+          %h1
             Share?
           .social
             .twitter

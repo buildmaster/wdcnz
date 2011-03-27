@@ -54,180 +54,167 @@ background-color: #f0dddd;
 //-----------------------------------
 
 body {
-height: 600px;
-width: 100%;
-background-color: #00BAEA;
+	height: 600px;
+	width: 100%;
+	background-color: $xero-blue;
 }
 #container {
-height: 100%;
+	height: 100%;
+}
+h1 {
+	color: #FFF;
+	font-size: 60px;
+	font-weight: 700;
+	text-shadow: 0.5px 0.5px 1px #000;
 }
 .followup {
-width: 700px;
-margin: auto;
-	.title {
-color: #FFF;
-font-size: 60px;
-font-weight: 700;
-text-shadow: 0.5px 0.5px 1px #000;
-}
+	width: 700px;
+	margin: auto;
 	.text {
-text-transform: uppercase;
-font-weight: 700;
-font-size: 18px;
-color: #2C5561;
-}
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 18px;
+	}
 	.share {
-		//width:200px;
-margin-left: 50px;
-}
+		margin-left: 50px;
+	}
 	.twitter {
-float: left;
-}
+		float: left;
+	}
 	.thanks {
-width: 450px;
-float: left;
-}
-
+		width: 450px;
+		float: left;
+	}
 }
 .words {
-float: left;
-margin-top: 50px;
-width: 700px;
-margin-left: 120px;
+	float: left;
+	margin-top: 50px;
+	width: 700px;
+	margin-left: 120px;
 }
 .header {
-color: #FFF;
-background: url("/images/wdcnz.png") no-repeat;
-font-size: 74px;
-font-weight: 500;
-width: 300px;
-line-height: 55px;
-height: 58px;
+	color: #FFF;
+	background: url("/images/wdcnz.png") no-repeat;
+	font-size: 74px;
+	font-weight: 500;
+	width: 300px;
+	line-height: 55px;
+	height: 58px;
 }
 .info {
-color: #FFF;
-font-size: 24px;
-font-weight: 500;
-margin-top: 2px;
-text-shadow: 0.5px 0.5px 1px #000;
+	color: #FFF;
+	font-size: 24px;
+	font-weight: 500;
+	margin-top: 2px;
+	text-shadow: 0.5px 0.5px 1px #000;
 	.divider {
-color: #666666;
-font-weight: 300;
-}
-
+		color: #666666;
+		font-weight: 300;
+		text-shadow:none;
+	}
 }
 
 .at {
-color: #FFF;
-position: absolute;
-margin-top: 40px;
-margin-left: 63px;
-font-size: 74px;
-font-weight: 500;
-text-shadow: 0.5px 0.5px 1px #000;
+	color: #FFF;
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 63px;
+	font-size: 74px;
+	font-weight: 500;
+	text-shadow: 0.5px 0.5px 1px #000;
 }
 .b-line {
-top: 152px;
-		//height:20px;
-font-size: 60px;
-font-weight: 700;
-color: #00BAEA;
-text-shadow: 0.5px 0.5px 1px #000;
+	top: 152px;
+	color: $xero-blue;
 }
 .sponsor {
-color: #68686A;
-position: absolute;
-font-size: 12px;
-font-weight: 700;
-width: 150px;
-height: 50px;
-right: 40px;
-top: 40px;
-	//left:500px;
+	color: #68686A;
+	position: absolute;
+	font-size: 12px;
+	font-weight: 700;
+	width: 150px;
+	height: 50px;
+	right: 40px;
+	top: 40px;
 	.logo {
-width: 50px;
-}
-		.cheers {
-margin-top: 17px;
-}
-
+		width: 50px;
+	}
+	.cheers {
+		margin-top: 17px;
+	}
 }
 .right {
-float: right;
+	float: right;
 }
 .left {
-float: left;
+	float: left;
 }
-	.ta {
-width: 420;
-text-align: center;
-font-size: 24px;
-font-weight: 300;
-color: #FFF;
+.ta {
+	width: 420;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 300;
+	color: #FFF;
 }
-	.social-links {
-width: 220px;
-margin: auto;
-margin-top: 5px;
-		.twitter {
-width: 110px;
-float: left;
+.social-links {
+	width: 220px;
+	margin: auto;
+	margin-top: 5px;
+	.twitter {
+		width: 110px;
+		float: left;
+	}
+	.facebook {
+		width: 77px;
+		float: right;
+		text-align: right;
+	}
 }
-		.facebook {
-width: 77px;
-float: right;
-text-align: right;
+input.wide {
+	width: 320px;
+	height: 50px;
 }
-
+input.blue {
+	background-color: #3A3B3F;
+	border-radius: 4px;
+	border: 1px solid #38393D;
+	text-align: left;
+	font-size: 18px;
+	font-weight: 700;
+	color: #D7D7D8;
 }
-	.elements {
-margin-left: 100px;
-width: 420px;
-		.wide {
-width: 320px;
-height: 50px;
+input.link-button {
+	border: none;
+	background: none;
+	color: #3a3b3f;
+	width: 75px;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: middle;
+	padding: 0px;
+	letter-spacing: 1.5px;
+	text-shadow: 0.5px 0.5px 1px #2a2b2f;
 }
-		.blue {
-background-color: #3A3B3F;
-border-radius: 4px;
-border: 1px solid #38393D;
-text-align: left;
-font-size: 18px;
-font-weight: 700;
-color: #D7D7D8;
+input.link-button:hover {
+	color: #FFF;
 }
-		.link-button {
-border: none;
-background: none;
-color: #3a3b3f;
-width: 75px;
-font-size: 18px;
-font-weight: 700;
-text-align: middle;
-padding: 0px;
-letter-spacing: 1.5px;
-text-shadow: 0.5px 0.5px 1px #2a2b2f;
-}
-		.link-button:hover {
-color: #FFF;
-}
-
+.elements {
+	margin-left: 100px;
+	width: 420px;
 }
 
 #main {
-height: 100%;
-width: 100%;
+	height: 100%;
+	width: 100%;
 	.box {
-min-width: 550px;
+		min-width: 550px;
 		#box-header {
-height: 250px;
-background-color: #3A3B3F;
-}
+			height: 250px;
+			background-color: #3A3B3F;
+		}
 		#box-footer {
-margin-top: 50px;
-}
-
-}
-
+			margin-top: 50px;
+		}
+	}
 }
 

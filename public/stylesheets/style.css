@@ -278,7 +278,7 @@ nav ul, nav li {
 
 /* line 8, ../../app/stylesheets/partials/_page.scss */
 body, select, input, textarea {
-  color: #444444;
+  color: #2c5561;
 }
 
 /* line 15, ../../app/stylesheets/partials/_page.scss */
@@ -330,7 +330,7 @@ input:invalid, textarea:invalid {
 body {
   height: 600px;
   width: 100%;
-  background-color: #00BAEA;
+  background-color: #00baea;
 }
 
 /* line 61, ../../app/stylesheets/partials/_page.scss */
@@ -339,39 +339,39 @@ body {
 }
 
 /* line 64, ../../app/stylesheets/partials/_page.scss */
-.followup {
-  width: 700px;
-  margin: auto;
-}
-/* line 67, ../../app/stylesheets/partials/_page.scss */
-.followup .title {
+h1 {
   color: #FFF;
   font-size: 60px;
   font-weight: 700;
   text-shadow: 0.5px 0.5px 1px #000;
+}
+
+/* line 70, ../../app/stylesheets/partials/_page.scss */
+.followup {
+  width: 700px;
+  margin: auto;
 }
 /* line 73, ../../app/stylesheets/partials/_page.scss */
 .followup .text {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
-  color: #2C5561;
 }
-/* line 79, ../../app/stylesheets/partials/_page.scss */
+/* line 78, ../../app/stylesheets/partials/_page.scss */
 .followup .share {
   margin-left: 50px;
 }
-/* line 83, ../../app/stylesheets/partials/_page.scss */
+/* line 81, ../../app/stylesheets/partials/_page.scss */
 .followup .twitter {
   float: left;
 }
-/* line 86, ../../app/stylesheets/partials/_page.scss */
+/* line 84, ../../app/stylesheets/partials/_page.scss */
 .followup .thanks {
   width: 450px;
   float: left;
 }
 
-/* line 92, ../../app/stylesheets/partials/_page.scss */
+/* line 89, ../../app/stylesheets/partials/_page.scss */
 .words {
   float: left;
   margin-top: 50px;
@@ -379,7 +379,7 @@ body {
   margin-left: 120px;
 }
 
-/* line 98, ../../app/stylesheets/partials/_page.scss */
+/* line 95, ../../app/stylesheets/partials/_page.scss */
 .header {
   color: #FFF;
   background: url("/images/wdcnz.png") no-repeat;
@@ -390,7 +390,7 @@ body {
   height: 58px;
 }
 
-/* line 107, ../../app/stylesheets/partials/_page.scss */
+/* line 104, ../../app/stylesheets/partials/_page.scss */
 .info {
   color: #FFF;
   font-size: 24px;
@@ -398,13 +398,14 @@ body {
   margin-top: 2px;
   text-shadow: 0.5px 0.5px 1px #000;
 }
-/* line 113, ../../app/stylesheets/partials/_page.scss */
+/* line 110, ../../app/stylesheets/partials/_page.scss */
 .info .divider {
   color: #666666;
   font-weight: 300;
+  text-shadow: none;
 }
 
-/* line 120, ../../app/stylesheets/partials/_page.scss */
+/* line 117, ../../app/stylesheets/partials/_page.scss */
 .at {
   color: #FFF;
   position: absolute;
@@ -415,16 +416,13 @@ body {
   text-shadow: 0.5px 0.5px 1px #000;
 }
 
-/* line 129, ../../app/stylesheets/partials/_page.scss */
+/* line 126, ../../app/stylesheets/partials/_page.scss */
 .b-line {
   top: 152px;
-  font-size: 60px;
-  font-weight: 700;
-  color: #00BAEA;
-  text-shadow: 0.5px 0.5px 1px #000;
+  color: #00baea;
 }
 
-/* line 137, ../../app/stylesheets/partials/_page.scss */
+/* line 130, ../../app/stylesheets/partials/_page.scss */
 .sponsor {
   color: #68686A;
   position: absolute;
@@ -435,26 +433,26 @@ body {
   right: 40px;
   top: 40px;
 }
-/* line 147, ../../app/stylesheets/partials/_page.scss */
+/* line 139, ../../app/stylesheets/partials/_page.scss */
 .sponsor .logo {
   width: 50px;
 }
-/* line 150, ../../app/stylesheets/partials/_page.scss */
+/* line 142, ../../app/stylesheets/partials/_page.scss */
 .sponsor .cheers {
   margin-top: 17px;
 }
 
-/* line 155, ../../app/stylesheets/partials/_page.scss */
+/* line 146, ../../app/stylesheets/partials/_page.scss */
 .right {
   float: right;
 }
 
-/* line 158, ../../app/stylesheets/partials/_page.scss */
+/* line 149, ../../app/stylesheets/partials/_page.scss */
 .left {
   float: left;
 }
 
-/* line 161, ../../app/stylesheets/partials/_page.scss */
+/* line 152, ../../app/stylesheets/partials/_page.scss */
 .ta {
   width: 420;
   text-align: center;
@@ -463,36 +461,32 @@ body {
   color: #FFF;
 }
 
-/* line 168, ../../app/stylesheets/partials/_page.scss */
+/* line 159, ../../app/stylesheets/partials/_page.scss */
 .social-links {
   width: 220px;
   margin: auto;
   margin-top: 5px;
 }
-/* line 172, ../../app/stylesheets/partials/_page.scss */
+/* line 163, ../../app/stylesheets/partials/_page.scss */
 .social-links .twitter {
   width: 110px;
   float: left;
 }
-/* line 176, ../../app/stylesheets/partials/_page.scss */
+/* line 167, ../../app/stylesheets/partials/_page.scss */
 .social-links .facebook {
   width: 77px;
   float: right;
   text-align: right;
 }
 
-/* line 183, ../../app/stylesheets/partials/_page.scss */
-.elements {
-  margin-left: 100px;
-  width: 420px;
-}
-/* line 186, ../../app/stylesheets/partials/_page.scss */
-.elements .wide {
+/* line 173, ../../app/stylesheets/partials/_page.scss */
+input.wide {
   width: 320px;
   height: 50px;
 }
-/* line 190, ../../app/stylesheets/partials/_page.scss */
-.elements .blue {
+
+/* line 177, ../../app/stylesheets/partials/_page.scss */
+input.blue {
   background-color: #3A3B3F;
   border-radius: 4px;
   border: 1px solid #38393D;
@@ -501,8 +495,9 @@ body {
   font-weight: 700;
   color: #D7D7D8;
 }
-/* line 199, ../../app/stylesheets/partials/_page.scss */
-.elements .link-button {
+
+/* line 186, ../../app/stylesheets/partials/_page.scss */
+input.link-button {
   border: none;
   background: none;
   color: #3a3b3f;
@@ -514,26 +509,33 @@ body {
   letter-spacing: 1.5px;
   text-shadow: 0.5px 0.5px 1px #2a2b2f;
 }
-/* line 211, ../../app/stylesheets/partials/_page.scss */
-.elements .link-button:hover {
+
+/* line 198, ../../app/stylesheets/partials/_page.scss */
+input.link-button:hover {
   color: #FFF;
 }
 
-/* line 217, ../../app/stylesheets/partials/_page.scss */
+/* line 201, ../../app/stylesheets/partials/_page.scss */
+.elements {
+  margin-left: 100px;
+  width: 420px;
+}
+
+/* line 206, ../../app/stylesheets/partials/_page.scss */
 #main {
   height: 100%;
   width: 100%;
 }
-/* line 220, ../../app/stylesheets/partials/_page.scss */
+/* line 209, ../../app/stylesheets/partials/_page.scss */
 #main .box {
   min-width: 550px;
 }
-/* line 222, ../../app/stylesheets/partials/_page.scss */
+/* line 211, ../../app/stylesheets/partials/_page.scss */
 #main .box #box-header {
   height: 250px;
   background-color: #3A3B3F;
 }
-/* line 226, ../../app/stylesheets/partials/_page.scss */
+/* line 215, ../../app/stylesheets/partials/_page.scss */
 #main .box #box-footer {
   margin-top: 50px;
 }
