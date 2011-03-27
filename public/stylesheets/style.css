@@ -537,7 +537,37 @@ input.link-button:hover {
 }
 /* line 215, ../../app/stylesheets/partials/_page.scss */
 #main .box #box-footer {
+  overflow: hidden;
   margin-top: 50px;
+}
+
+/* line 222, ../../app/stylesheets/partials/_page.scss */
+.slide {
+  position: absolute;
+  float: left;
+  width: 100%;
+  -webkit-transition-duration: 2s;
+  -moz-transition-duration: 2s;
+  -o-transition-duration: 2s;
+  margin: 0px;
+  border: 0px;
+}
+
+/* line 232, ../../app/stylesheets/partials/_page.scss */
+.slide.selected {
+  position: absolute;
+  float: left;
+  left: 0%;
+}
+
+/* line 237, ../../app/stylesheets/partials/_page.scss */
+.slide.next {
+  left: 100%;
+}
+
+/* line 240, ../../app/stylesheets/partials/_page.scss */
+.slide.previous {
+  left: -100%;
 }
 
 @media print {
