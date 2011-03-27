@@ -6,7 +6,7 @@
 //-----------------------------------------------
 
 body, select, input, textarea {
-  color: $font-color;
+color: $font-color;
   // Set your base font here, to apply evenly
   // font-family: Georgia, serif;
 }
@@ -18,11 +18,15 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-a, a:active, a:visited { color: $link-color; }
-a:hover { color: $link-hover-color; }
+a, a:active, a:visited {
+color: $link-color;
+}
+a:hover {
+color: $link-hover-color;
+}
 
 strong, th {
-  font-weight: bold;
+font-weight: bold;
 }
 
 small {
@@ -33,119 +37,197 @@ small {
 
 // Add the 'required' attribute on your
 // inputs if you want to use these
-input:valid, textarea:valid {}
+input:valid, textarea:valid {
+}
 input:invalid, textarea:invalid {
   @include border-radius(1px);
   @include box-shadow(red, 0, 0, 5px, 0);
 }
 .no-boxshadow input:invalid,
-.no-boxshadow textarea:invalid { background-color: #f0dddd; }
+.no-boxshadow textarea:invalid {
+background-color: #f0dddd;
+}
 
 
 //-----------------------------------
 // Add your own custom styles below
 //-----------------------------------
 
-body{
-	height:600px;
-	width:100%;
-	background-color:#000;
+body {
+height: 600px;
+width: 100%;
+background-color: #00BAEA;
 }
-#container{
-	height:100%;
+#container {
+height: 100%;
 }
-#main {
-	height:100%;
-	width:100%;
-	.box{
-		background-color:#2F4F4F;
-		margin:auto;
-		margin-top:80px;
-		width:750px;
-		height:440px;
-		#box-header{
-			height:300px;
-			color:#FFF;
-			.words{
-				float:left;
-				margin-top:75px;
-				width:630px;
-			}
-			.header{
-			
-				font-size:74px;
-				font-weight:800;
-				width:310px;
-				line-height:55px;
-				height:55px;
-			}
-			.info{
-				font-size:24px;
-				font-weight:300;
-			}
-			.at{
-				margin-top:60px;
-				margin-left:63px;
-				font-size:74px;
-				font-weight:800;
-				}
-			.b-line{
-					top:150px;
-					//height:20px;
-					font-size:44px;
-					font-weight:800;
-					color:#1F3F3F;
-			}
-			.right{float:right;}
-			.left{float:left;}
-			.sponsor{
-				margin-right:40px;
-				font-size:16px;
-				font-weight:300;
-				width:140px;
-				.logo{
-					width:65px;
-				}
-			}
-			.pad{
-				margin-left:120px;
-			}
-		}
-		#box-footer{
-			height:140px;
-			.elements{
-				width:420px;
-				margin:auto;
-				.wide{
-					width:320px;
-					height:50px;
-				
+.followup {
+width: 700px;
+margin: auto;
+	.title {
+color: #FFF;
+font-size: 60px;
+font-weight: 700;
+text-shadow: 0.5px 0.5px 1px #000;
+}
+	.text {
+text-transform: uppercase;
+font-weight: 700;
+font-size: 18px;
+color: #2C5561;
+}
+	.share {
+		//width:200px;
+margin-left: 50px;
+}
+	.twitter {
+float: left;
+}
+	.thanks {
+width: 450px;
+float: left;
+}
 
-				}
-				.blue{
-					background-color:#2A4A4A;
-					border-radius: 10px;
-					border:1px solid #1C3C3C;
-					text-align:center;
-					font-size:19px;
-					font-weight:500;
-					color:#74C9DE;
-				}
-				.link-button{
-					border:none;
-					background:none;
-					color:#FFF;
-					width:75px;
-					font-size:19px;
-					text-align:middle;
-					padding:0px;
-					letter-spacing:1.5px;
-					
-				}
-			}
-		}
-		
-	}
-	
+}
+.words {
+float: left;
+margin-top: 50px;
+width: 700px;
+margin-left: 120px;
+}
+.header {
+color: #FFF;
+background: url("/images/wdcnz.png") no-repeat;
+font-size: 74px;
+font-weight: 500;
+width: 300px;
+line-height: 55px;
+height: 58px;
+}
+.info {
+color: #FFF;
+font-size: 24px;
+font-weight: 500;
+margin-top: 2px;
+text-shadow: 0.5px 0.5px 1px #000;
+	.divider {
+color: #666666;
+font-weight: 300;
+}
+
+}
+
+.at {
+color: #FFF;
+position: absolute;
+margin-top: 40px;
+margin-left: 63px;
+font-size: 74px;
+font-weight: 500;
+text-shadow: 0.5px 0.5px 1px #000;
+}
+.b-line {
+top: 152px;
+		//height:20px;
+font-size: 60px;
+font-weight: 700;
+color: #00BAEA;
+text-shadow: 0.5px 0.5px 1px #000;
+}
+.sponsor {
+color: #68686A;
+position: absolute;
+font-size: 12px;
+font-weight: 700;
+width: 150px;
+height: 50px;
+right: 40px;
+top: 40px;
+	//left:500px;
+	.logo {
+width: 50px;
+}
+		.cheers {
+margin-top: 17px;
+}
+
+}
+.right {
+float: right;
+}
+.left {
+float: left;
+}
+	.ta {
+width: 420;
+text-align: center;
+font-size: 24px;
+font-weight: 300;
+color: #FFF;
+}
+	.social-links {
+width: 220px;
+margin: auto;
+margin-top: 5px;
+		.twitter {
+width: 110px;
+float: left;
+}
+		.facebook {
+width: 77px;
+float: right;
+text-align: right;
+}
+
+}
+	.elements {
+margin-left: 100px;
+width: 420px;
+		.wide {
+width: 320px;
+height: 50px;
+}
+		.blue {
+background-color: #3A3B3F;
+border-radius: 4px;
+border: 1px solid #38393D;
+text-align: left;
+font-size: 18px;
+font-weight: 700;
+color: #D7D7D8;
+}
+		.link-button {
+border: none;
+background: none;
+color: #3a3b3f;
+width: 75px;
+font-size: 18px;
+font-weight: 700;
+text-align: middle;
+padding: 0px;
+letter-spacing: 1.5px;
+text-shadow: 0.5px 0.5px 1px #2a2b2f;
+}
+		.link-button:hover {
+color: #FFF;
+}
+
+}
+
+#main {
+height: 100%;
+width: 100%;
+	.box {
+min-width: 550px;
+		#box-header {
+height: 250px;
+background-color: #3A3B3F;
+}
+		#box-footer {
+margin-top: 50px;
+}
+
+}
+
 }
 

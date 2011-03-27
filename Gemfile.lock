@@ -34,6 +34,7 @@ GEM
       haml (>= 3.0.4)
     erubis (2.6.6)
       abstract (>= 1.0.0)
+    fastercsv (1.5.4)
     haml (3.0.25)
     haml-rails (0.3.4)
       actionpack (~> 3.0)
@@ -80,6 +81,7 @@ PLATFORMS
 
 DEPENDENCIES
   compass
+  fastercsv
   haml
   haml-rails
   html5-boilerplate

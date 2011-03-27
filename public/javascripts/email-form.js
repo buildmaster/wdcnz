@@ -21,7 +21,7 @@ WDCNZ = {
 
 jQuery(function($){
    
-   $("#email").Watermark("ADD YOUR EMAIL FOR UPDATES","#74C9DE");
+   $("#email").Watermark("ADD YOUR EMAIL FOR UPDATES","#D8D8D9");
    WDCNZ.init();
 });
 

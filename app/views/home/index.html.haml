@@ -6,19 +6,42 @@
     .at.left.tk-museo
       @
     .words
-      .sponsor.right
-        .tk-museo
-          Cheers to
-        .logo
       .header.tk-museo
-        WDCNZ
       .b-line.tk-museo
         Web Dev Community
       .info.tk-museo
-        14 JULY 2011 | WELLINGTON, NZ
-    
+        14 JULY 2011 
+        %span.divider
+          |
+        WELLINGTON, NZ
+    .sponsor.right
+      .tk-museo.left.cheers
+        Sponsored by
+      .logo.right
+        %a{:href=>'http://www.xero.com'}
+        %img{:src=>'/images/xero-logo-small.png'}
     
   #box-footer
-    .elements
-      %input.wide.blue.tk-museo#email{:type=>"text"}
-      %input.link-button.tk-museo{:type=>"submit", :value=>"SEND"}
+    -if params[:address]
+      .followup.tk-museo
+        .thanks
+          .title
+            Sorted!
+          .text
+            You'll be first to receive event updates, speaker info, earlybird details & all that!
+        .share
+          .title
+            Share?
+          .social
+            .twitter
+              %a.twitter-share-button{:href=>"http://twitter.com/share", "data-url"=>"http://wdcnz.com", "data-text"=>"Hey checkout #wdcnz, I'm signed up!", "data-count"=>"horizontal", "data-via"=>"wdcnz"}
+                Tweet
+              %script{:type=>"text/javascript", :src=>"http://platform.twitter.com/widgets.js"}
+            .facebook
+              %iframe{:src=>"http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fwdcnz&amp;layout=button_count&amp;show_faces=false&amp;width=110&amp;action=like&amp;font&amp;colorscheme=light&amp;height=21", :scrolling=>"no", :frameborder=>"0", :style=>"border:none; overflow:hidden; width:110px; height:21px;", :allowTransparency=>"true"}s
+       
+    -else
+      .elements
+        %form{:method=>"post",:action=>""}
+          %input.wide.blue.tk-museo#email{:type=>"text",:name=>"address"}
+          %input.link-button.tk-museo{:type=>"submit", :value=>"SEND"}

@@ -291,22 +291,22 @@ a, a:active, a:visited {
   color: #607890;
 }
 
-/* line 22, ../../app/stylesheets/partials/_page.scss */
+/* line 24, ../../app/stylesheets/partials/_page.scss */
 a:hover {
   color: #003366;
 }
 
-/* line 24, ../../app/stylesheets/partials/_page.scss */
+/* line 28, ../../app/stylesheets/partials/_page.scss */
 strong, th {
   font-weight: bold;
 }
 
-/* line 28, ../../app/stylesheets/partials/_page.scss */
+/* line 32, ../../app/stylesheets/partials/_page.scss */
 small {
   font-size: 85%;
 }
 
-/* line 37, ../../app/stylesheets/partials/_page.scss */
+/* line 42, ../../app/stylesheets/partials/_page.scss */
 input:invalid, textarea:invalid {
   -moz-border-radius: 1px;
   -webkit-border-radius: 1px;
@@ -320,132 +320,222 @@ input:invalid, textarea:invalid {
   box-shadow: red 0 0 5px 0;
 }
 
-/* line 42, ../../app/stylesheets/partials/_page.scss */
+/* line 47, ../../app/stylesheets/partials/_page.scss */
 .no-boxshadow input:invalid,
 .no-boxshadow textarea:invalid {
   background-color: #f0dddd;
 }
 
-/* line 49, ../../app/stylesheets/partials/_page.scss */
+/* line 56, ../../app/stylesheets/partials/_page.scss */
 body {
   height: 600px;
   width: 100%;
-  background-color: #000;
+  background-color: #00BAEA;
 }
 
-/* line 54, ../../app/stylesheets/partials/_page.scss */
+/* line 61, ../../app/stylesheets/partials/_page.scss */
 #container {
   height: 100%;
 }
 
-/* line 57, ../../app/stylesheets/partials/_page.scss */
+/* line 64, ../../app/stylesheets/partials/_page.scss */
+.followup {
+  width: 700px;
+  margin: auto;
+}
+/* line 67, ../../app/stylesheets/partials/_page.scss */
+.followup .title {
+  color: #FFF;
+  font-size: 60px;
+  font-weight: 700;
+  text-shadow: 0.5px 0.5px 1px #000;
+}
+/* line 73, ../../app/stylesheets/partials/_page.scss */
+.followup .text {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  color: #2C5561;
+}
+/* line 79, ../../app/stylesheets/partials/_page.scss */
+.followup .share {
+  margin-left: 50px;
+}
+/* line 83, ../../app/stylesheets/partials/_page.scss */
+.followup .twitter {
+  float: left;
+}
+/* line 86, ../../app/stylesheets/partials/_page.scss */
+.followup .thanks {
+  width: 450px;
+  float: left;
+}
+
+/* line 92, ../../app/stylesheets/partials/_page.scss */
+.words {
+  float: left;
+  margin-top: 50px;
+  width: 700px;
+  margin-left: 120px;
+}
+
+/* line 98, ../../app/stylesheets/partials/_page.scss */
+.header {
+  color: #FFF;
+  background: url("/images/wdcnz.png") no-repeat;
+  font-size: 74px;
+  font-weight: 500;
+  width: 300px;
+  line-height: 55px;
+  height: 58px;
+}
+
+/* line 107, ../../app/stylesheets/partials/_page.scss */
+.info {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 2px;
+  text-shadow: 0.5px 0.5px 1px #000;
+}
+/* line 113, ../../app/stylesheets/partials/_page.scss */
+.info .divider {
+  color: #666666;
+  font-weight: 300;
+}
+
+/* line 120, ../../app/stylesheets/partials/_page.scss */
+.at {
+  color: #FFF;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 63px;
+  font-size: 74px;
+  font-weight: 500;
+  text-shadow: 0.5px 0.5px 1px #000;
+}
+
+/* line 129, ../../app/stylesheets/partials/_page.scss */
+.b-line {
+  top: 152px;
+  font-size: 60px;
+  font-weight: 700;
+  color: #00BAEA;
+  text-shadow: 0.5px 0.5px 1px #000;
+}
+
+/* line 137, ../../app/stylesheets/partials/_page.scss */
+.sponsor {
+  color: #68686A;
+  position: absolute;
+  font-size: 12px;
+  font-weight: 700;
+  width: 150px;
+  height: 50px;
+  right: 40px;
+  top: 40px;
+}
+/* line 147, ../../app/stylesheets/partials/_page.scss */
+.sponsor .logo {
+  width: 50px;
+}
+/* line 150, ../../app/stylesheets/partials/_page.scss */
+.sponsor .cheers {
+  margin-top: 17px;
+}
+
+/* line 155, ../../app/stylesheets/partials/_page.scss */
+.right {
+  float: right;
+}
+
+/* line 158, ../../app/stylesheets/partials/_page.scss */
+.left {
+  float: left;
+}
+
+/* line 161, ../../app/stylesheets/partials/_page.scss */
+.ta {
+  width: 420;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  color: #FFF;
+}
+
+/* line 168, ../../app/stylesheets/partials/_page.scss */
+.social-links {
+  width: 220px;
+  margin: auto;
+  margin-top: 5px;
+}
+/* line 172, ../../app/stylesheets/partials/_page.scss */
+.social-links .twitter {
+  width: 110px;
+  float: left;
+}
+/* line 176, ../../app/stylesheets/partials/_page.scss */
+.social-links .facebook {
+  width: 77px;
+  float: right;
+  text-align: right;
+}
+
+/* line 183, ../../app/stylesheets/partials/_page.scss */
+.elements {
+  margin-left: 100px;
+  width: 420px;
+}
+/* line 186, ../../app/stylesheets/partials/_page.scss */
+.elements .wide {
+  width: 320px;
+  height: 50px;
+}
+/* line 190, ../../app/stylesheets/partials/_page.scss */
+.elements .blue {
+  background-color: #3A3B3F;
+  border-radius: 4px;
+  border: 1px solid #38393D;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 700;
+  color: #D7D7D8;
+}
+/* line 199, ../../app/stylesheets/partials/_page.scss */
+.elements .link-button {
+  border: none;
+  background: none;
+  color: #3a3b3f;
+  width: 75px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: middle;
+  padding: 0px;
+  letter-spacing: 1.5px;
+  text-shadow: 0.5px 0.5px 1px #2a2b2f;
+}
+/* line 211, ../../app/stylesheets/partials/_page.scss */
+.elements .link-button:hover {
+  color: #FFF;
+}
+
+/* line 217, ../../app/stylesheets/partials/_page.scss */
 #main {
   height: 100%;
   width: 100%;
 }
-/* line 60, ../../app/stylesheets/partials/_page.scss */
+/* line 220, ../../app/stylesheets/partials/_page.scss */
 #main .box {
-  background-color: #2F4F4F;
-  margin: auto;
-  margin-top: 80px;
-  width: 750px;
-  height: 440px;
+  min-width: 550px;
 }
-/* line 66, ../../app/stylesheets/partials/_page.scss */
+/* line 222, ../../app/stylesheets/partials/_page.scss */
 #main .box #box-header {
-  height: 300px;
-  color: #FFF;
+  height: 250px;
+  background-color: #3A3B3F;
 }
-/* line 69, ../../app/stylesheets/partials/_page.scss */
-#main .box #box-header .words {
-  float: left;
-  margin-top: 75px;
-  width: 630px;
-}
-/* line 74, ../../app/stylesheets/partials/_page.scss */
-#main .box #box-header .header {
-  font-size: 74px;
-  font-weight: 800;
-  width: 310px;
-  line-height: 55px;
-  height: 55px;
-}
-/* line 82, ../../app/stylesheets/partials/_page.scss */
-#main .box #box-header .info {
-  font-size: 24px;
-  font-weight: 300;
-}
-/* line 86, ../../app/stylesheets/partials/_page.scss */
-#main .box #box-header .at {
-  margin-top: 60px;
-  margin-left: 63px;
-  font-size: 74px;
-  font-weight: 800;
-}
-/* line 92, ../../app/stylesheets/partials/_page.scss */
-#main .box #box-header .b-line {
-  top: 150px;
-  font-size: 44px;
-  font-weight: 800;
-  color: #1F3F3F;
-}
-/* line 99, ../../app/stylesheets/partials/_page.scss */
-#main .box #box-header .right {
-  float: right;
-}
-/* line 100, ../../app/stylesheets/partials/_page.scss */
-#main .box #box-header .left {
-  float: left;
-}
-/* line 101, ../../app/stylesheets/partials/_page.scss */
-#main .box #box-header .sponsor {
-  margin-right: 40px;
-  font-size: 16px;
-  font-weight: 300;
-  width: 140px;
-}
-/* line 106, ../../app/stylesheets/partials/_page.scss */
-#main .box #box-header .sponsor .logo {
-  width: 65px;
-}
-/* line 110, ../../app/stylesheets/partials/_page.scss */
-#main .box #box-header .pad {
-  margin-left: 120px;
-}
-/* line 114, ../../app/stylesheets/partials/_page.scss */
+/* line 226, ../../app/stylesheets/partials/_page.scss */
 #main .box #box-footer {
-  height: 140px;
-}
-/* line 116, ../../app/stylesheets/partials/_page.scss */
-#main .box #box-footer .elements {
-  width: 420px;
-  margin: auto;
-}
-/* line 119, ../../app/stylesheets/partials/_page.scss */
-#main .box #box-footer .elements .wide {
-  width: 320px;
-  height: 50px;
-}
-/* line 125, ../../app/stylesheets/partials/_page.scss */
-#main .box #box-footer .elements .blue {
-  background-color: #2A4A4A;
-  border-radius: 10px;
-  border: 1px solid #1C3C3C;
-  text-align: center;
-  font-size: 19px;
-  font-weight: 500;
-  color: #74C9DE;
-}
-/* line 134, ../../app/stylesheets/partials/_page.scss */
-#main .box #box-footer .elements .link-button {
-  border: none;
-  background: none;
-  color: #FFF;
-  width: 75px;
-  font-size: 19px;
-  text-align: middle;
-  padding: 0px;
-  letter-spacing: 1.5px;
+  margin-top: 50px;
 }
 
 @media print {
