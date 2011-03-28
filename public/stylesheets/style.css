@@ -328,164 +328,156 @@ input:invalid, textarea:invalid {
 
 /* line 56, ../../app/stylesheets/partials/_page.scss */
 body {
+  font-family: "museo-1","museo-2",sans-serif;
   height: 600px;
   width: 100%;
-  background-color: #00baea;
+  background-color: #51b7e6;
 }
 
-/* line 61, ../../app/stylesheets/partials/_page.scss */
+/* line 62, ../../app/stylesheets/partials/_page.scss */
+header {
+  height: 250px;
+  min-width: 980px;
+  background-color: #3A3B3F;
+  background-image: url("/images/wdcnz.png") no-repeat;
+}
+
+/* line 69, ../../app/stylesheets/partials/_page.scss */
+input {
+  font-family: "museo-1","museo-2",sans-serif;
+}
+
+/* line 72, ../../app/stylesheets/partials/_page.scss */
 #container {
   height: 100%;
 }
 
-/* line 64, ../../app/stylesheets/partials/_page.scss */
+/* line 75, ../../app/stylesheets/partials/_page.scss */
 h1 {
   color: #FFF;
   font-size: 60px;
   font-weight: 700;
-  text-shadow: 0.5px 0.5px 1px #000;
+  text-shadow: 0px 1px 1px #333333;
 }
 
-/* line 70, ../../app/stylesheets/partials/_page.scss */
+/* line 81, ../../app/stylesheets/partials/_page.scss */
 .followup {
-  width: 700px;
-  margin: auto;
+  width: 800px;
+  margin-left: 120px;
 }
-/* line 73, ../../app/stylesheets/partials/_page.scss */
+/* line 84, ../../app/stylesheets/partials/_page.scss */
 .followup .text {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
 }
-/* line 78, ../../app/stylesheets/partials/_page.scss */
-.followup .share {
-  margin-left: 50px;
-}
-/* line 81, ../../app/stylesheets/partials/_page.scss */
+/* line 91, ../../app/stylesheets/partials/_page.scss */
 .followup .twitter {
   float: left;
 }
-/* line 84, ../../app/stylesheets/partials/_page.scss */
+/* line 94, ../../app/stylesheets/partials/_page.scss */
 .followup .thanks {
+  margin-right: 100px;
   width: 450px;
   float: left;
 }
 
-/* line 89, ../../app/stylesheets/partials/_page.scss */
+/* line 100, ../../app/stylesheets/partials/_page.scss */
 .words {
   float: left;
-  margin-top: 50px;
+  margin-top: 55px;
   width: 700px;
-  margin-left: 120px;
-}
-
-/* line 95, ../../app/stylesheets/partials/_page.scss */
-.header {
-  color: #FFF;
+  margin-left: 42px;
   background: url("/images/wdcnz.png") no-repeat;
-  font-size: 74px;
-  font-weight: 500;
-  width: 300px;
-  line-height: 55px;
-  height: 58px;
+  padding-left: 58px;
+  padding-top: 58px;
 }
 
-/* line 104, ../../app/stylesheets/partials/_page.scss */
+/* line 109, ../../app/stylesheets/partials/_page.scss */
 .info {
   color: #FFF;
   font-size: 24px;
   font-weight: 500;
   margin-top: 2px;
-  text-shadow: 0.5px 0.5px 1px #000;
+  letter-spacing: 1px;
+  text-shadow: 0px 1px 1px #333333;
 }
-/* line 110, ../../app/stylesheets/partials/_page.scss */
+/* line 116, ../../app/stylesheets/partials/_page.scss */
 .info .divider {
   color: #666666;
   font-weight: 300;
   text-shadow: none;
 }
 
-/* line 117, ../../app/stylesheets/partials/_page.scss */
-.at {
-  color: #FFF;
-  position: absolute;
-  margin-top: 40px;
-  margin-left: 63px;
-  font-size: 74px;
-  font-weight: 500;
-  text-shadow: 0.5px 0.5px 1px #000;
-}
-
-/* line 126, ../../app/stylesheets/partials/_page.scss */
+/* line 122, ../../app/stylesheets/partials/_page.scss */
 .b-line {
-  top: 152px;
-  color: #00baea;
+  color: #51b7e6;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
 }
 
-/* line 130, ../../app/stylesheets/partials/_page.scss */
+/* line 128, ../../app/stylesheets/partials/_page.scss */
 .sponsor {
   color: #68686A;
-  position: absolute;
   font-size: 12px;
   font-weight: 700;
-  width: 150px;
+  width: 140px;
   height: 50px;
-  right: 40px;
-  top: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
 }
-/* line 139, ../../app/stylesheets/partials/_page.scss */
+/* line 136, ../../app/stylesheets/partials/_page.scss */
 .sponsor .logo {
   width: 50px;
 }
-/* line 142, ../../app/stylesheets/partials/_page.scss */
+/* line 139, ../../app/stylesheets/partials/_page.scss */
 .sponsor .cheers {
   margin-top: 17px;
 }
 
-/* line 146, ../../app/stylesheets/partials/_page.scss */
+/* line 143, ../../app/stylesheets/partials/_page.scss */
+.fade {
+  opacity: .0;
+  filter: alpha(opacity=0);
+}
+
+/* line 147, ../../app/stylesheets/partials/_page.scss */
 .right {
   float: right;
 }
 
-/* line 149, ../../app/stylesheets/partials/_page.scss */
+/* line 150, ../../app/stylesheets/partials/_page.scss */
 .left {
   float: left;
 }
 
-/* line 152, ../../app/stylesheets/partials/_page.scss */
-.ta {
-  width: 420;
-  text-align: center;
-  font-size: 24px;
-  font-weight: 300;
-  color: #FFF;
-}
-
-/* line 159, ../../app/stylesheets/partials/_page.scss */
+/* line 153, ../../app/stylesheets/partials/_page.scss */
 .social-links {
   width: 220px;
   margin: auto;
   margin-top: 5px;
 }
-/* line 163, ../../app/stylesheets/partials/_page.scss */
+/* line 157, ../../app/stylesheets/partials/_page.scss */
 .social-links .twitter {
   width: 110px;
   float: left;
 }
-/* line 167, ../../app/stylesheets/partials/_page.scss */
+/* line 161, ../../app/stylesheets/partials/_page.scss */
 .social-links .facebook {
   width: 77px;
   float: right;
   text-align: right;
 }
 
-/* line 173, ../../app/stylesheets/partials/_page.scss */
+/* line 167, ../../app/stylesheets/partials/_page.scss */
 input.wide {
   width: 320px;
-  height: 50px;
+  height: 48px;
+  padding-left: 15px;
 }
 
-/* line 177, ../../app/stylesheets/partials/_page.scss */
+/* line 172, ../../app/stylesheets/partials/_page.scss */
 input.blue {
   background-color: #3A3B3F;
   border-radius: 4px;
@@ -494,9 +486,12 @@ input.blue {
   font-size: 18px;
   font-weight: 700;
   color: #D7D7D8;
+  -moz-box-shadow: inset 0 0 2px #333;
+  -webkit-box-shadow: inset 0 0 2px #333;
+  box-shadow: inner 0 0 2px #333;
 }
 
-/* line 186, ../../app/stylesheets/partials/_page.scss */
+/* line 184, ../../app/stylesheets/partials/_page.scss */
 input.link-button {
   border: none;
   background: none;
@@ -507,37 +502,47 @@ input.link-button {
   text-align: middle;
   padding: 0px;
   letter-spacing: 1.5px;
-  text-shadow: 0.5px 0.5px 1px #2a2b2f;
 }
 
-/* line 198, ../../app/stylesheets/partials/_page.scss */
+/* line 196, ../../app/stylesheets/partials/_page.scss */
 input.link-button:hover {
   color: #FFF;
+  text-shadow: 0px 1px 1px #009ec8;
 }
 
-/* line 201, ../../app/stylesheets/partials/_page.scss */
+/* line 200, ../../app/stylesheets/partials/_page.scss */
 .elements {
   margin-left: 100px;
   width: 420px;
 }
+/* line 203, ../../app/stylesheets/partials/_page.scss */
+.elements .input-bar {
+  background: url("/images/title_lower_bar.png") no-repeat;
+  width: 320px;
+  height: 1px;
+  margin-left: 3px;
+}
 
-/* line 206, ../../app/stylesheets/partials/_page.scss */
-#main {
-  height: 100%;
+/* line 212, ../../app/stylesheets/partials/_page.scss */
+#main .bar {
+  overflow: hidden;
+  margin-bottom: 50px;
   width: 100%;
+  height: 1px;
+  position: relative;
+  margin-right: 0px;
+  float: left;
 }
-/* line 209, ../../app/stylesheets/partials/_page.scss */
-#main .box {
-  min-width: 550px;
+/* line 220, ../../app/stylesheets/partials/_page.scss */
+#main .bar .image {
+  height: 1px;
+  width: 1024px;
+  margin: auto;
+  background: url("/images/title_lower_bar.png") no-repeat;
 }
-/* line 211, ../../app/stylesheets/partials/_page.scss */
-#main .box #box-header {
-  height: 250px;
-  background-color: #3A3B3F;
-}
-/* line 215, ../../app/stylesheets/partials/_page.scss */
-#main .box #box-footer {
-  margin-top: 50px;
+/* line 227, ../../app/stylesheets/partials/_page.scss */
+#main h1 {
+  text-shadow: 0px 1px 1px #009ec8;
 }
 
 @media print {

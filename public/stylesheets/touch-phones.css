@@ -1,0 +1,93 @@
+/* line 1, ../../app/stylesheets/touch-phones.scss */
+h1 {
+  font-size: 40px;
+}
+
+/* line 4, ../../app/stylesheets/touch-phones.scss */
+body {
+  height: 360px;
+}
+
+/* line 7, ../../app/stylesheets/touch-phones.scss */
+header {
+  min-width: 330px;
+  height: 198px;
+}
+/* line 11, ../../app/stylesheets/touch-phones.scss */
+header .words {
+  width: 305px;
+  margin-top: 20px;
+  margin-left: 18px;
+  padding-top: 50px;
+  padding-left: 0px;
+  background: url("/images/wdcnz-mobile.png") no-repeat;
+}
+/* line 19, ../../app/stylesheets/touch-phones.scss */
+header .b-line {
+  margin-top: 2px;
+  line-height: 40px;
+  height: 87px;
+}
+/* line 24, ../../app/stylesheets/touch-phones.scss */
+header .sponsor {
+  display: none;
+}
+/* line 27, ../../app/stylesheets/touch-phones.scss */
+header .info {
+  font-size: 16px;
+}
+
+/* line 33, ../../app/stylesheets/touch-phones.scss */
+#main .bar {
+  display: none;
+  margin-bottom: 0px;
+}
+/* line 36, ../../app/stylesheets/touch-phones.scss */
+#main .bar .image {
+  width: 320px;
+}
+
+/* line 41, ../../app/stylesheets/touch-phones.scss */
+.elements {
+  margin-top: 18px;
+  margin-left: 18px;
+  width: 320px;
+}
+/* line 45, ../../app/stylesheets/touch-phones.scss */
+.elements .input-bar {
+  display: none;
+}
+
+/* line 49, ../../app/stylesheets/touch-phones.scss */
+input.wide {
+  width: 200px;
+}
+
+/* line 52, ../../app/stylesheets/touch-phones.scss */
+.followup {
+  margin-left: 18px;
+  margin-top: 4px;
+  width: 300px;
+}
+/* line 56, ../../app/stylesheets/touch-phones.scss */
+.followup .text {
+  font-size: 16px;
+}
+/* line 59, ../../app/stylesheets/touch-phones.scss */
+.followup .thanks {
+  width: 300px;
+  margin-bottom: 10px;
+}
+/* line 63, ../../app/stylesheets/touch-phones.scss */
+.followup .share {
+  width: 300px;
+}
+/* line 65, ../../app/stylesheets/touch-phones.scss */
+.followup .share h1 {
+  display: none;
+}
+
+/* line 70, ../../app/stylesheets/touch-phones.scss */
+img.typekit-badge {
+  display: none !important;
+}

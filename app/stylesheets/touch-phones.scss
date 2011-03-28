@@ -1,0 +1,72 @@
+h1{
+		font-size: 40px;	
+}
+body{
+	height:360px;
+}
+header{
+	
+	min-width:330px;
+	height:198px;
+	.words {
+		width:305px;
+		margin-top:20px;
+		margin-left:18px;
+		padding-top:50px;
+		padding-left:0px;
+		background:url('/images/wdcnz-mobile.png') no-repeat;
+	}
+	.b-line{
+		margin-top:2px;
+		line-height:40px;
+		height:87px;
+	}
+	.sponsor{
+		display:none;
+	}
+	.info {
+		font-size: 16px;
+	}
+	
+}
+#main {
+	.bar{
+		display:none;
+		margin-bottom:0px;
+		.image{
+			width:320px;
+		}
+	}
+}
+.elements {
+	margin-top:18px;
+	margin-left: 18px;
+	width: 320px;
+		.input-bar{
+			display:none;
+		}
+}
+input.wide {
+	width:200px;
+}
+.followup {
+	margin-left:18px;
+	margin-top:4px;
+	width:300px;
+	.text {
+		font-size: 16px;
+	}
+	.thanks{
+			width:300px;
+			margin-bottom:10px;
+	}
+	.share{
+		width:300px;
+		h1{
+		display:none;
+	}
+	}
+}
+img.typekit-badge{
+	display:none !important;
+}

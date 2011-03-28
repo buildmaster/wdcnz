@@ -1,5 +1,5 @@
 WDCNZ = {
-	text:["Web Dev Community","Tech talks for Web Devs","JavaScript, HTML5, CSS", ".NET, PHP, Ruby","Mobile, Security, Scale"],
+	text:["Tech talks for web devs","Web dev conversations","JavaScript, HTML5, CSS", ".NET, PHP, Ruby","Mobile, Security, Scale"],
 	currentIndex:0,
 	init:function(){
 		this.interval = setInterval(this.rotateText,5000,this)
@@ -10,18 +10,28 @@ WDCNZ = {
 		{
 			WDCNZ.currentIndex = 0;
 		}
-		WDCNZ.setText(WDCNZ.text[WDCNZ.currentIndex]);
+		WDCNZ.fadeText();
+		setTimeout(WDCNZ.setText,500);
 		
 	},
-	setText:function(newText)
+	fadeText:function(){
+		$(".b-line").addClass('fade');
+	},
+	setText:function()
 	{
-		$(".b-line").text(newText);
+		
+		$(".b-line").text(WDCNZ.text[WDCNZ.currentIndex]);
+		$(".b-line").removeClass('fade');
 	},
 }
 
 jQuery(function($){
-   
+   if($("#email").width()==200){
+		$("#email").Watermark("ADD YOUR EMAIL","#D8D8D9")
+	}
+	else{
    $("#email").Watermark("ADD YOUR EMAIL FOR UPDATES","#D8D8D9");
+	}
    WDCNZ.init();
 });
 
