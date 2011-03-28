@@ -4,6 +4,16 @@ h1{
 body{
 	height:360px;
 }
+.wdcnz_logo{
+	top:20px;
+	left:18px;
+}
+#wdcnz_logo_small{
+	display:block;
+}
+#wdcnz_logo{
+	display:none;
+}
 header{
 	
 	min-width:330px;
@@ -14,7 +24,6 @@ header{
 		margin-left:18px;
 		padding-top:50px;
 		padding-left:0px;
-		background:url('/images/wdcnz-mobile.png') no-repeat;
 	}
 	.b-line{
 		margin-top:2px;

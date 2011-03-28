@@ -383,17 +383,28 @@ h1 {
 }
 
 /* line 100, ../../app/stylesheets/partials/_page.scss */
+.wdcnz_logo {
+  position: absolute;
+  top: 55px;
+  left: 42px;
+}
+
+/* line 106, ../../app/stylesheets/partials/_page.scss */
+#wdcnz_logo_small {
+  display: none;
+}
+
+/* line 109, ../../app/stylesheets/partials/_page.scss */
 .words {
   float: left;
   margin-top: 55px;
   width: 700px;
   margin-left: 42px;
-  background: url("/images/wdcnz.png") no-repeat;
   padding-left: 58px;
   padding-top: 58px;
 }
 
-/* line 109, ../../app/stylesheets/partials/_page.scss */
+/* line 117, ../../app/stylesheets/partials/_page.scss */
 .info {
   color: #FFF;
   font-size: 24px;
@@ -402,14 +413,14 @@ h1 {
   letter-spacing: 1px;
   text-shadow: 0px 1px 1px #333333;
 }
-/* line 116, ../../app/stylesheets/partials/_page.scss */
+/* line 124, ../../app/stylesheets/partials/_page.scss */
 .info .divider {
   color: #666666;
   font-weight: 300;
   text-shadow: none;
 }
 
-/* line 122, ../../app/stylesheets/partials/_page.scss */
+/* line 130, ../../app/stylesheets/partials/_page.scss */
 .b-line {
   color: #51b7e6;
   -webkit-transition-duration: 0.5s;
@@ -417,7 +428,7 @@ h1 {
   -o-transition-duration: 0.5s;
 }
 
-/* line 128, ../../app/stylesheets/partials/_page.scss */
+/* line 136, ../../app/stylesheets/partials/_page.scss */
 .sponsor {
   color: #68686A;
   font-size: 12px;
@@ -427,57 +438,57 @@ h1 {
   margin-right: 40px;
   margin-top: 40px;
 }
-/* line 136, ../../app/stylesheets/partials/_page.scss */
+/* line 144, ../../app/stylesheets/partials/_page.scss */
 .sponsor .logo {
   width: 50px;
 }
-/* line 139, ../../app/stylesheets/partials/_page.scss */
+/* line 147, ../../app/stylesheets/partials/_page.scss */
 .sponsor .cheers {
   margin-top: 17px;
 }
 
-/* line 143, ../../app/stylesheets/partials/_page.scss */
+/* line 151, ../../app/stylesheets/partials/_page.scss */
 .fade {
   opacity: .0;
   filter: alpha(opacity=0);
 }
 
-/* line 147, ../../app/stylesheets/partials/_page.scss */
+/* line 155, ../../app/stylesheets/partials/_page.scss */
 .right {
   float: right;
 }
 
-/* line 150, ../../app/stylesheets/partials/_page.scss */
+/* line 158, ../../app/stylesheets/partials/_page.scss */
 .left {
   float: left;
 }
 
-/* line 153, ../../app/stylesheets/partials/_page.scss */
+/* line 161, ../../app/stylesheets/partials/_page.scss */
 .social-links {
   width: 220px;
   margin: auto;
   margin-top: 5px;
 }
-/* line 157, ../../app/stylesheets/partials/_page.scss */
+/* line 165, ../../app/stylesheets/partials/_page.scss */
 .social-links .twitter {
   width: 110px;
   float: left;
 }
-/* line 161, ../../app/stylesheets/partials/_page.scss */
+/* line 169, ../../app/stylesheets/partials/_page.scss */
 .social-links .facebook {
   width: 77px;
   float: right;
   text-align: right;
 }
 
-/* line 167, ../../app/stylesheets/partials/_page.scss */
+/* line 175, ../../app/stylesheets/partials/_page.scss */
 input.wide {
   width: 320px;
   height: 48px;
   padding-left: 15px;
 }
 
-/* line 172, ../../app/stylesheets/partials/_page.scss */
+/* line 180, ../../app/stylesheets/partials/_page.scss */
 input.blue {
   background-color: #3A3B3F;
   border-radius: 4px;
@@ -491,7 +502,7 @@ input.blue {
   box-shadow: inner 0 0 2px #333;
 }
 
-/* line 184, ../../app/stylesheets/partials/_page.scss */
+/* line 192, ../../app/stylesheets/partials/_page.scss */
 input.link-button {
   border: none;
   background: none;
@@ -504,18 +515,18 @@ input.link-button {
   letter-spacing: 1.5px;
 }
 
-/* line 196, ../../app/stylesheets/partials/_page.scss */
+/* line 204, ../../app/stylesheets/partials/_page.scss */
 input.link-button:hover {
   color: #FFF;
   text-shadow: 0px 1px 1px #009ec8;
 }
 
-/* line 200, ../../app/stylesheets/partials/_page.scss */
+/* line 208, ../../app/stylesheets/partials/_page.scss */
 .elements {
   margin-left: 100px;
   width: 420px;
 }
-/* line 203, ../../app/stylesheets/partials/_page.scss */
+/* line 211, ../../app/stylesheets/partials/_page.scss */
 .elements .input-bar {
   background: url("/images/title_lower_bar.png") no-repeat;
   width: 320px;
@@ -523,7 +534,7 @@ input.link-button:hover {
   margin-left: 3px;
 }
 
-/* line 212, ../../app/stylesheets/partials/_page.scss */
+/* line 220, ../../app/stylesheets/partials/_page.scss */
 #main .bar {
   overflow: hidden;
   margin-bottom: 50px;
@@ -533,14 +544,14 @@ input.link-button:hover {
   margin-right: 0px;
   float: left;
 }
-/* line 220, ../../app/stylesheets/partials/_page.scss */
+/* line 228, ../../app/stylesheets/partials/_page.scss */
 #main .bar .image {
   height: 1px;
   width: 1024px;
   margin: auto;
   background: url("/images/title_lower_bar.png") no-repeat;
 }
-/* line 227, ../../app/stylesheets/partials/_page.scss */
+/* line 235, ../../app/stylesheets/partials/_page.scss */
 #main h1 {
   text-shadow: 0px 1px 1px #009ec8;
 }

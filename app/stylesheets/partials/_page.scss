@@ -97,12 +97,20 @@ h1 {
 		float: left;
 	}
 }
+.wdcnz_logo{
+	position:absolute;
+	top:55px;
+	left:42px;
+	
+}
+#wdcnz_logo_small{
+	display:none;
+}
 .words {
 	float: left;
 	margin-top: 55px;
 	width: 700px;
 	margin-left: 42px;
-	background:url('/images/wdcnz.png') no-repeat;
 	padding-left:58px;
 	padding-top:58px;
 }
