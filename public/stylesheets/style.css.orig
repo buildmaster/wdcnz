@@ -383,7 +383,7 @@ h1 {
 }
 
 /* line 100, ../../app/stylesheets/partials/_page.scss */
-.logo {
+.wdcnz_logo {
   position: absolute;
   top: 55px;
   left: 42px;
@@ -439,7 +439,7 @@ h1 {
   margin-top: 40px;
 }
 /* line 144, ../../app/stylesheets/partials/_page.scss */
-.sponsor .sponsor_logo {
+.sponsor .logo {
   width: 50px;
 }
 /* line 147, ../../app/stylesheets/partials/_page.scss */
@@ -551,9 +551,55 @@ input.link-button:hover {
   margin: auto;
   background: url("/images/title_lower_bar.png") no-repeat;
 }
+<<<<<<< HEAD
+/* line 215, ../../app/stylesheets/partials/_page.scss */
+#main .box #box-footer {
+  overflow: hidden;
+  margin-top: 50px;
+=======
 /* line 235, ../../app/stylesheets/partials/_page.scss */
 #main h1 {
   text-shadow: 0px 1px 1px #009ec8;
+>>>>>>> master
+}
+
+/* line 222, ../../app/stylesheets/partials/_page.scss */
+.slide {
+  position: absolute;
+  float: left;
+  width: 100%;
+  -webkit-transition-duration: 2s;
+  -moz-transition-duration: 2s;
+  -o-transition-duration: 2s;
+  margin: 0px;
+  border: 0px;
+}
+
+/* line 232, ../../app/stylesheets/partials/_page.scss */
+.slide.selected {
+  left: 0%;
+}
+
+/* line 235, ../../app/stylesheets/partials/_page.scss */
+.slide.next {
+  left: 100%;
+}
+
+/* line 238, ../../app/stylesheets/partials/_page.scss */
+.slide.previous {
+  left: -100%;
+}
+
+/* line 241, ../../app/stylesheets/partials/_page.scss */
+.paddle {
+  color: #FFF;
+  font-size: 60px;
+  font-weight: 700;
+  text-shadow: 0.5px 0.5px 1px #000;
+}
+/* line 246, ../../app/stylesheets/partials/_page.scss */
+.paddle a {
+  text-decoration: none;
 }
 
 @media print {
