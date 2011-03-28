@@ -1,0 +1,108 @@
+/* line 1, ../../app/stylesheets/touch-phones.scss */
+h1 {
+  font-size: 40px;
+}
+
+/* line 4, ../../app/stylesheets/touch-phones.scss */
+body {
+  height: 360px;
+}
+
+/* line 7, ../../app/stylesheets/touch-phones.scss */
+.wdcnz_logo {
+  top: 20px;
+  left: 18px;
+}
+
+/* line 11, ../../app/stylesheets/touch-phones.scss */
+#wdcnz_logo_small {
+  display: block;
+}
+
+/* line 14, ../../app/stylesheets/touch-phones.scss */
+#wdcnz_logo {
+  display: none;
+}
+
+/* line 17, ../../app/stylesheets/touch-phones.scss */
+header {
+  min-width: 330px;
+  height: 198px;
+}
+/* line 21, ../../app/stylesheets/touch-phones.scss */
+header .words {
+  width: 305px;
+  margin-top: 20px;
+  margin-left: 18px;
+  padding-top: 50px;
+  padding-left: 0px;
+}
+/* line 28, ../../app/stylesheets/touch-phones.scss */
+header .b-line {
+  margin-top: 2px;
+  line-height: 40px;
+  height: 87px;
+}
+/* line 33, ../../app/stylesheets/touch-phones.scss */
+header .sponsor {
+  display: none;
+}
+/* line 36, ../../app/stylesheets/touch-phones.scss */
+header .info {
+  font-size: 16px;
+}
+
+/* line 42, ../../app/stylesheets/touch-phones.scss */
+#main .bar {
+  display: none;
+  margin-bottom: 0px;
+}
+/* line 45, ../../app/stylesheets/touch-phones.scss */
+#main .bar .image {
+  width: 320px;
+}
+
+/* line 50, ../../app/stylesheets/touch-phones.scss */
+.elements {
+  margin-top: 18px;
+  margin-left: 18px;
+  width: 320px;
+}
+/* line 54, ../../app/stylesheets/touch-phones.scss */
+.elements .input-bar {
+  display: none;
+}
+
+/* line 58, ../../app/stylesheets/touch-phones.scss */
+input.wide {
+  width: 200px;
+}
+
+/* line 61, ../../app/stylesheets/touch-phones.scss */
+.followup {
+  margin-left: 18px;
+  margin-top: 4px;
+  width: 300px;
+}
+/* line 65, ../../app/stylesheets/touch-phones.scss */
+.followup .text {
+  font-size: 16px;
+}
+/* line 68, ../../app/stylesheets/touch-phones.scss */
+.followup .thanks {
+  width: 300px;
+  margin-bottom: 10px;
+}
+/* line 72, ../../app/stylesheets/touch-phones.scss */
+.followup .share {
+  width: 300px;
+}
+/* line 74, ../../app/stylesheets/touch-phones.scss */
+.followup .share h1 {
+  display: none;
+}
+
+/* line 79, ../../app/stylesheets/touch-phones.scss */
+img.typekit-badge {
+  display: none !important;
+}
