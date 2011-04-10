@@ -1,26 +1,5 @@
--content_for :javascripts do
-  %script{:type=>'text/javascript',:src=>'/javascripts/jquery-watermark.js'}
-  %script{:type=>'text/javascript',:src=>'/javascripts/email-form.js'}
--if params[:address]
-  .followup
-    .thanks
-      %h1
-        Sorted!
-      .text
-        You'll be first to receive event updates, speaker info, earlybird details & all that!
-    .share
-      %h1
-        Share?
-      .social
-        .twitter
-          %a.twitter-share-button{:href=>"http://twitter.com/share", "data-url"=>"http://wdcnz.com", "data-text"=>"O hai. Keep an eye on @WDCNZ for speaker updates & earlybird info!", "data-count"=>"horizontal"}
-            Tweet
-          %script{:type=>"text/javascript", :src=>"http://platform.twitter.com/widgets.js"}
-        .facebook
-          %iframe{:src=>"http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fwdcnz&amp;layout=button_count&amp;show_faces=false&amp;width=110&amp;action=like&amp;font&amp;colorscheme=light&amp;height=21", :scrolling=>"no", :frameborder=>"0", :style=>"border:none; overflow:hidden; width:110px; height:21px;", :allowTransparency=>"true"}
--else
-  .elements
-    %form{:method=>"post",:action=>""}
-      %input.wide.blue#email{:type=>"email",:name=>"address"}
-      %input.link-button{:type=>"submit", :value=>"SEND"}
-      .input-bar
+%menu.speaker_names_big
+  -["Paul Irish","Pamela Fox","James Pearce","Leon Bambrick","Michael Koziarski"," Robert Coup","Jeff Wegesin","Jeremy Boyd","Sam Minnée","Layton Duncan","Karl von Randow","Kirk Jackson","John Clegg"].each do |name|
+    %li
+      %a{:href => "/details/speakers\##{name}"}
+        = name

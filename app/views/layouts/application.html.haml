@@ -7,10 +7,12 @@
       %header#header
         = render :partial => 'layouts/header'
       #main{ :role => 'main' }
-        .bar
-          .image
-        = render :partial => 'layouts/flashes'
-        = yield
+        #sidebar-right{:role => 'menu'}
+          = render :partial=> 'layouts/sidebar'
+        #content
+          = render :partial => 'layouts/flashes'
+          = yield
+       
       %footer#footer
         = render :partial => 'layouts/footer'
     -# Javascript at the bottom for fast page loading
