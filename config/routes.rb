@@ -1,6 +1,9 @@
 WebdevconOrg::Application.routes.draw do
   get "email/new"
 
+  get "email" => "email#create"
+  post "email" => "email#create"
+
   get "details/venue"
 
   get "details/speakers"

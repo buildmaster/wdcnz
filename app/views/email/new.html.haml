@@ -1,2 +1,6 @@
-%form{:method=>"post"}
-  %input.wide#email{:name=>"address",:type=>"email"}
+-content_for :javascripts do
+  %script{:type=>'text/javascript',:src=>'/javascripts/jquery-watermark.js'}
+  %script{:type=>'text/javascript',:src=>'/javascripts/email-form.js'}
+%form{:method=>"post",:action=>'/email'}
+  %input.wide.field#email{:name=>"address",:type=>"email"}
+  %input.link-button{:type=>"submit",:value=>"SEND"}

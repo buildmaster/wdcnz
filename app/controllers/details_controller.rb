@@ -84,9 +84,11 @@ class DetailsController < ApplicationController
           },
       
       ]
+      @title = "WDCNZ - Speaker Details"
   end
 
   def venue
+    @title = "WDCNZ - Venue & Stuff"
   end
 
 end

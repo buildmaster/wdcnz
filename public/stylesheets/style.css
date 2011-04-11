@@ -626,6 +626,11 @@ ul.speakers li {
 
 /* line 321, ../../app/stylesheets/partials/_page.scss */
 #content input {
+  font-family: "museo-1","museo-2",sans-serif;
+}
+
+/* line 324, ../../app/stylesheets/partials/_page.scss */
+#content input.field {
   height: 48px;
   width: 320px;
   padding-left: 15px;
@@ -636,6 +641,28 @@ ul.speakers li {
   background-color: #3A3B3F;
   border-radius: 4px;
   border: 1px solid #38393D;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* line 339, ../../app/stylesheets/partials/_page.scss */
+#content input.link-button {
+  border: none;
+  background: none;
+  color: #3a3b3f;
+  width: 75px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: middle;
+  padding: 0px;
+  letter-spacing: 1.5px;
+}
+
+/* line 350, ../../app/stylesheets/partials/_page.scss */
+input.link-button:hover {
+  color: #FFF;
+  text-shadow: 0px 1px 1px #d67f00;
 }
 
 @media print {
