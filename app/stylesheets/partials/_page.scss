@@ -90,6 +90,7 @@ header{
 
 #container {
 	height: 100%;
+	
 }
 h1 {
 	color: #FFF;
@@ -175,6 +176,9 @@ h1 {
 	min-height:550px;
 	#content{
 		margin-right:420px;
+		margin-left:100px;
+		padding-top:23px;
+		padding-bottom:25px;
 	}
 	#sidebar-right{
 		width:260px;
@@ -185,7 +189,7 @@ h1 {
 			list-style:none;
 			li{
 				font-size:22px;
-				color:#FFF;
+				color:#3A3B3F;
 				font-weight:700;
 				margin-top:10px;
 				margin-bottom:10px;
@@ -225,13 +229,11 @@ h1 {
 .speaker_names_big{
 	list-style:none;
 	font-size:60px;
-	margin-left:100px;
 	color:#3A3B3F;
 	font-weight:700;
-	padding-top:18px;
-	padding-bottom:20px;
+	padding-top:3px;
 	li{
-		height:56px;
+		line-height:56px;
 	}
 	a{
 		color:#3A3B3F;
@@ -241,4 +243,63 @@ h1 {
 		margin-top:0px;
 		margin-bottom:0px;
 	}
+}
+#content h1{
+	font-size:40px;
+	font-weight:700;
+	text-transform:uppercase;
+	color:#3A3B3F;
+}
+ul.speakers{
+	margin:0px;
+	padding:0px;
+}
+ul.speakers li{
+		list-style:none;
+			margin-top:5px;
+}
+.details-box{
+	margin-top:15px;
+	float:left;
+	width:100%;
+	min-width:127px;
+	.image{
+		float:left;
+		height:77px;
+		width:127px;
+		margin-top:5px;
+		border:1px solid black;
+	}
+	.profile_pic{
+		width:127px;
+		height:77px;
+	}
+	.text{
+		float:left;
+		padding:0px;
+		margin:0px;
+		margin-left:15px;
+		font-size:14px;
+		width:500px;
+		font-family:sans-serif;
+		.title{
+			font-size:24px;
+			font-weight:700;
+			text-transform:uppercase;
+			color:#3A3B3F;
+				font-family: "museo-1","museo-2",sans-serif;
+		}
+		.link{
+			
+			a{
+			color:#FFF;
+			text-decoration:none;
+		}
+		}
+	}
+}
+.clearfix{
+	height:0px;
+	clear:both;
+	display:block;
 }

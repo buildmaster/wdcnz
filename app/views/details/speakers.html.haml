@@ -1,0 +1,18 @@
+%h1
+  Speakers
+%ul.speakers
+  -@speakers.sort{|x,y|x[:name]<=>y[:name]}.each do |speaker|
+    %li
+      .details-box
+        %a{:name=>"#{speaker[:name]}"}
+        .image
+          =image_tag("/images/bios/#{speaker[:image]}.png",{:alt=>"#{speaker[:name]}",:class=>"profile_pic"})
+        .text
+          .title
+            ="#{speaker[:name]}"
+          .link
+            %a{:href => "http://twitter.com/#{speaker[:twitter]}"}
+              ="@#{speaker[:twitter]}"
+          .blurb
+            =simple_format("#{speaker[:bio]}")
+.clearfix

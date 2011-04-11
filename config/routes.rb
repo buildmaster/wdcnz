@@ -1,4 +1,10 @@
 WebdevconOrg::Application.routes.draw do
+  get "email/new"
+
+  get "details/venue"
+
+  get "details/speakers"
+
   get "home/index"
 
   # The priority is based upon order of creation:

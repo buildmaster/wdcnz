@@ -3,17 +3,31 @@
     %a{:href=>'https://wdcnz.lilregie.com'}
       Get Tickets
   %h3
-    Earlybird tickets just $199!
+    they're just $269!
 .menu
   %menu{:label=>"navigation"}
-    %li
-      %a{:href => "/details/speakers"}
+    %li{:class=>""}
+      -unless current_page?(:controller => 'details', :action => 'speakers') 
+        %a{:href => "/details/speakers"}
+          Speaker details
+      -else
         Speaker details
+      
     %li
-      Venue & stuff
+      -unless current_page?(:controller => 'details', :action => 'venue') 
+        %a{:href => "/details/venue"}
+          Venue & stuff
+      -else
+        Venue & stuff
     %li
-      Twitter
+      %a{:href => "http://twitter.com/wdcnz"}
+        Twitter
     %li
-      Facebook
+      %a{:href => "http://facebook.com/wdcnz"}
+        Facebook
     %li
-      Email Updates
+      -unless current_page?(:controller => 'email', :action => 'new')
+        %a{:href => "/email/new"}
+          Email Updates
+      -else
+        Email Updates

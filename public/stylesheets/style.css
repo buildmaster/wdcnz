@@ -358,7 +358,7 @@ header .bar {
   height: 100%;
 }
 
-/* line 94, ../../app/stylesheets/partials/_page.scss */
+/* line 95, ../../app/stylesheets/partials/_page.scss */
 h1 {
   color: #FFF;
   font-size: 60px;
@@ -366,19 +366,19 @@ h1 {
   text-shadow: 0px 1px 1px #333333;
 }
 
-/* line 100, ../../app/stylesheets/partials/_page.scss */
+/* line 101, ../../app/stylesheets/partials/_page.scss */
 .wdcnz_logo {
   position: absolute;
   top: 42px;
   left: 42px;
 }
 
-/* line 106, ../../app/stylesheets/partials/_page.scss */
+/* line 107, ../../app/stylesheets/partials/_page.scss */
 #wdcnz_logo_small {
   display: none;
 }
 
-/* line 109, ../../app/stylesheets/partials/_page.scss */
+/* line 110, ../../app/stylesheets/partials/_page.scss */
 .words {
   float: left;
   margin-top: 42px;
@@ -388,7 +388,7 @@ h1 {
   padding-top: 58px;
 }
 
-/* line 117, ../../app/stylesheets/partials/_page.scss */
+/* line 118, ../../app/stylesheets/partials/_page.scss */
 .info {
   color: #FFF;
   font-size: 24px;
@@ -396,14 +396,14 @@ h1 {
   margin-top: 0px;
   text-shadow: 0px 1px 1px #333333;
 }
-/* line 123, ../../app/stylesheets/partials/_page.scss */
+/* line 124, ../../app/stylesheets/partials/_page.scss */
 .info .divider {
   color: #666666;
   font-weight: 300;
   text-shadow: none;
 }
 
-/* line 129, ../../app/stylesheets/partials/_page.scss */
+/* line 130, ../../app/stylesheets/partials/_page.scss */
 .b-line {
   color: #FF9900;
   height: 70px;
@@ -412,7 +412,7 @@ h1 {
   -o-transition-duration: 0.5s;
 }
 
-/* line 136, ../../app/stylesheets/partials/_page.scss */
+/* line 137, ../../app/stylesheets/partials/_page.scss */
 .sponsor {
   color: #68686A;
   font-size: 12px;
@@ -422,67 +422,70 @@ h1 {
   margin-right: 40px;
   margin-top: 40px;
 }
-/* line 144, ../../app/stylesheets/partials/_page.scss */
+/* line 145, ../../app/stylesheets/partials/_page.scss */
 .sponsor .logo {
   width: 50px;
 }
-/* line 147, ../../app/stylesheets/partials/_page.scss */
+/* line 148, ../../app/stylesheets/partials/_page.scss */
 .sponsor .cheers {
   margin-top: 17px;
 }
 
-/* line 151, ../../app/stylesheets/partials/_page.scss */
+/* line 152, ../../app/stylesheets/partials/_page.scss */
 .fade {
   opacity: .0;
   filter: alpha(opacity=0);
 }
 
-/* line 155, ../../app/stylesheets/partials/_page.scss */
+/* line 156, ../../app/stylesheets/partials/_page.scss */
 .right {
   float: right;
 }
 
-/* line 158, ../../app/stylesheets/partials/_page.scss */
+/* line 159, ../../app/stylesheets/partials/_page.scss */
 .left {
   float: left;
 }
 
-/* line 162, ../../app/stylesheets/partials/_page.scss */
+/* line 163, ../../app/stylesheets/partials/_page.scss */
 #main {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ff9900), color-stop(1, #cc6600));
   background-image: -moz-linear-gradient(center top, #ff9d0b 0%, #cc6600 100%);
   min-height: 550px;
 }
-/* line 176, ../../app/stylesheets/partials/_page.scss */
+/* line 177, ../../app/stylesheets/partials/_page.scss */
 #main #content {
   margin-right: 420px;
+  margin-left: 100px;
+  padding-top: 23px;
+  padding-bottom: 25px;
 }
-/* line 179, ../../app/stylesheets/partials/_page.scss */
+/* line 183, ../../app/stylesheets/partials/_page.scss */
 #main #sidebar-right {
   width: 260px;
   margin-right: 60px;
   float: right;
   text-align: right;
 }
-/* line 184, ../../app/stylesheets/partials/_page.scss */
+/* line 188, ../../app/stylesheets/partials/_page.scss */
 #main #sidebar-right menu {
   list-style: none;
 }
-/* line 186, ../../app/stylesheets/partials/_page.scss */
+/* line 190, ../../app/stylesheets/partials/_page.scss */
 #main #sidebar-right menu li {
   font-size: 22px;
-  color: #FFF;
+  color: #3A3B3F;
   font-weight: 700;
   margin-top: 10px;
   margin-bottom: 10px;
   text-shadow: 0px 1px 1px #d67f00;
 }
-/* line 193, ../../app/stylesheets/partials/_page.scss */
+/* line 197, ../../app/stylesheets/partials/_page.scss */
 #main #sidebar-right menu li a {
   text-decoration: none;
   color: #FFF;
 }
-/* line 199, ../../app/stylesheets/partials/_page.scss */
+/* line 203, ../../app/stylesheets/partials/_page.scss */
 #main #sidebar-right h2 a {
   color: #FFF;
   font-size: 40px;
@@ -491,11 +494,11 @@ h1 {
   text-shadow: 0px 1px 1px #d67f00;
   font-weight: 700;
 }
-/* line 208, ../../app/stylesheets/partials/_page.scss */
+/* line 212, ../../app/stylesheets/partials/_page.scss */
 #main #sidebar-right h2 {
   height: 43px;
 }
-/* line 211, ../../app/stylesheets/partials/_page.scss */
+/* line 215, ../../app/stylesheets/partials/_page.scss */
 #main #sidebar-right h3 {
   color: #3A3B3F;
   font-size: 20px;
@@ -503,7 +506,7 @@ h1 {
   text-shadow: 0px 1px 1px #d67f00;
 }
 
-/* line 219, ../../app/stylesheets/partials/_page.scss */
+/* line 223, ../../app/stylesheets/partials/_page.scss */
 .ticket_link {
   padding-top: 23px;
   padding-bottom: 20px;
@@ -511,27 +514,96 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* line 225, ../../app/stylesheets/partials/_page.scss */
+/* line 229, ../../app/stylesheets/partials/_page.scss */
 .speaker_names_big {
   list-style: none;
   font-size: 60px;
-  margin-left: 100px;
   color: #3A3B3F;
   font-weight: 700;
-  padding-top: 18px;
-  padding-bottom: 20px;
+  padding-top: 3px;
 }
-/* line 233, ../../app/stylesheets/partials/_page.scss */
+/* line 235, ../../app/stylesheets/partials/_page.scss */
 .speaker_names_big li {
-  height: 56px;
+  line-height: 56px;
 }
-/* line 236, ../../app/stylesheets/partials/_page.scss */
+/* line 238, ../../app/stylesheets/partials/_page.scss */
 .speaker_names_big a {
   color: #3A3B3F;
   text-decoration: none;
   text-transform: uppercase;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+/* line 247, ../../app/stylesheets/partials/_page.scss */
+#content h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #3A3B3F;
+}
+
+/* line 253, ../../app/stylesheets/partials/_page.scss */
+ul.speakers {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 257, ../../app/stylesheets/partials/_page.scss */
+ul.speakers li {
+  list-style: none;
+  margin-top: 5px;
+}
+
+/* line 261, ../../app/stylesheets/partials/_page.scss */
+.details-box {
+  margin-top: 15px;
+  float: left;
+  width: 100%;
+  min-width: 127px;
+}
+/* line 266, ../../app/stylesheets/partials/_page.scss */
+.details-box .image {
+  float: left;
+  height: 77px;
+  width: 127px;
+  margin-top: 5px;
+  border: 1px solid black;
+}
+/* line 273, ../../app/stylesheets/partials/_page.scss */
+.details-box .profile_pic {
+  width: 127px;
+  height: 77px;
+}
+/* line 277, ../../app/stylesheets/partials/_page.scss */
+.details-box .text {
+  float: left;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 15px;
+  font-size: 14px;
+  width: 500px;
+  font-family: sans-serif;
+}
+/* line 285, ../../app/stylesheets/partials/_page.scss */
+.details-box .text .title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #3A3B3F;
+  font-family: "museo-1","museo-2",sans-serif;
+}
+/* line 294, ../../app/stylesheets/partials/_page.scss */
+.details-box .text .link a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* line 301, ../../app/stylesheets/partials/_page.scss */
+.clearfix {
+  height: 0px;
+  clear: both;
+  display: block;
 }
 
 @media print {
