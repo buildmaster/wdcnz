@@ -57,6 +57,7 @@ body {
 	font-family: "museo-1","museo-2",sans-serif;
 	height: 600px;
 	width: 100%;
+	background-color:#CC6600;
 }
 header{
 	position:relative;
@@ -298,8 +299,22 @@ ul.speakers li{
 		}
 	}
 }
-.clearfix{
-	height:0px;
-	clear:both;
-	display:block;
+#content h2{
+	font-size:24px;
+	text-transform:uppercase;
+	font-weight:700;
+	color:#3A3B3F;
+	text-shadow:$dropshadow2;
+	margin-top:25px;
+	margin-bottom:5px;
+}
+#content p{
+	font-family:sans-serif;
+	font-size:14px;
+	margin-bottom:40px;
+	color:#000;
+	a{
+		text-decoration:none;
+		color:#FFF;
+	}
 }

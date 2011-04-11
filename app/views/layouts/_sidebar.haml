@@ -20,10 +20,10 @@
       -else
         Venue & stuff
     %li
-      %a{:href => "http://twitter.com/wdcnz"}
+      %a{:href => "http://twitter.com/wdcnz",:target=>"_blank"}
         Twitter
     %li
-      %a{:href => "http://facebook.com/wdcnz"}
+      %a{:href => "http://facebook.com/wdcnz",:target=>"_blank"}
         Facebook
     %li
       -unless current_page?(:controller => 'email', :action => 'new')
