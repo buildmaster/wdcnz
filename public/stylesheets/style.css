@@ -583,7 +583,7 @@ ul.speakers li {
   margin: 0px;
   margin-left: 15px;
   font-size: 14px;
-  width: 500px;
+  width: 400px;
   font-family: sans-serif;
 }
 /* line 286, ../../app/stylesheets/partials/_page.scss */
@@ -622,6 +622,20 @@ ul.speakers li {
 #content p a {
   text-decoration: none;
   color: #FFF;
+}
+
+/* line 321, ../../app/stylesheets/partials/_page.scss */
+#content input {
+  height: 48px;
+  width: 320px;
+  padding-left: 15px;
+  color: #D7D7D7;
+  -moz-box-shadow: inset 0 0 2px #333;
+  -webkit-box-shadow: inset 0 0 2px #333;
+  box-shadow: inner 0 0 2px #333;
+  background-color: #3A3B3F;
+  border-radius: 4px;
+  border: 1px solid #38393D;
 }
 
 @media print {

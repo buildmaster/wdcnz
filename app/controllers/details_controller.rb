@@ -67,7 +67,7 @@ class DetailsController < ApplicationController
           {
             :name=>"Layton Duncan",
             :twitter=>"polarbearfarm",
-            :bio=>"Christchurch based iOS developer, founded Polarbear Farm, the worlds first iPhone development company",
+            :bio=>"Layton founded the world's first commercial iPhone development company, Polar Bear Farm, in 2007. Polar Bear Farm create utility applications for the iPhone, among them, the first search tools, and the very first video recording application for the original iPhone. More recently Layton co-founded Sense Medical, a company tackling the challenge of bringing health systems into the mobile age, using the iOS platform to enable real time information recording and sharing within hospitals.",
             :image=>"layton_duncan"
           },
           {
