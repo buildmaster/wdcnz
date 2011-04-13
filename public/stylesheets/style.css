@@ -599,8 +599,12 @@ ul.speakers li {
   color: #FFF;
   text-decoration: none;
 }
+/* line 301, ../../app/stylesheets/partials/_page.scss */
+.details-box .text .blurb {
+  text-align: justify;
+}
 
-/* line 302, ../../app/stylesheets/partials/_page.scss */
+/* line 306, ../../app/stylesheets/partials/_page.scss */
 #content h2 {
   font-size: 24px;
   text-transform: uppercase;
@@ -611,25 +615,27 @@ ul.speakers li {
   margin-bottom: 5px;
 }
 
-/* line 311, ../../app/stylesheets/partials/_page.scss */
+/* line 315, ../../app/stylesheets/partials/_page.scss */
 #content p {
+  text-align: justify;
   font-family: sans-serif;
   font-size: 14px;
   margin-bottom: 40px;
+  width: 500px;
   color: #000;
 }
-/* line 316, ../../app/stylesheets/partials/_page.scss */
+/* line 322, ../../app/stylesheets/partials/_page.scss */
 #content p a {
   text-decoration: none;
   color: #FFF;
 }
 
-/* line 321, ../../app/stylesheets/partials/_page.scss */
+/* line 327, ../../app/stylesheets/partials/_page.scss */
 #content input {
   font-family: "museo-1","museo-2",sans-serif;
 }
 
-/* line 324, ../../app/stylesheets/partials/_page.scss */
+/* line 330, ../../app/stylesheets/partials/_page.scss */
 #content input.field {
   height: 48px;
   width: 320px;
@@ -646,7 +652,7 @@ ul.speakers li {
   font-weight: 700;
 }
 
-/* line 339, ../../app/stylesheets/partials/_page.scss */
+/* line 345, ../../app/stylesheets/partials/_page.scss */
 #content input.link-button {
   border: none;
   background: none;
@@ -659,7 +665,7 @@ ul.speakers li {
   letter-spacing: 1.5px;
 }
 
-/* line 350, ../../app/stylesheets/partials/_page.scss */
+/* line 356, ../../app/stylesheets/partials/_page.scss */
 input.link-button:hover {
   color: #FFF;
   text-shadow: 0px 1px 1px #d67f00;
