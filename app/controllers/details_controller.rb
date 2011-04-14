@@ -14,9 +14,13 @@ class DetailsController < ApplicationController
       {
         :name=>"Jeff Wegesin",
         :twitter=>"jefweg",
-        :bio=>"Wellington based, US born, CSS master
+        :bio=>"Jeffrey is the lead front-end developer at Xero. His career began in the dirty bowels of America and like Andy Dufresne, he crawled his way to a cleaner and brighter future in New Zealand.
         
-        Jeff is up to his neck in the Xero web app.",
+        He adores JavaScript and CSS, just adores them both. When he lifts the skirts of web pages and peeks at their HTML, he's in heaven. When he talks to his parents about development, they stare blankly and change the subject, usually towards his inability to find a girlfriend. When he speaks to you, hopefully you won't stare blankly and think about girlfriends too.
+        
+        In an ideal world, he would be a front-end evangelist and write dozens of books and speak at conferences around the world but he's far too busy doing actual work. He's a difficult person, and rarely shares his development secrets with anyone, but he'll make an exception for you.
+        
+        In his spare time he enjoys learning colloquialisms like \"sweet ass [sic] bro\" and teaching the finer points of pronouncing \"ball, bull & bowl\" to his colleagues.",
         :image=>"jef_weg"
       },
       {
@@ -57,20 +61,18 @@ class DetailsController < ApplicationController
           :name=>"Robert Coup",
           :twitter=>"amatix",
           :bio=>"Rober is the Technical Founder and CTO of Koordinates, and One Track Mind before that. 
-
+          
           He's been doing software consultancy for ten years, working as a developer on a huge range of different software projects.
-
+          
           He's also involved in a number of open source projects - particularly the Dojo Toolkit for building dynamic web applications.",
           :image=>"robert_coup"
         },
           {
             :name=>"James Pearce",
             :twitter=>"jamespearce",
-            :bio=>"James Pearce heads developer relations at Sencha. 
+            :bio=>"James is a technologist, writer, developer & practitioner who has been working with the mobile web for over a decade. He is Senior Director of Developer Relations at Sencha. Previously he was the CTO at dotMobi and has a background in mobile startups, telecoms infrastructure and management consultancy. He speaks extensively on the topic of mobile web development, and has written books for both Wiley and Wrox.
             
-            He is a technologist, writer, developer & entrepreneur, who has been working with the mobile web for over a decade. Most recently he was the CTO at dotMobi and has a background in mobile startups, telecoms infrastructure and management consultancy. 
-            
-            James is the creator of tinySrc, WhitherApps, MetaJam and the WordPress Mobile Pack.",
+            James led the development of mobiForge, DeviceAtlas and ready.mobi, and is the creator of tinySrc, the WordPress Mobile Pack, and WhitherApps. He has declared every year since 1997 to be \"The Year of the Mobile Web\" - and is excited to think he might finally be right.",
             :image=>"james_pearce"
           },
           {
