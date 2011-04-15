@@ -9,8 +9,8 @@
       .title
         ="#{speaker[:name]}"
       .link
-        %a{:href => "http://twitter.com/#{speaker[:twitter]}"}
+        %a.twitter{:href => "http://twitter.com/#{speaker[:twitter]}"}
           ="@#{speaker[:twitter]}"
       .blurb
-        =simple_format("#{speaker[:bio]}")
+        =simple_format("Line 1\nLine 2")
 .clearfix

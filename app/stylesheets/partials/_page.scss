@@ -61,7 +61,7 @@ body {
 }
 header{
 	position:relative;
-	height: 222px;
+	height: 210px;
 	min-width:980px;
 	background-color: #3A3B3F;
 	background-image: url("/images/wdcnz.png") no-repeat;
@@ -101,7 +101,7 @@ h1 {
 }
 .wdcnz_logo{
 	position:absolute;
-	top:42px;
+	top:30px;
 	left:42px;
 	
 }
@@ -114,7 +114,7 @@ h1 {
 	width: 700px;
 	margin-left: 42px;
 	padding-left:58px;
-	padding-top:58px;
+	padding-top:43px;
 }
 .info {
 	color: #FFF;
@@ -130,7 +130,7 @@ h1 {
 }
 .b-line {
 	color: #FF9900;
-	height:70px;
+	height:65px;
 	-webkit-transition-duration: 0.5s;
 	-moz-transition-duration: 0.5s;
 	-o-transition-duration: 0.5s;
@@ -141,8 +141,8 @@ h1 {
 	font-weight: 700;
 	width: 140px;
 	height: 50px;
-	margin-right: 40px;
-	margin-top: 40px;
+	margin-right: 66px;
+	margin-top: 30px;
 	.logo {
 		width: 50px;
 	}
@@ -162,6 +162,7 @@ h1 {
 }
 
 #main {
+	padding-bottom:100px;
 	background-image: -webkit-gradient(
 	    linear,
 	    left top,
@@ -174,9 +175,8 @@ h1 {
 	    #FF9D0B 0%,
 	    #CC6600 100%
 	);
-	min-height:550px;
 	#content{
-		margin-right:420px;
+		
 		margin-left:100px;
 		padding-top:23px;
 		padding-bottom:25px;
@@ -187,6 +187,7 @@ h1 {
 		float:right;
 		text-align:right;
 		menu{
+			margin-right:6px;
 			list-style:none;
 			li{
 				font-size:22px;
@@ -194,10 +195,15 @@ h1 {
 				font-weight:700;
 				margin-top:10px;
 				margin-bottom:10px;
-					text-shadow: $dropshadow2;
+					text-shadow: $dropshadow3;
 				a{
 					text-decoration:none;
-					color:#FFF;					
+					color:#FFF;	
+					text-shadow: $dropshadow2;				
+				}
+				a:hover{
+					color:#3A3B3F;	
+					text-shadow: $dropshadow3;				
 				}
 			}
 		}
@@ -210,6 +216,10 @@ h1 {
 			font-weight:700;
 		
 		}
+			h2 a:hover{
+					color:#3A3B3F;	
+					text-shadow: $dropshadow3;				
+				}
 		h2{
 				height:43px;
 		}
@@ -217,15 +227,17 @@ h1 {
 			color:#3A3B3F;
 			font-size:20px;
 			font-weight:700;
-				text-shadow: $dropshadow2;
+				text-shadow: $dropshadow3;
 		}
 	}
 }
 .ticket_link{
-	padding-top:23px;
-	padding-bottom:20px;
-	border-bottom:1px dashed #BE7712;
-	margin-bottom:20px;
+	padding-top:21px;
+	padding-bottom:21px;
+	border-bottom:2px solid #3A3B3F;
+	margin-bottom:19px;
+	margin-right:0px !important;
+	width:254px;
 }
 .speaker_names_big{
 	list-style:none;
@@ -235,21 +247,32 @@ h1 {
 	padding-top:3px;
 	li{
 		line-height:56px;
+		
 	}
 	a{
 		color:#3A3B3F;
 		text-decoration:none;
 		text-transform:uppercase;
-		
+						text-shadow: $dropshadow3;
 		margin-top:0px;
 		margin-bottom:0px;
+	}
+	a:hover
+	{
+		color:#FFF;
 	}
 }
 #content h1{
 	font-size:40px;
 	font-weight:700;
+
 	text-transform:uppercase;
 	color:#3A3B3F;
+		text-shadow:$dropshadow3;
+	
+}
+#content h1.space{
+	margin-bottom:25px;
 }
 ul.speakers{
 	margin:0px;
@@ -260,9 +283,9 @@ ul.speakers li{
 			margin-top:5px;
 }
 .details-box{
+	height:90px;
 	margin-top:15px;
 	float:left;
-	width:100%;
 	min-width:127px;
 	.image{
 		float:left;
@@ -281,17 +304,18 @@ ul.speakers li{
 		margin:0px;
 		margin-left:15px;
 		font-size:14px;
-		width:400px;
+		width:350px;
 		font-family:sans-serif;
 		.title{
 			font-size:24px;
 			font-weight:700;
+				text-shadow:$dropshadow3;
 			text-transform:uppercase;
 			color:#3A3B3F;
 				font-family: "museo-1","museo-2",sans-serif;
 		}
 		.link{
-			
+			margin-bottom:5px;
 			a{
 			color:#FFF;
 			text-decoration:none;
@@ -308,20 +332,32 @@ text-align:justify;
 	text-transform:uppercase;
 	font-weight:700;
 	color:#3A3B3F;
-	text-shadow:$dropshadow2;
-	margin-top:25px;
+	text-shadow:$dropshadow3;
+	margin-top:15px;
 	margin-bottom:5px;
 }
+#content a.twitter{
+	color:#FFF;
+}
+#content a{
+	color:#3A3B3F;
+}
+#content a:hover{
+	color:#FFF;
+}
 #content p{
-	text-align:justify;
+
 	font-family:sans-serif;
 	font-size:14px;
-	margin-bottom:40px;
-	width:500px;
+	margin-bottom:25px;
+	width:520px;
 	color:#000;
 	a{
 		text-decoration:none;
 		color:#FFF;
+	}
+	a:hover{
+		color:#3A3B3F;
 	}
 }
 #content input{
@@ -352,8 +388,9 @@ text-align:justify;
   text-align: middle;
   padding: 0px;
   letter-spacing: 1.5px;
+				text-shadow: $dropshadow3;
 }
-input.link-button:hover {
+#content input.link-button:hover {
   color: #FFF;
   text-shadow: $dropshadow2;
 }
