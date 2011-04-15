@@ -1,6 +1,6 @@
 %h1
   Speakers
--@speakers.sort{|x,y|x[:name]<=>y[:name]}.each do |speaker|
+-@speakers.sort{|x,y|x[:name].split.last<=>y[:name].split.last}.each do |speaker|
   .details-box
     %a{:name=>"#{speaker[:name]}"}
     .image
@@ -12,5 +12,6 @@
         %a.twitter{:href => "http://twitter.com/#{speaker[:twitter]}"}
           ="@#{speaker[:twitter]}"
       .blurb
-        =simple_format("Line 1\nLine 2")
+        =simple_format("#{speaker[:bio]}")
+    .clearfix{:style=>"clear:both"}
 .clearfix

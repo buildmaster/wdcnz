@@ -55,8 +55,8 @@ header{
 			display:none;
 		}
 }
-input.wide {
-	width:200px;
+#content input.wide {
+	width:200px !important;
 }
 .followup {
 	margin-left:18px;
@@ -78,4 +78,34 @@ input.wide {
 }
 img.typekit-badge{
 	display:none !important;
+}
+#main #content{
+	margin-left:5px;
+}
+.speaker_names_big{
+	display:none;
+}
+#main #sidebar-right{
+	float:none;
+	margin-right:5px;
+	width:100%;
+	.ticket_link{
+		width:100%;
+		*{
+			margin-right:5px;
+		}
+	}
+}
+.details-box{
+	float:none;
+	.text{
+		width:300px;
+		margin-left:0px;
+	}
+	.blurb{
+		width:300px;
+	}
+}
+#content p{
+	width:300px !important;
 }

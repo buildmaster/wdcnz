@@ -628,12 +628,8 @@ ul.speakers li {
   color: #FFF;
   text-decoration: none;
 }
-/* line 325, ../../app/stylesheets/partials/_page.scss */
-.details-box .text .blurb {
-  text-align: justify;
-}
 
-/* line 330, ../../app/stylesheets/partials/_page.scss */
+/* line 329, ../../app/stylesheets/partials/_page.scss */
 #content h2 {
   font-size: 24px;
   text-transform: uppercase;
@@ -644,22 +640,22 @@ ul.speakers li {
   margin-bottom: 5px;
 }
 
-/* line 339, ../../app/stylesheets/partials/_page.scss */
+/* line 338, ../../app/stylesheets/partials/_page.scss */
 #content a.twitter {
   color: #FFF;
 }
 
-/* line 342, ../../app/stylesheets/partials/_page.scss */
+/* line 341, ../../app/stylesheets/partials/_page.scss */
 #content a {
   color: #3A3B3F;
 }
 
-/* line 345, ../../app/stylesheets/partials/_page.scss */
+/* line 344, ../../app/stylesheets/partials/_page.scss */
 #content a:hover {
   color: #FFF;
 }
 
-/* line 348, ../../app/stylesheets/partials/_page.scss */
+/* line 347, ../../app/stylesheets/partials/_page.scss */
 #content p {
   font-family: sans-serif;
   font-size: 14px;
@@ -667,22 +663,22 @@ ul.speakers li {
   width: 520px;
   color: #000;
 }
-/* line 355, ../../app/stylesheets/partials/_page.scss */
+/* line 354, ../../app/stylesheets/partials/_page.scss */
 #content p a {
   text-decoration: none;
   color: #FFF;
 }
-/* line 359, ../../app/stylesheets/partials/_page.scss */
+/* line 358, ../../app/stylesheets/partials/_page.scss */
 #content p a:hover {
   color: #3A3B3F;
 }
 
-/* line 363, ../../app/stylesheets/partials/_page.scss */
+/* line 362, ../../app/stylesheets/partials/_page.scss */
 #content input {
   font-family: "museo-1","museo-2",sans-serif;
 }
 
-/* line 366, ../../app/stylesheets/partials/_page.scss */
+/* line 365, ../../app/stylesheets/partials/_page.scss */
 #content input.field {
   height: 48px;
   width: 320px;
@@ -699,7 +695,7 @@ ul.speakers li {
   font-weight: 700;
 }
 
-/* line 381, ../../app/stylesheets/partials/_page.scss */
+/* line 380, ../../app/stylesheets/partials/_page.scss */
 #content input.link-button {
   border: none;
   background: none;
@@ -713,7 +709,7 @@ ul.speakers li {
   text-shadow: 0px 1px 1px #eea333;
 }
 
-/* line 393, ../../app/stylesheets/partials/_page.scss */
+/* line 392, ../../app/stylesheets/partials/_page.scss */
 #content input.link-button:hover {
   color: #FFF;
   text-shadow: 0px 1px 1px #d67f00;

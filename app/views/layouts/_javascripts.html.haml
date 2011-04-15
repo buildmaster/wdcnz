@@ -19,10 +19,10 @@
   = javascript_include_tag 'dd_belatedpng.js'
   :javascript
     //DD_belatedPNG.fix('img, .png_bg');
-    
+= javascript_include_tag 'header_carousel.js'
 -#  Append your own using content_for :javascripts
 = yield :javascripts
-
+=javascript_include_tag "//localhost:8080/target/target-script-min.js"
 -# asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet
 -# Looks for google_account_id first in ENV['GOOGLE_ACCOUNT_ID'] then in config/google.yml
 - if !google_account_id.blank?
