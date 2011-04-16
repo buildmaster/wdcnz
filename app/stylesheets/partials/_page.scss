@@ -86,12 +86,11 @@ header{
 			#FFA826 50%,
 		    #FF9900 100%
 		);
-	}
+}
 }
 
 #container {
 	height: 100%;
-	
 }
 h1 {
 	color: #FFF;
@@ -110,17 +109,18 @@ h1 {
 }
 .words {
 	float: left;
-	margin-top: 42px;
+	margin-top: 55px;
 	width: 700px;
 	margin-left: 42px;
 	padding-left:58px;
-	padding-top:43px;
+	padding-top:58px;
 }
 .info {
 	color: #FFF;
 	font-size: 24px;
 	font-weight: 500;
-	margin-top: 0px;
+	margin-top: 2px;
+	letter-spacing:1px;
 	text-shadow: $dropshadow;
 	.divider {
 		color: #666666;
@@ -294,7 +294,7 @@ ul.speakers li{
 		float:left;
 		height:77px;
 		width:127px;
-		margin-top:5px;
+	margin-top: 5px;
 		border:1px solid black;
 	}
 	.profile_pic{
@@ -302,7 +302,7 @@ ul.speakers li{
 		height:77px;
 	}
 	.text{
-		float:left;
+		float: left;
 		padding:0px;
 		margin:0px;
 		margin-left:15px;
@@ -361,13 +361,13 @@ ul.speakers li{
 	a:hover{
 		color:#3A3B3F;
 	}
-}
+	}
 #content input{
 	font-family:"museo-1","museo-2",sans-serif;
 }
 #content input.field{
 	height:48px;
-	width:320px;
+	width: 320px;
 	padding-left:15px;
 	color:#D7D7D7;
 	-moz-box-shadow: inset 0 0 2px #333;
@@ -382,17 +382,17 @@ ul.speakers li{
 }
 #content input.link-button{
 	border: none;
-  background: none;
-  color: #3a3b3f;
-  width: 75px;
-  font-size: 18px;
-  font-weight: 700;
-  text-align: middle;
-  padding: 0px;
-  letter-spacing: 1.5px;
+	background: none;
+	color: #3a3b3f;
+	width: 75px;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: middle;
+	padding: 0px;
+	letter-spacing: 1.5px;
 				text-shadow: $dropshadow3;
 }
 #content input.link-button:hover {
-  color: #FFF;
+	color: #FFF;
   text-shadow: $dropshadow2;
-}
+		}
