@@ -90,7 +90,7 @@ class DetailsController < ApplicationController
             :name=>"Leon Bambrick",
             :twitter=>"secretGeek",
             :bio=>"Creator of TimeSnapper and Nimble Text
-            Consultant at Microsoft's SDC in Brisbane.",
+            Consultant at Microsoft's SDC in Brisbane",
             :image=>"leon_bambrick"
           },
       {
