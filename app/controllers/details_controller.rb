@@ -13,14 +13,14 @@ class DetailsController < ApplicationController
         :name=>"Jeff Wegesin",
         :twitter=>"jefweg",
         :bio=>"Wellington based, USA born CSS Master
-        When he lifts the skirts of web pages and peeks at their HTML, he's in heaven.",
+        Likes to peek at your HTML",
         :image=>"jef_weg"
       },
       {
         :name=>"Paul Irish",
         :twitter=>"paul_irish",
         :bio=>"Chrome developer relations guy
-        Responsible for Modernizr and HTM5 Boilerplate amongst others",
+        Responsible for Modernizr and HTM5 Boilerplate",
         :image=>"paul_irish"
       },
       {
