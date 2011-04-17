@@ -72,31 +72,19 @@ header{
 		bottom:0px;
 		left:0px;
 		width:100%;
-		background-image: -webkit-gradient(
-		    linear,
-		    left top,
-		    right top,
-			color-stop(0, #FF9900),
-		    color-stop(0.5, #FFA826),
-		    color-stop(1, #FF9900)
-		);
-		background-image: -moz-linear-gradient(
-		    left center,
-		    #FF9D0B 0%,
-			#FFA826 50%,
-		    #FF9900 100%
-		);
-}
+		@include linear-gradient(color-stops(#FF9900,#FFA826,#FF9900));
+	}
 }
 
 #container {
 	height: 100%;
+	
 }
 h1 {
 	color: #FFF;
 	font-size: 60px;
 	font-weight: 700;
-	text-shadow: $dropshadow;
+	@include text-shadow($dropshadow-header);
 }
 .wdcnz_logo{
 	position:absolute;
@@ -109,19 +97,18 @@ h1 {
 }
 .words {
 	float: left;
-	margin-top: 55px;
+	margin-top: 42px;
 	width: 700px;
 	margin-left: 42px;
 	padding-left:58px;
-	padding-top:58px;
+	padding-top:43px;
 }
 .info {
 	color: #FFF;
 	font-size: 24px;
 	font-weight: 500;
-	margin-top: 2px;
-	letter-spacing:1px;
-	text-shadow: $dropshadow;
+	margin-top: 0px;
+	@include text-shadow($dropshadow-header);
 	.divider {
 		color: #666666;
 		font-weight: 300;
@@ -131,14 +118,9 @@ h1 {
 .b-line {
 	color: #FF9900;
 	height:65px;
-	-webkit-transition-duration: 0.5s;
-	-moz-transition-duration: 0.5s;
-	-o-transition-duration: 0.5s;
+	@include transition-duration(0.5s);
 }
 .sponsor {
-	position:absolute;
-	top:0px;
-	right:0px;
 	color: #68686A;
 	font-size: 12px;
 	font-weight: 700;
@@ -146,7 +128,7 @@ h1 {
 	height: 50px;
 	margin-right: 66px;
 	margin-top: 30px;
-	.sponsored_by_xero_logo {
+	.logo {
 		width: 50px;
 	}
 	.cheers {
@@ -154,8 +136,7 @@ h1 {
 	}
 }
 .fade{
-	opacity: .0;
-	filter: alpha(opacity = 0);
+	@include transparent;
 }
 .right {
 	float: right;
@@ -166,18 +147,8 @@ h1 {
 
 #main {
 	padding-bottom:100px;
-	background-image: -webkit-gradient(
-	    linear,
-	    left top,
-	    left bottom,
-		color-stop(0, #FF9900),
-	    color-stop(1, #CC6600)
-	);
-	background-image: -moz-linear-gradient(
-	    center top,
-	    #FF9D0B 0%,
-	    #CC6600 100%
-	);
+	@include linear-gradient(color-stops(#FF9900,#CC6600));
+	
 	#content{
 		
 		margin-left:100px;
@@ -198,15 +169,15 @@ h1 {
 				font-weight:700;
 				margin-top:10px;
 				margin-bottom:10px;
-					text-shadow: $dropshadow3;
+					@include text-shadow($dropshadow-light);
 				a{
 					text-decoration:none;
 					color:#FFF;	
-					text-shadow: $dropshadow2;				
+					@include text-shadow($dropshadow-dark);				
 				}
 				a:hover{
 					color:#3A3B3F;	
-					text-shadow: $dropshadow3;				
+					@include text-shadow($dropshadow-light);				
 				}
 			}
 		}
@@ -215,14 +186,14 @@ h1 {
 			font-size:40px;
 			text-decoration:none;
 			text-transform:uppercase;
-			text-shadow: $dropshadow2;
+			@include text-shadow($dropshadow-dark);
 			font-weight:700;
 		
 		}
-			h2 a:hover{
-					color:#3A3B3F;	
-					text-shadow: $dropshadow3;				
-				}
+		h2 a:hover{
+				color:#3A3B3F;	
+				@include text-shadow($dropshadow-light);				
+		}
 		h2{
 				height:43px;
 		}
@@ -230,7 +201,7 @@ h1 {
 			color:#3A3B3F;
 			font-size:20px;
 			font-weight:700;
-				text-shadow: $dropshadow3;
+				@include text-shadow($dropshadow-light);
 		}
 	}
 }
@@ -250,13 +221,12 @@ h1 {
 	padding-top:3px;
 	li{
 		line-height:56px;
-		
 	}
 	a{
 		color:#3A3B3F;
 		text-decoration:none;
 		text-transform:uppercase;
-						text-shadow: $dropshadow3;
+		@include text-shadow($dropshadow-light);
 		margin-top:0px;
 		margin-bottom:0px;
 	}
@@ -271,7 +241,7 @@ h1 {
 
 	text-transform:uppercase;
 	color:#3A3B3F;
-		text-shadow:$dropshadow3;
+	@include text-shadow($dropshadow-light);
 	
 }
 #content h1.space{
@@ -283,7 +253,7 @@ ul.speakers{
 }
 ul.speakers li{
 		list-style:none;
-			margin-top:5px;
+		margin-top:5px;
 }
 .details-box{
 	height:90px;
@@ -294,7 +264,7 @@ ul.speakers li{
 		float:left;
 		height:77px;
 		width:127px;
-	margin-top: 5px;
+		margin-top:5px;
 		border:1px solid black;
 	}
 	.profile_pic{
@@ -302,7 +272,7 @@ ul.speakers li{
 		height:77px;
 	}
 	.text{
-		float: left;
+		float:left;
 		padding:0px;
 		margin:0px;
 		margin-left:15px;
@@ -312,10 +282,10 @@ ul.speakers li{
 		.title{
 			font-size:24px;
 			font-weight:700;
-				text-shadow:$dropshadow3;
+			@include text-shadow($dropshadow-light);
 			text-transform:uppercase;
 			color:#3A3B3F;
-				font-family: "museo-1","museo-2",sans-serif;
+			font-family: "museo-1","museo-2",sans-serif;
 		}
 		.link{
 			margin-bottom:5px;
@@ -334,7 +304,7 @@ ul.speakers li{
 	text-transform:uppercase;
 	font-weight:700;
 	color:#3A3B3F;
-	text-shadow:$dropshadow3;
+	@include text-shadow($dropshadow-light);
 	margin-top:15px;
 	margin-bottom:5px;
 }
@@ -361,18 +331,16 @@ ul.speakers li{
 	a:hover{
 		color:#3A3B3F;
 	}
-	}
+}
 #content input{
 	font-family:"museo-1","museo-2",sans-serif;
 }
 #content input.field{
 	height:48px;
-	width: 320px;
+	width:320px;
 	padding-left:15px;
 	color:#D7D7D7;
-	-moz-box-shadow: inset 0 0 2px #333;
-	-webkit-box-shadow: inset 0 0 2px #333;
-	box-shadow: inner 0 0 2px #333;
+	@include box-shadow(#333,0px,0px,2px,0,inset);
 	background-color: #3A3B3F;
 	border-radius: 4px;
 	border: 1px solid #38393D;
@@ -382,17 +350,17 @@ ul.speakers li{
 }
 #content input.link-button{
 	border: none;
-	background: none;
-	color: #3a3b3f;
-	width: 75px;
-	font-size: 18px;
-	font-weight: 700;
-	text-align: middle;
-	padding: 0px;
-	letter-spacing: 1.5px;
-				text-shadow: $dropshadow3;
+  background: none;
+  color: #3a3b3f;
+  width: 75px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: middle;
+  padding: 0px;
+  letter-spacing: 1.5px;
+  @include text-shadow($dropshadow-light);
 }
 #content input.link-button:hover {
-	color: #FFF;
-  text-shadow: $dropshadow2;
-		}
+  color: #FFF;
+  @include text-shadow($dropshadow-dark);
+}

@@ -24,9 +24,9 @@ $list-left-margin: 2em;  // left margin for ul an ol
 
 $xero-blue: #51B7E6;
 
-$dropshadow: 0px 1px 1px #333;
-
-$dropshadow2: 0px 1px 1px #D67F00;
-
-$dropshadow3: 0px 1px 1px #EEA333;
-$dropshadow-onblue:0px 1px 1px #009EC8;
+$default-text-shadow-h-offset:0px;
+$default-text-shadow-v-offset:1px;
+$default-text-shadow-blur:1px;
+$dropshadow-header:#333;
+$dropshadow-dark: #D67F00;
+$dropshadow-light:#EEA333;
