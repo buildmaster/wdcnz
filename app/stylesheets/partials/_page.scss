@@ -6,33 +6,33 @@
 //-----------------------------------------------
 
 body, select, input, textarea {
-color: $font-color;
-  // Set your base font here, to apply evenly
-  // font-family: Georgia, serif;
+    color: $font-color;
+    // Set your base font here, to apply evenly
+    // font-family: Georgia, serif;
 }
 
 //Headers (h1, h2, etc) have no default font-size or margin; define those yourself
 h1, h2, h3, h4, h5, h6 {
-  // Bold might not be the best choice if you are
-  // embedding a @font-face that's already bold
-  font-weight: bold;
+    // Bold might not be the best choice if you are
+    // embedding a @font-face that's already bold
+    font-weight: bold;
 }
 
 a, a:active, a:visited {
-color: $link-color;
+    color: $link-color;
 }
 a:hover {
-color: $link-hover-color;
+    color: $link-hover-color;
 }
 
 strong, th {
-font-weight: bold;
+    font-weight: bold;
 }
 
 small {
-  // Use font-size mixin to convert to percentage for YUI
-  // http://developer.yahoo.com/yui/3/cssfonts/#fontsize
-  @include font-size(11px);  // approx 85% when base-font-size eq 13px
+    // Use font-size mixin to convert to percentage for YUI
+    // http://developer.yahoo.com/yui/3/cssfonts/#fontsize
+    @include font-size(11px);  // approx 85% when base-font-size eq 13px
 }
 
 // Add the 'required' attribute on your
@@ -40,12 +40,12 @@ small {
 input:valid, textarea:valid {
 }
 input:invalid, textarea:invalid {
-  @include border-radius(1px);
-  @include box-shadow(red, 0, 0, 5px, 0);
+    @include border-radius(1px);
+    @include box-shadow(red, 0, 0, 5px, 0);
 }
 .no-boxshadow input:invalid,
 .no-boxshadow textarea:invalid {
-background-color: #f0dddd;
+    background-color: #f0dddd;
 }
 
 
@@ -54,313 +54,313 @@ background-color: #f0dddd;
 //-----------------------------------
 
 body {
-	font-family: "museo-1","museo-2",sans-serif;
-	height: 600px;
-	width: 100%;
-	background-color:#CC6600;
+    font-family: "museo-1","museo-2",sans-serif;
+    height: 600px;
+    width: 100%;
+    background-color:#CC6600;
 }
 header{
-	position:relative;
-	height: 210px;
-	min-width:980px;
-	background-color: #3A3B3F;
-	background-image: url("/images/wdcnz.png") no-repeat;
-	.bar{
-		height:1px;
-		background:red;
-		position:absolute;
-		bottom:0px;
-		left:0px;
-		width:100%;
-		@include linear-gradient(color-stops(#FF9900,#FFA826,#FF9900));
-	}
+    position:relative;
+    height: 210px;
+    min-width:980px;
+    background-color: #3A3B3F;
+    background-image: url("/images/wdcnz.png") no-repeat;
+    .bar{
+        height:1px;
+        background:red;
+        position:absolute;
+        bottom:0px;
+        left:0px;
+        width:100%;
+        @include linear-gradient(color-stops(#FF9900,#FFA826,#FF9900));
+    }
 }
 
 #container {
-	height: 100%;
-	
+    height: 100%;
+    
 }
 h1 {
-	color: #FFF;
-	font-size: 60px;
-	font-weight: 700;
-	@include text-shadow($dropshadow-header);
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 700;
+    @include text-shadow($dropshadow-header);
 }
 .wdcnz_logo{
-	position:absolute;
-	top:30px;
-	left:42px;
-	
+    position:absolute;
+    top:30px;
+    left:42px;
+    
 }
 #wdcnz_logo_small{
-	display:none;
+    display:none;
 }
 .words {
-	float: left;
-	margin-top: 42px;
-	width: 700px;
-	margin-left: 42px;
-	padding-left:58px;
-	padding-top:43px;
+    float: left;
+    margin-top: 42px;
+    width: 700px;
+    margin-left: 42px;
+    padding-left:58px;
+    padding-top:43px;
 }
 .info {
-	color: #FFF;
-	font-size: 24px;
-	font-weight: 500;
-	margin-top: 0px;
-	@include text-shadow($dropshadow-header);
-	.divider {
-		color: #666666;
-		font-weight: 300;
-		text-shadow:none;
-	}
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0px;
+    @include text-shadow($dropshadow-header);
+    .divider {
+        color: #666666;
+        font-weight: 300;
+        text-shadow:none;
+    }
 }
 .b-line {
-	color: #FF9900;
-	height:65px;
-	@include transition-duration(0.5s);
+    color: #FF9900;
+    height:65px;
+    @include transition-duration(0.5s);
 }
 .sponsor {
-	color: #68686A;
-	font-size: 12px;
-	font-weight: 700;
-	width: 140px;
-	height: 50px;
-	margin-right: 66px;
-	margin-top: 30px;
-	.logo {
-		width: 50px;
-	}
-	.cheers {
-		margin-top: 17px;
-	}
+    color: #68686A;
+    font-size: 12px;
+    font-weight: 700;
+    width: 140px;
+    height: 50px;
+    margin-right: 66px;
+    margin-top: 30px;
+    .logo {
+        width: 50px;
+    }
+    .cheers {
+        margin-top: 17px;
+    }
 }
 .fade{
-	@include transparent;
+    @include transparent;
 }
 .right {
-	float: right;
+    float: right;
 }
 .left {
-	float: left;
+    float: left;
 }
 
 #main {
-	padding-bottom:100px;
-	@include linear-gradient(color-stops(#FF9900,#CC6600));
-	
-	#content{
-		
-		margin-left:100px;
-		padding-top:23px;
-		padding-bottom:25px;
-	}
-	#sidebar-right{
-		width:260px;
-		margin-right:60px;
-		float:right;
-		text-align:right;
-		menu{
-			margin-right:6px;
-			list-style:none;
-			li{
-				font-size:22px;
-				color:#3A3B3F;
-				font-weight:700;
-				margin-top:10px;
-				margin-bottom:10px;
-					@include text-shadow($dropshadow-light);
-				a{
-					text-decoration:none;
-					color:#FFF;	
-					@include text-shadow($dropshadow-dark);				
-				}
-				a:hover{
-					color:#3A3B3F;	
-					@include text-shadow($dropshadow-light);				
-				}
-			}
-		}
-		h2 a{
-			color:#FFF;
-			font-size:40px;
-			text-decoration:none;
-			text-transform:uppercase;
-			@include text-shadow($dropshadow-dark);
-			font-weight:700;
-		
-		}
-		h2 a:hover{
-				color:#3A3B3F;	
-				@include text-shadow($dropshadow-light);				
-		}
-		h2{
-				height:43px;
-		}
-		h3{
-			color:#3A3B3F;
-			font-size:20px;
-			font-weight:700;
-				@include text-shadow($dropshadow-light);
-		}
-	}
+    padding-bottom:100px;
+    @include linear-gradient(color-stops(#FF9900,#CC6600));
+    
+    #content{
+        
+        margin-left:100px;
+        padding-top:23px;
+        padding-bottom:25px;
+    }
+    #sidebar-right{
+        width:260px;
+        margin-right:60px;
+        float:right;
+        text-align:right;
+        menu{
+            margin-right:6px;
+            list-style:none;
+            li{
+                font-size:22px;
+                color:#3A3B3F;
+                font-weight:700;
+                margin-top:10px;
+                margin-bottom:10px;
+                @include text-shadow($dropshadow-light);
+                a{
+                    text-decoration:none;
+                    color:#FFF;
+                    @include text-shadow($dropshadow-dark);
+                }
+                a:hover{
+                    color:#3A3B3F;
+                    @include text-shadow($dropshadow-light);
+                }
+            }
+        }
+        h2 a{
+            color:#FFF;
+            font-size:40px;
+            text-decoration:none;
+            text-transform:uppercase;
+            @include text-shadow($dropshadow-dark);
+            font-weight:700;
+            
+        }
+        h2 a:hover{
+            color:#3A3B3F;
+            @include text-shadow($dropshadow-light);
+        }
+        h2{
+            height:43px;
+        }
+        h3{
+            color:#3A3B3F;
+            font-size:20px;
+            font-weight:700;
+            @include text-shadow($dropshadow-light);
+        }
+    }
 }
 .ticket_link{
-	padding-top:21px;
-	padding-bottom:21px;
-	border-bottom:2px solid #3A3B3F;
-	margin-bottom:19px;
-	margin-right:0px !important;
-	width:254px;
+    padding-top:21px;
+    padding-bottom:21px;
+    border-bottom:2px solid #3A3B3F;
+    margin-bottom:19px;
+    margin-right:0px !important;
+    width:254px;
 }
 .speaker_names_big{
-	list-style:none;
-	font-size:60px;
-	color:#3A3B3F;
-	font-weight:700;
-	padding-top:3px;
-	li{
-		line-height:56px;
-	}
-	a{
-		color:#3A3B3F;
-		text-decoration:none;
-		text-transform:uppercase;
-		@include text-shadow($dropshadow-light);
-		margin-top:0px;
-		margin-bottom:0px;
-	}
-	a:hover
-	{
-		color:#FFF;
-	}
+    list-style:none;
+    font-size:60px;
+    color:#3A3B3F;
+    font-weight:700;
+    padding-top:3px;
+    li{
+        line-height:56px;
+    }
+    a{
+        color:#3A3B3F;
+        text-decoration:none;
+        text-transform:uppercase;
+        @include text-shadow($dropshadow-light);
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+    a:hover
+    {
+        color:#FFF;
+    }
 }
 #content h1{
-	font-size:40px;
-	font-weight:700;
-
-	text-transform:uppercase;
-	color:#3A3B3F;
-	@include text-shadow($dropshadow-light);
-	
+    font-size:40px;
+    font-weight:700;
+    
+    text-transform:uppercase;
+    color:#3A3B3F;
+    @include text-shadow($dropshadow-light);
+    
 }
 #content h1.space{
-	margin-bottom:25px;
+    margin-bottom:25px;
 }
 ul.speakers{
-	margin:0px;
-	padding:0px;
+    margin:0px;
+    padding:0px;
 }
 ul.speakers li{
-		list-style:none;
-		margin-top:5px;
+    list-style:none;
+    margin-top:5px;
 }
 .details-box{
-	height:90px;
-	margin-top:15px;
-	float:left;
-	min-width:127px;
-	.image{
-		float:left;
-		height:77px;
-		width:127px;
-		margin-top:5px;
-		border:1px solid black;
-	}
-	.profile_pic{
-		width:127px;
-		height:77px;
-	}
-	.text{
-		float:left;
-		padding:0px;
-		margin:0px;
-		margin-left:15px;
-		font-size:14px;
-		width:350px;
-		font-family:sans-serif;
-		.title{
-			font-size:24px;
-			font-weight:700;
-			@include text-shadow($dropshadow-light);
-			text-transform:uppercase;
-			color:#3A3B3F;
-			font-family: "museo-1","museo-2",sans-serif;
-		}
-		.link{
-			margin-bottom:5px;
-			a{
-			color:#FFF;
-			text-decoration:none;
-		}
-	
-		}
-			.blurb{
-			}
-	}
+    height:90px;
+    margin-top:15px;
+    float:left;
+    min-width:127px;
+    .image{
+        float:left;
+        height:77px;
+        width:127px;
+        margin-top:5px;
+        border:1px solid black;
+    }
+    .profile_pic{
+        width:127px;
+        height:77px;
+    }
+    .text{
+        float:left;
+        padding:0px;
+        margin:0px;
+        margin-left:15px;
+        font-size:14px;
+        width:350px;
+        font-family:sans-serif;
+        .title{
+            font-size:24px;
+            font-weight:700;
+            @include text-shadow($dropshadow-light);
+            text-transform:uppercase;
+            color:#3A3B3F;
+            font-family: "museo-1","museo-2",sans-serif;
+        }
+        .link{
+            margin-bottom:5px;
+            a{
+                color:#FFF;
+                text-decoration:none;
+            }
+            
+        }
+        .blurb{
+        }
+    }
 }
 #content h2{
-	font-size:24px;
-	text-transform:uppercase;
-	font-weight:700;
-	color:#3A3B3F;
-	@include text-shadow($dropshadow-light);
-	margin-top:15px;
-	margin-bottom:5px;
+    font-size:24px;
+    text-transform:uppercase;
+    font-weight:700;
+    color:#3A3B3F;
+    @include text-shadow($dropshadow-light);
+    margin-top:15px;
+    margin-bottom:5px;
 }
 #content a.twitter{
-	color:#FFF;
+    color:#FFF;
 }
 #content a{
-	color:#3A3B3F;
+    color:#3A3B3F;
 }
 #content a:hover{
-	color:#FFF;
+    color:#FFF;
 }
 #content p{
-
-	font-family:sans-serif;
-	font-size:14px;
-	margin-bottom:25px;
-	width:520px;
-	color:#000;
-	a{
-		text-decoration:none;
-		color:#FFF;
-	}
-	a:hover{
-		color:#3A3B3F;
-	}
+    
+    font-family:sans-serif;
+    font-size:14px;
+    margin-bottom:25px;
+    width:520px;
+    color:#000;
+    a{
+        text-decoration:none;
+        color:#FFF;
+    }
+    a:hover{
+        color:#3A3B3F;
+    }
 }
 #content input{
-	font-family:"museo-1","museo-2",sans-serif;
+    font-family:"museo-1","museo-2",sans-serif;
 }
 #content input.field{
-	height:48px;
-	width:320px;
-	padding-left:15px;
-	color:#D7D7D7;
-	@include box-shadow(#333,0px,0px,2px,0,inset);
-	background-color: #3A3B3F;
-	border-radius: 4px;
-	border: 1px solid #38393D;
-	text-align: left;
-	font-size: 18px;
-	font-weight: 700;
+    height:48px;
+    width:320px;
+    padding-left:15px;
+    color:#D7D7D7;
+    @include box-shadow(#333,0px,0px,2px,0,inset);
+    background-color: #3A3B3F;
+    border-radius: 4px;
+    border: 1px solid #38393D;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
 }
 #content input.link-button{
-	border: none;
-  background: none;
-  color: #3a3b3f;
-  width: 75px;
-  font-size: 18px;
-  font-weight: 700;
-  text-align: middle;
-  padding: 0px;
-  letter-spacing: 1.5px;
-  @include text-shadow($dropshadow-light);
+    border: none;
+    background: none;
+    color: #3a3b3f;
+    width: 75px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: middle;
+    padding: 0px;
+    letter-spacing: 1.5px;
+    @include text-shadow($dropshadow-light);
 }
 #content input.link-button:hover {
-  color: #FFF;
-  @include text-shadow($dropshadow-dark);
+    color: #FFF;
+    @include text-shadow($dropshadow-dark);
 }
