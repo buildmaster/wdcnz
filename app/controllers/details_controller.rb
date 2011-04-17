@@ -84,7 +84,7 @@ class DetailsController < ApplicationController
             :twitter=>"sminnee",
             :bio=>"Founder and CTO at Silverstripe
             PHP guru",
-            :image=>"sam_minnée"
+            :image=>"sam_minnee"
           },
           {
             :name=>"Leon Bambrick",
