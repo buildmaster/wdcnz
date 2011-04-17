@@ -68,7 +68,7 @@ class DetailsController < ApplicationController
           {
             :name=>"Layton Duncan",
             :twitter=>"polarbearfarm",
-            :bio=>"Founder of Polarbear farm
+            :bio=>"Founder of Polar Bear Farm
             The very first iPhone development company",
             :image=>"layton_duncan"
           },
