@@ -93,12 +93,27 @@ class DetailsController < ApplicationController
             Consultant at Microsoft's SDC in Brisbane",
             :image=>"leon_bambrick"
           },
+          
       {
         :name=>"Craig Walker",
         :twitter=>"storminwalker",
         :bio=>"CTO of Xero
         JavaScript lights his fire",
         :image=>"craig_walker"
+      },
+      {
+        :name=>"Nigel Parker",
+        :twitter=>"nzigel",
+        :bio=>"Web and mobile evangelist at Microsoft NZ
+        He’s motivated by big ideas and unconventional execution",
+        :image=>"nigel_parker"
+      },
+      {
+        :name=>"Chris Double",
+        :twitter=>"doublec",
+        :bio=>"Auckland based Mozilla Developer. 
+        Works on HTML 5 video and audio support in Firefox.",
+        :image=>"chris_double"
       }
       ]
       @title = "WDCNZ - Speaker Details"
