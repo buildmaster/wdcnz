@@ -1,4 +1,5 @@
-/* line 14, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_reset.scss */
+@charset "UTF-8";
+/* line 14, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_reset.scss */
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
@@ -16,32 +17,32 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 24, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_reset.scss */
+/* line 24, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 28, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_reset.scss */
+/* line 28, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_reset.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 31, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_reset.scss */
+/* line 31, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
-/* line 33, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_reset.scss */
+/* line 33, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_reset.scss */
 ins {
   background-color: #ff9;
   color: #000;
   text-decoration: none;
 }
 
-/* line 35, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_reset.scss */
+/* line 35, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_reset.scss */
 mark {
   background-color: #ff9;
   color: #000;
@@ -49,24 +50,24 @@ mark {
   font-weight: bold;
 }
 
-/* line 37, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_reset.scss */
+/* line 37, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_reset.scss */
 del {
   text-decoration: line-through;
 }
 
-/* line 39, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_reset.scss */
+/* line 39, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_reset.scss */
 abbr[title], dfn[title] {
   border-bottom: 1px dotted;
   cursor: help;
 }
 
-/* line 41, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_reset.scss */
+/* line 41, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 43, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_reset.scss */
+/* line 43, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_reset.scss */
 hr {
   display: block;
   height: 1px;
@@ -76,12 +77,12 @@ hr {
   padding: 0;
 }
 
-/* line 45, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_reset.scss */
+/* line 45, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_reset.scss */
 input, select {
   vertical-align: middle;
 }
 
-/* line 11, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_fonts.scss */
+/* line 11, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_fonts.scss */
 body {
   font-size: 13px;
   font-family: sans-serif;
@@ -89,37 +90,37 @@ body {
   *font-size: small;
 }
 
-/* line 18, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_fonts.scss */
+/* line 18, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_fonts.scss */
 select, input, textarea, button {
   font: 99% sans-serif;
 }
 
-/* line 23, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_fonts.scss */
+/* line 22, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_fonts.scss */
 pre, code, kbd, samp {
   font-family: monospace, sans-serif;
 }
 
-/* line 15, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_styles.scss */
+/* line 15, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_styles.scss */
 html {
   overflow-y: scroll;
 }
 
-/* line 17, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_styles.scss */
+/* line 17, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_styles.scss */
 ul, ol {
   margin-left: 2em;
 }
 
-/* line 18, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_styles.scss */
+/* line 18, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_styles.scss */
 ol {
   list-style-type: decimal;
 }
 
-/* line 20, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_styles.scss */
-td, td img {
+/* line 20, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_styles.scss */
+td {
   vertical-align: top;
 }
 
-/* line 22, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_styles.scss */
+/* line 22, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_styles.scss */
 sub {
   font-size: 75%;
   line-height: 0;
@@ -127,7 +128,7 @@ sub {
   bottom: -0.25em;
 }
 
-/* line 24, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_styles.scss */
+/* line 24, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_styles.scss */
 sup {
   font-size: 75%;
   line-height: 0;
@@ -135,98 +136,100 @@ sup {
   top: -0.5em;
 }
 
-/* line 26, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_styles.scss */
+/* line 26, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_styles.scss */
 textarea {
   overflow: auto;
 }
 
-/* line 57, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_styles.scss */
+/* line 57, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_styles.scss */
 a:hover, a:active {
   outline: none;
 }
 
-/* line 62, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_styles.scss */
+/* line 62, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_styles.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
-  white-space: pre-line;
   word-wrap: break-word;
   padding: 15px;
 }
 
-/* line 71, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_styles.scss */
+/* line 70, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_styles.scss */
 input[type="radio"] {
   vertical-align: text-bottom;
 }
 
-/* line 72, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_styles.scss */
+/* line 71, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_styles.scss */
 input[type="checkbox"] {
   vertical-align: bottom;
 }
 
-/* line 73, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_styles.scss */
+/* line 72, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_styles.scss */
 .ie7 input[type="checkbox"] {
   vertical-align: baseline;
 }
 
-/* line 74, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_styles.scss */
+/* line 73, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_styles.scss */
 .ie6 input {
   vertical-align: text-bottom;
 }
 
-/* line 79, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_styles.scss */
+/* line 78, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_styles.scss */
 label, input[type="button"], input[type="submit"], input[type="image"], button {
   cursor: pointer;
 }
 
-/* line 84, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_styles.scss */
+/* line 85, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_styles.scss */
 button, input, select, textarea {
+  width: auto;
+  overflow: visible;
   margin: 0;
 }
 
-/* line 91, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_styles.scss */
+/* line 89, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_styles.scss */
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 100, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_styles.scss */
 ::-moz-selection {
   background: #ff5e99;
   color: white;
   text-shadow: none;
 }
 
-/* line 92, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_styles.scss */
+/* line 101, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_styles.scss */
 ::selection {
   background: #ff5e99;
   color: white;
   text-shadow: none;
 }
 
-/* line 97, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_styles.scss */
+/* line 106, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_styles.scss */
 a:link {
   -webkit-tap-highlight-color: #ff5e99;
 }
 
-/* line 108, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_styles.scss */
-button {
-  width: auto;
-  overflow: visible;
-}
-
-/* line 112, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_styles.scss */
+/* line 117, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_styles.scss */
 .ie7 img {
   -ms-interpolation-mode: bicubic;
 }
 
-/* line 114, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_styles.scss */
+/* line 119, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_styles.scss */
 .ie6 legend, .ie7 legend {
   margin-left: -7px;
 }
 
-/* line 119, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_styles.scss */
+/* line 124, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_styles.scss */
 nav ul, nav li {
   margin: 0;
   list-style: none;
   list-style-image: none;
 }
 
-/* line 10, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_helpers.scss */
+/* line 10, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_helpers.scss */
 .ir {
   text-indent: -119988px;
   overflow: hidden;
@@ -235,13 +238,13 @@ nav ul, nav li {
   background-repeat: no-repeat;
 }
 
-/* line 12, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_helpers.scss */
+/* line 12, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_helpers.scss */
 .hidden {
   display: none;
   visibility: hidden;
 }
 
-/* line 14, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_helpers.scss */
+/* line 14, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_helpers.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -252,7 +255,7 @@ nav ul, nav li {
   position: absolute;
   width: 1px;
 }
-/* line 50, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_helpers.scss */
+/* line 50, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_helpers.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -262,11 +265,11 @@ nav ul, nav li {
   width: auto;
 }
 
-/* line 16, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_helpers.scss */
+/* line 16, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_helpers.scss */
 .clearfix {
   *zoom: 1;
 }
-/* line 22, ../../../../.rvm/gems/ruby-head/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 22, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .clearfix:after {
   content: "\0020";
   display: block;
@@ -723,7 +726,7 @@ ul.speakers li {
 }
 
 @media print {
-  /* line 24, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_media.scss */
+  /* line 24, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_media.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -732,39 +735,39 @@ ul.speakers li {
     -ms-filter: none !important;
   }
 
-  /* line 26, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_media.scss */
+  /* line 26, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_media.scss */
   a, a:visited {
     color: #444 !important;
     text-decoration: underline;
   }
 
-  /* line 27, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_media.scss */
+  /* line 27, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_media.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 28, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_media.scss */
+  /* line 28, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_media.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 29, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_media.scss */
+  /* line 29, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_media.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
     content: "";
   }
 
-  /* line 30, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_media.scss */
+  /* line 30, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_media.scss */
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 31, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_media.scss */
+  /* line 31, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_media.scss */
   thead {
     display: table-header-group;
   }
 
-  /* line 32, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_media.scss */
+  /* line 32, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_media.scss */
   tr, img {
     page-break-inside: avoid;
   }
@@ -773,13 +776,13 @@ ul.speakers li {
     margin: 0.5cm;
 }
 
-  /* line 34, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_media.scss */
+  /* line 34, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_media.scss */
   p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
 
-  /* line 35, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_media.scss */
+  /* line 35, ../../../../../../Users/michaelkoziarski/.rvm/gems/ree-1.8.7-2010.02/gems/html5-boilerplate-0.3.3/stylesheets/html5-boilerplate/_media.scss */
   h2, h3 {
     page-break-after: avoid;
   }
