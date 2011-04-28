@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
       redirect_to request.protocol + "wdcnz.com"+request.request_uri
     elsif /[.]*webdevcon.org/.match(request.host)
           redirect_to request.protocol + "wdcnz.com"+request.request_uri
-    elsif /welli.net.nz/.match(request.host)
+    elsif /^welli.net.nz/.match(request.host)
           redirect_to request.protocol + "www.welli.net.nz"+request.request_uri
     elsif /^www/.match(request.host)
       redirect_to request.protocol + request.host_with_port[4..-1] + request.request_uri 
