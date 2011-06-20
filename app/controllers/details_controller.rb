@@ -105,7 +105,7 @@ class DetailsController < ApplicationController
             :name=>"Nigel Parker",
             :twitter=>"nzigel",
             :bio=>"Web and mobile evangelist at Microsoft NZ
-        He’s motivated by big ideas and unconventional execution",
+        Motivated by big ideas and unconventional execution",
             :image=>"nigel_parker"
         },
         {
