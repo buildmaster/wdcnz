@@ -76,7 +76,7 @@ class DetailsController < ApplicationController
             :name=>"Karl von Randow",
             :twitter=>"avon",
             :bio=>"Founder of Cactus Labs, iPhone developer
-            Created Camera+ & Birdbrain amongst others",
+            Created Camera+ and Birdbrain amongst others",
             :image=>"karl_von_randow"
         },
         {
