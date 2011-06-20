@@ -1,5 +1,5 @@
 WDCNZ = {
-	text:["Tech talks for web devs","Web dev conversations","JavaScript, HTML5, CSS","Mobile, Security, Scale"],
+	text:["Tech talks for web devs","JavaScript, HTML5, CSS","Web dev conversations","Mobile, Security, Scale"],
 	currentIndex:0,
 	init:function(){
 		this.interval = setInterval(this.rotateText,5000,this)

@@ -56,7 +56,7 @@ input:invalid, textarea:invalid {
 body {
     font-family: "museo-1","museo-2",sans-serif;
     width: 100%;
-    background-color:#CC6600;
+    background-color:#FF9900;
 }
 header{
     position:relative;
@@ -147,41 +147,61 @@ h1 {
 
 #main {
     padding-bottom:100px;
-    @include linear-gradient(color-stops(#FF9900,#CC6600));
+    //@include linear-gradient(color-stops(#FF9900,#CC6600));
     
     #content{
         
-        margin-left:100px;
+//        margin-left:100px;
         padding-top:23px;
         padding-bottom:25px;
     }
     #sidebar-right{
         width:260px;
-		height:390px;
+		height:450px;
         margin-right:60px;
         float:right;
         text-align:right;
-        menu{
-            margin-right:6px;
-            list-style:none;
-            li{
-                font-size:22px;
-                color:#3A3B3F;
-                font-weight:700;
-                margin-top:10px;
-                margin-bottom:10px;
-                @include text-shadow($dropshadow-light);
-                a{
-                    text-decoration:none;
-                    color:#FFF;
-                    @include text-shadow($dropshadow-dark);
-                }
-                a:hover{
-                    color:#3A3B3F;
-                    @include text-shadow($dropshadow-light);
-                }
-            }
+		menu{
+			
+			border-top:1px solid #EA8f05;
+			margin-right:6px;
+			list-style:none;
+			li{
+	               
+	                color:#3A3B3F;
+	                font-weight:700;
+	                
+	                @include text-shadow($dropshadow-light);
+	                a{
+	                    text-decoration:none;
+	                    color:#FFF;
+	                    @include text-shadow($dropshadow-dark);
+	                }
+	                a:hover{
+	                    color:#3A3B3F;
+	                    @include text-shadow($dropshadow-light);
+	                }
+	            }
+		}
+        menu.primary{
+			padding-top:6px;
+			padding-bottom:20px;
+           li{
+				margin-top:8px;
+               margin-bottom:8px;
+				font-size:22px;
+			}
         }
+		menu.secondary{
+			padding-top:6px;
+			padding-bottom:18px;
+				border-bottom:1px solid #EA8f05;
+			li{
+				margin-top:15px;
+                margin-bottom:15px;
+				font-size:18px;
+			}
+		}
         h2 a{
             color:#FFF;
             font-size:40px;
@@ -208,19 +228,21 @@ h1 {
 }
 .ticket_link{
     padding-top:21px;
-    padding-bottom:21px;
-    border-bottom:2px solid #3A3B3F;
-    margin-bottom:19px;
+    padding-bottom:17px;
+   // border-bottom:2px solid #3A3B3F;
+    margin-bottom:12px;
     margin-right:0px !important;
     width:270px;
 }
 .speaker_names_big{
+	margin-left:100px;
     list-style:none;
     font-size:60px;
     color:#3A3B3F;
     font-weight:700;
     padding-top:3px;
     li{
+	
         line-height:56px;
     }
     a{
@@ -237,6 +259,7 @@ h1 {
     }
 }
 #content h1{
+	margin-left:100px;
     font-size:40px;
     font-weight:700;
     
@@ -364,4 +387,103 @@ ul.speakers li{
 #content input.link-button:hover {
     color: #FFF;
     @include text-shadow($dropshadow-dark);
+}
+
+table.schedule{
+	
+    border-bottom:none;
+    border-left:none;
+    border-right:none;
+    border-top:none;
+    position:relative;
+    margin-left:30px;
+    margin-top:45px;
+    tr{
+        border:none;
+    }
+    td{
+        border:none;
+
+    }
+    td.time
+    {
+        font-size:13px;
+        font-weight:300;
+        color:#3a3b3f;
+        width:70px;
+        padding-top:8px;
+    }
+    td.session
+    {
+        border-top:1px solid #EA8f05;
+        padding-top:0px;
+        .info{
+          text-shadow:none;
+          color:#3a3b3f;
+          font-weight:500;
+          font-size:18px;
+          text-transform:uppercase;
+          margin-top:5px;
+		  margin-bottom:5px;
+          line-height:19px;
+        }
+        .speaker
+        {
+            margin-top:5px;
+            a{
+              color:#FFF !important;
+              text-decoration:none;
+            }
+            a:hover
+            {
+              color:#3A3B3F !important;
+              @include text-shadow($dropshadow-light);
+            }
+            text-transform:uppercase;
+            color:#FFF;
+            font-size:18px;
+            text-decoration:none;
+            text-transform:uppercase;
+            @include text-shadow($dropshadow-dark);
+            font-weight:700;
+        }
+        .subtitle
+        {
+          font:arial,sans-serif;
+          font-size:12px;
+          font-weight:normal;
+          color:#3a3b3f;
+        }
+        .room
+        {
+          font:arial,sans-serif;
+          font-size:11px;
+          font-weight:normal;
+          color:#c47d13;
+          margin-bottom:7px;
+          text-transform:uppercase;
+        }
+    }
+    td.session.first
+    {
+        padding-right:15px;
+        padding-left:5px;
+    }
+    td.session.last
+    {
+        padding-left:15px;
+        padding-right:30px;
+        border-left:  1px solid #EA8f05;
+    }
+	tr.end
+	{
+		height:1px;
+	}
+}
+#content .speakers,
+#content h2,
+#content p,
+#content form
+{
+	margin-left:100px;
 }

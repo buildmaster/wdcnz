@@ -5,20 +5,27 @@
   %h3
     totally yours for just $269!
 .menu
-  %menu{:label=>"navigation"}
+  %menu.primary{:label=>"navigation"}
     %li{:class=>""}
       -unless current_page?(:controller => 'details', :action => 'speakers') 
         %a{:href => "/details/speakers"}
           Speaker details
       -else
         Speaker details
-      
+    %li
+      -unless current_page?(:controller => 'details', :action => 'programme') 
+        %a{:href => "/details/programme"}
+          Programme
+      -else
+        Programme      
     %li
       -unless current_page?(:controller => 'details', :action => 'venue') 
         %a{:href => "/details/venue"}
           Venue & stuff
       -else
         Venue & stuff
+        
+  %menu.secondary{:label=>"navigation"}
     %li
       %a{:href => "http://lanyrd.com/2011/wdcnz",:target=>"_blank"}
         Lanyrd    

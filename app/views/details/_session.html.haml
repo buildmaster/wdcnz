@@ -1,0 +1,18 @@
+-if(session[:type]==:talk)
+  .speaker
+    %a{:href=>"/details/speakers\##{session[:speaker]}"}
+      =session[:speaker]
+  .subtitle
+    =session[:name]
+  .room
+    =session[:room]+" Room"
+-elsif(session[:type]==:info)
+  .info{}
+    =session[:name]
+-elsif(session[:type]==:panel)
+  .speaker
+    =session[:name]
+  .subtitle
+    =session[:sub]
+  .room
+    =session[:room]+" Room"

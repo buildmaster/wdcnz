@@ -7,6 +7,8 @@ WebdevconOrg::Application.routes.draw do
   get "details/venue"
 
   get "details/speakers"
+  
+  get "details/programme"
 
   get "home/index"
 

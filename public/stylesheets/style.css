@@ -330,7 +330,7 @@ input:invalid, textarea:invalid {
 body {
   font-family: "museo-1","museo-2",sans-serif;
   width: 100%;
-  background-color: #CC6600;
+  background-color: #FF9900;
 }
 
 /* line 61, ../../app/stylesheets/partials/_page.scss */
@@ -454,50 +454,67 @@ h1 {
 /* line 148, ../../app/stylesheets/partials/_page.scss */
 #main {
   padding-bottom: 100px;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ff9900), color-stop(100%, #cc6600));
-  background-image: -moz-linear-gradient(top, #ff9900 0%, #cc6600 100%);
-  background-image: linear-gradient(top, #ff9900 0%, #cc6600 100%);
 }
 /* line 152, ../../app/stylesheets/partials/_page.scss */
 #main #content {
-  margin-left: 100px;
   padding-top: 23px;
   padding-bottom: 25px;
 }
 /* line 158, ../../app/stylesheets/partials/_page.scss */
 #main #sidebar-right {
   width: 260px;
-  height: 390px;
+  height: 450px;
   margin-right: 60px;
   float: right;
   text-align: right;
 }
 /* line 164, ../../app/stylesheets/partials/_page.scss */
 #main #sidebar-right menu {
+  border-top: 1px solid #EA8f05;
   margin-right: 6px;
   list-style: none;
 }
-/* line 167, ../../app/stylesheets/partials/_page.scss */
+/* line 169, ../../app/stylesheets/partials/_page.scss */
 #main #sidebar-right menu li {
-  font-size: 22px;
   color: #3A3B3F;
   font-weight: 700;
-  margin-top: 10px;
-  margin-bottom: 10px;
   text-shadow: #eea333 0px 1px 1px;
 }
-/* line 174, ../../app/stylesheets/partials/_page.scss */
+/* line 175, ../../app/stylesheets/partials/_page.scss */
 #main #sidebar-right menu li a {
   text-decoration: none;
   color: #FFF;
   text-shadow: #d67f00 0px 1px 1px;
 }
-/* line 179, ../../app/stylesheets/partials/_page.scss */
+/* line 180, ../../app/stylesheets/partials/_page.scss */
 #main #sidebar-right menu li a:hover {
   color: #3A3B3F;
   text-shadow: #eea333 0px 1px 1px;
 }
-/* line 185, ../../app/stylesheets/partials/_page.scss */
+/* line 186, ../../app/stylesheets/partials/_page.scss */
+#main #sidebar-right menu.primary {
+  padding-top: 6px;
+  padding-bottom: 20px;
+}
+/* line 189, ../../app/stylesheets/partials/_page.scss */
+#main #sidebar-right menu.primary li {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 22px;
+}
+/* line 195, ../../app/stylesheets/partials/_page.scss */
+#main #sidebar-right menu.secondary {
+  padding-top: 6px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #EA8f05;
+}
+/* line 199, ../../app/stylesheets/partials/_page.scss */
+#main #sidebar-right menu.secondary li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+/* line 205, ../../app/stylesheets/partials/_page.scss */
 #main #sidebar-right h2 a {
   color: #FFF;
   font-size: 40px;
@@ -506,16 +523,16 @@ h1 {
   text-shadow: #d67f00 0px 1px 1px;
   font-weight: 700;
 }
-/* line 194, ../../app/stylesheets/partials/_page.scss */
+/* line 214, ../../app/stylesheets/partials/_page.scss */
 #main #sidebar-right h2 a:hover {
   color: #3A3B3F;
   text-shadow: #eea333 0px 1px 1px;
 }
-/* line 198, ../../app/stylesheets/partials/_page.scss */
+/* line 218, ../../app/stylesheets/partials/_page.scss */
 #main #sidebar-right h2 {
   height: 43px;
 }
-/* line 201, ../../app/stylesheets/partials/_page.scss */
+/* line 221, ../../app/stylesheets/partials/_page.scss */
 #main #sidebar-right h3 {
   color: #3A3B3F;
   font-size: 20px;
@@ -523,29 +540,29 @@ h1 {
   text-shadow: #eea333 0px 1px 1px;
 }
 
-/* line 209, ../../app/stylesheets/partials/_page.scss */
+/* line 229, ../../app/stylesheets/partials/_page.scss */
 .ticket_link {
   padding-top: 21px;
-  padding-bottom: 21px;
-  border-bottom: 2px solid #3A3B3F;
-  margin-bottom: 19px;
+  padding-bottom: 17px;
+  margin-bottom: 12px;
   margin-right: 0px !important;
   width: 270px;
 }
 
-/* line 217, ../../app/stylesheets/partials/_page.scss */
+/* line 237, ../../app/stylesheets/partials/_page.scss */
 .speaker_names_big {
+  margin-left: 100px;
   list-style: none;
   font-size: 60px;
   color: #3A3B3F;
   font-weight: 700;
   padding-top: 3px;
 }
-/* line 223, ../../app/stylesheets/partials/_page.scss */
+/* line 244, ../../app/stylesheets/partials/_page.scss */
 .speaker_names_big li {
   line-height: 56px;
 }
-/* line 226, ../../app/stylesheets/partials/_page.scss */
+/* line 248, ../../app/stylesheets/partials/_page.scss */
 .speaker_names_big a {
   color: #3A3B3F;
   text-decoration: none;
@@ -554,13 +571,14 @@ h1 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-/* line 235, ../../app/stylesheets/partials/_page.scss */
+/* line 257, ../../app/stylesheets/partials/_page.scss */
 .speaker_names_big a:hover {
   color: #FFF;
 }
 
-/* line 239, ../../app/stylesheets/partials/_page.scss */
+/* line 261, ../../app/stylesheets/partials/_page.scss */
 #content h1 {
+  margin-left: 100px;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
@@ -568,31 +586,31 @@ h1 {
   text-shadow: #eea333 0px 1px 1px;
 }
 
-/* line 248, ../../app/stylesheets/partials/_page.scss */
+/* line 271, ../../app/stylesheets/partials/_page.scss */
 #content h1.space {
   margin-bottom: 25px;
 }
 
-/* line 251, ../../app/stylesheets/partials/_page.scss */
+/* line 274, ../../app/stylesheets/partials/_page.scss */
 ul.speakers {
   margin: 0px;
   padding: 0px;
 }
 
-/* line 255, ../../app/stylesheets/partials/_page.scss */
+/* line 278, ../../app/stylesheets/partials/_page.scss */
 ul.speakers li {
   list-style: none;
   margin-top: 5px;
 }
 
-/* line 259, ../../app/stylesheets/partials/_page.scss */
+/* line 282, ../../app/stylesheets/partials/_page.scss */
 .details-box {
   height: 90px;
   margin-top: 15px;
   float: left;
   min-width: 127px;
 }
-/* line 264, ../../app/stylesheets/partials/_page.scss */
+/* line 287, ../../app/stylesheets/partials/_page.scss */
 .details-box .image {
   float: left;
   height: 77px;
@@ -600,12 +618,12 @@ ul.speakers li {
   margin-top: 5px;
   border: 1px solid black;
 }
-/* line 271, ../../app/stylesheets/partials/_page.scss */
+/* line 294, ../../app/stylesheets/partials/_page.scss */
 .details-box .profile_pic {
   width: 127px;
   height: 77px;
 }
-/* line 275, ../../app/stylesheets/partials/_page.scss */
+/* line 298, ../../app/stylesheets/partials/_page.scss */
 .details-box .text {
   float: left;
   padding: 0px;
@@ -615,7 +633,7 @@ ul.speakers li {
   width: 350px;
   font-family: sans-serif;
 }
-/* line 283, ../../app/stylesheets/partials/_page.scss */
+/* line 306, ../../app/stylesheets/partials/_page.scss */
 .details-box .text .title {
   font-size: 24px;
   font-weight: 700;
@@ -624,17 +642,17 @@ ul.speakers li {
   color: #3A3B3F;
   font-family: "museo-1","museo-2",sans-serif;
 }
-/* line 291, ../../app/stylesheets/partials/_page.scss */
+/* line 314, ../../app/stylesheets/partials/_page.scss */
 .details-box .text .link {
   margin-bottom: 5px;
 }
-/* line 293, ../../app/stylesheets/partials/_page.scss */
+/* line 316, ../../app/stylesheets/partials/_page.scss */
 .details-box .text .link a {
   color: #FFF;
   text-decoration: none;
 }
 
-/* line 303, ../../app/stylesheets/partials/_page.scss */
+/* line 326, ../../app/stylesheets/partials/_page.scss */
 #content h2 {
   font-size: 24px;
   text-transform: uppercase;
@@ -645,22 +663,22 @@ ul.speakers li {
   margin-bottom: 5px;
 }
 
-/* line 312, ../../app/stylesheets/partials/_page.scss */
+/* line 335, ../../app/stylesheets/partials/_page.scss */
 #content a.twitter {
   color: #FFF;
 }
 
-/* line 315, ../../app/stylesheets/partials/_page.scss */
+/* line 338, ../../app/stylesheets/partials/_page.scss */
 #content a {
   color: #3A3B3F;
 }
 
-/* line 318, ../../app/stylesheets/partials/_page.scss */
+/* line 341, ../../app/stylesheets/partials/_page.scss */
 #content a:hover {
   color: #FFF;
 }
 
-/* line 321, ../../app/stylesheets/partials/_page.scss */
+/* line 344, ../../app/stylesheets/partials/_page.scss */
 #content p {
   font-family: sans-serif;
   font-size: 14px;
@@ -668,22 +686,22 @@ ul.speakers li {
   width: 520px;
   color: #000;
 }
-/* line 328, ../../app/stylesheets/partials/_page.scss */
+/* line 351, ../../app/stylesheets/partials/_page.scss */
 #content p a {
   text-decoration: none;
   color: #FFF;
 }
-/* line 332, ../../app/stylesheets/partials/_page.scss */
+/* line 355, ../../app/stylesheets/partials/_page.scss */
 #content p a:hover {
   color: #3A3B3F;
 }
 
-/* line 336, ../../app/stylesheets/partials/_page.scss */
+/* line 359, ../../app/stylesheets/partials/_page.scss */
 #content input {
   font-family: "museo-1","museo-2",sans-serif;
 }
 
-/* line 339, ../../app/stylesheets/partials/_page.scss */
+/* line 362, ../../app/stylesheets/partials/_page.scss */
 #content input.field {
   height: 48px;
   width: 320px;
@@ -701,7 +719,7 @@ ul.speakers li {
   font-weight: 700;
 }
 
-/* line 352, ../../app/stylesheets/partials/_page.scss */
+/* line 375, ../../app/stylesheets/partials/_page.scss */
 #content input.link-button {
   border: none;
   background: none;
@@ -715,10 +733,113 @@ ul.speakers li {
   text-shadow: #eea333 0px 1px 1px;
 }
 
-/* line 364, ../../app/stylesheets/partials/_page.scss */
+/* line 387, ../../app/stylesheets/partials/_page.scss */
 #content input.link-button:hover {
   color: #FFF;
   text-shadow: #d67f00 0px 1px 1px;
+}
+
+/* line 392, ../../app/stylesheets/partials/_page.scss */
+table.schedule {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  position: relative;
+  margin-left: 30px;
+  margin-top: 45px;
+}
+/* line 401, ../../app/stylesheets/partials/_page.scss */
+table.schedule tr {
+  border: none;
+}
+/* line 404, ../../app/stylesheets/partials/_page.scss */
+table.schedule td {
+  border: none;
+}
+/* line 409, ../../app/stylesheets/partials/_page.scss */
+table.schedule td.time {
+  font-size: 13px;
+  font-weight: 300;
+  color: #3a3b3f;
+  width: 70px;
+  padding-top: 8px;
+}
+/* line 417, ../../app/stylesheets/partials/_page.scss */
+table.schedule td.session {
+  border-top: 1px solid #EA8f05;
+  padding-top: 0px;
+}
+/* line 420, ../../app/stylesheets/partials/_page.scss */
+table.schedule td.session .info {
+  text-shadow: none;
+  color: #3a3b3f;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 19px;
+}
+/* line 431, ../../app/stylesheets/partials/_page.scss */
+table.schedule td.session .speaker {
+  margin-top: 5px;
+  text-transform: uppercase;
+  color: #FFF;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: #d67f00 0px 1px 1px;
+  font-weight: 700;
+}
+/* line 433, ../../app/stylesheets/partials/_page.scss */
+table.schedule td.session .speaker a {
+  color: #FFF !important;
+  text-decoration: none;
+}
+/* line 438, ../../app/stylesheets/partials/_page.scss */
+table.schedule td.session .speaker a:hover {
+  color: #3A3B3F !important;
+  text-shadow: #eea333 0px 1px 1px;
+}
+/* line 451, ../../app/stylesheets/partials/_page.scss */
+table.schedule td.session .subtitle {
+  font: arial,sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: #3a3b3f;
+}
+/* line 458, ../../app/stylesheets/partials/_page.scss */
+table.schedule td.session .room {
+  font: arial,sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  color: #c47d13;
+  margin-bottom: 7px;
+  text-transform: uppercase;
+}
+/* line 468, ../../app/stylesheets/partials/_page.scss */
+table.schedule td.session.first {
+  padding-right: 15px;
+  padding-left: 5px;
+}
+/* line 473, ../../app/stylesheets/partials/_page.scss */
+table.schedule td.session.last {
+  padding-left: 15px;
+  padding-right: 30px;
+  border-left: 1px solid #EA8f05;
+}
+/* line 479, ../../app/stylesheets/partials/_page.scss */
+table.schedule tr.end {
+  height: 1px;
+}
+
+/* line 487, ../../app/stylesheets/partials/_page.scss */
+#content .speakers,
+#content h2,
+#content p,
+#content form {
+  margin-left: 100px;
 }
 
 @media print {

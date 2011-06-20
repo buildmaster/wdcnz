@@ -1,0 +1,19 @@
+%h1
+  Programme
+%table.schedule{:style=>"font-size:20px",:cellpadding=>'5'}
+  %tbody
+    -@programme.each do |timeslot|
+      %tr
+        %td.time
+          ="#{timeslot[:time]}"
+        -if(timeslot[:sessions].length>1)
+          %td.session.first
+            =render :partial => "session", :locals=>{:session=>timeslot[:sessions][0]}
+          %td.session.last
+            =render :partial => "session", :locals=>{:session=>timeslot[:sessions][1]}
+        -else
+          %td.session.first{:colspan=>2}
+            =render :partial => "session", :locals=>{:session=>timeslot[:sessions][0]}
+    %tr.end
+      %td
+      %td.session{:colspan=>2}

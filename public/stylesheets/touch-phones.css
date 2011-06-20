@@ -107,46 +107,67 @@ img.typekit-badge {
   display: none !important;
 }
 
-/* line 82, ../../app/stylesheets/touch-phones.scss */
-#main #content {
+/* line 86, ../../app/stylesheets/touch-phones.scss */
+#content h1,
+#content .speakers,
+#content h2,
+#content p,
+#content form {
   margin-left: 5px;
 }
 
-/* line 85, ../../app/stylesheets/touch-phones.scss */
+/* line 89, ../../app/stylesheets/touch-phones.scss */
 .speaker_names_big {
   display: none;
 }
 
-/* line 88, ../../app/stylesheets/touch-phones.scss */
+/* line 92, ../../app/stylesheets/touch-phones.scss */
 #main #sidebar-right {
   float: none;
   margin-right: 5px;
+  height: 250px;
   width: 100%;
 }
-/* line 92, ../../app/stylesheets/touch-phones.scss */
+/* line 97, ../../app/stylesheets/touch-phones.scss */
 #main #sidebar-right .ticket_link {
   width: 100%;
 }
-/* line 94, ../../app/stylesheets/touch-phones.scss */
+/* line 99, ../../app/stylesheets/touch-phones.scss */
 #main #sidebar-right .ticket_link * {
   margin-right: 5px;
 }
 
-/* line 99, ../../app/stylesheets/touch-phones.scss */
+/* line 104, ../../app/stylesheets/touch-phones.scss */
+menu.secondary {
+  display: none;
+}
+
+/* line 107, ../../app/stylesheets/touch-phones.scss */
+menu.primary {
+  border-bottom: 1px solid #EA8f05;
+  padding-bottom: 10px;
+}
+
+/* line 111, ../../app/stylesheets/touch-phones.scss */
 .details-box {
   float: none;
 }
-/* line 101, ../../app/stylesheets/touch-phones.scss */
+/* line 113, ../../app/stylesheets/touch-phones.scss */
 .details-box .text {
   width: 300px;
   margin-left: 0px;
 }
-/* line 105, ../../app/stylesheets/touch-phones.scss */
+/* line 117, ../../app/stylesheets/touch-phones.scss */
 .details-box .blurb {
   width: 300px;
 }
 
-/* line 109, ../../app/stylesheets/touch-phones.scss */
+/* line 121, ../../app/stylesheets/touch-phones.scss */
 #content p {
   width: 300px !important;
+}
+
+/* line 124, ../../app/stylesheets/touch-phones.scss */
+table.schedule {
+  margin-left: 5px;
 }

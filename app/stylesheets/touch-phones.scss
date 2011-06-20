@@ -79,7 +79,11 @@ header{
 img.typekit-badge{
 	display:none !important;
 }
-#main #content{
+#content h1,
+#content .speakers,
+#content h2,
+#content p,
+#content form{
 	margin-left:5px;
 }
 .speaker_names_big{
@@ -88,6 +92,7 @@ img.typekit-badge{
 #main #sidebar-right{
 	float:none;
 	margin-right:5px;
+		height:250px;
 	width:100%;
 	.ticket_link{
 		width:100%;
@@ -96,6 +101,13 @@ img.typekit-badge{
 		}
 	}
 }
+menu.secondary{
+	display:none;
+}
+menu.primary{
+		border-bottom:1px solid #EA8f05;
+				padding-bottom:10px;
+	}
 .details-box{
 	float:none;
 	.text{
@@ -108,4 +120,7 @@ img.typekit-badge{
 }
 #content p{
 	width:300px !important;
+}
+table.schedule{
+	margin-left:5px;
 }
