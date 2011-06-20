@@ -804,14 +804,14 @@ table.schedule td.session .speaker a:hover {
 }
 /* line 452, ../../app/stylesheets/partials/_page.scss */
 table.schedule td.session .subtitle {
-  font: arial,sans-serif;
+  font-family: arial,sans-serif;
   font-size: 12px;
   font-weight: normal;
   color: #3a3b3f;
 }
 /* line 459, ../../app/stylesheets/partials/_page.scss */
 table.schedule td.session .room {
-  font: arial,sans-serif;
+  font-family: arial,sans-serif;
   font-size: 11px;
   font-weight: normal;
   color: #c47d13;
