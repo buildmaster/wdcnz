@@ -6,7 +6,7 @@ class DetailsController < ApplicationController
             :name=>"Pamela Fox",
             :twitter=>"pamelafox",
             :bio=>"San Fran based web app guru
-        Pam worked on the Maps API & Google Wave project",
+        Worked on the Google Maps API & Wave projects",
             :image=>"pamela_fox"
         },
         {
@@ -20,7 +20,7 @@ class DetailsController < ApplicationController
             :name=>"Paul Irish",
             :twitter=>"paul_irish",
             :bio=>"Chrome developer relations guy
-        Responsible for Modernizr and HTM5 Boilerplate",
+        Responsible for Modernizr & HTM5 Boilerplate",
             :image=>"paul_irish"
         },
         {
@@ -34,13 +34,13 @@ class DetailsController < ApplicationController
             :name=>"John Clegg",
             :twitter=>"johnclegg",
             :bio=>"Founder of ProjectX
-        Web enterpreneur and technologist",
+        Web enterpreneur & technologist",
             :image=>"john_clegg"
         },
         {
             :name=>"Kirk Jackson",
             :twitter=>"kirkj",
-            :bio=>"Web security professional with Aura Software Security
+            :bio=>"Web security pro with Aura Software Security
         Software security MVP",
             :image=>"kirk_jackson"
         },
@@ -76,20 +76,20 @@ class DetailsController < ApplicationController
             :name=>"Karl von Randow",
             :twitter=>"avon",
             :bio=>"Founder of Cactus Labs, iPhone developer
-            Created Camera+ and Birdbrain amongst others",
+            Created Camera+ & Birdbrain amongst others",
             :image=>"karl_von_randow"
         },
         {
             :name=>"Sam Minnée",
             :twitter=>"sminnee",
-            :bio=>"Founder and CEO at Silverstripe
+            :bio=>"Founder & CEO at Silverstripe
             PHP guru",
             :image=>"sam_minnee"
         },
         {
             :name=>"Leon Bambrick",
             :twitter=>"secretGeek",
-            :bio=>"Creator of TimeSnapper and Nimble Text
+            :bio=>"Creator of TimeSnapper & Nimble Text
             Consultant at Microsoft's SDC in Brisbane",
             :image=>"leon_bambrick"
         },
@@ -104,15 +104,15 @@ class DetailsController < ApplicationController
         {
             :name=>"Nigel Parker",
             :twitter=>"nzigel",
-            :bio=>"Web and mobile evangelist at Microsoft NZ
-        Motivated by big ideas and unconventional execution",
+            :bio=>"Web & mobile evangelist at Microsoft NZ
+        Motivated by big ideas & unconventional execution",
             :image=>"nigel_parker"
         },
         {
             :name=>"Chris Double",
             :twitter=>"doublec",
-            :bio=>"Auckland based Mozilla Developer.
-        Works on HTML 5 video and audio support in Firefox.",
+            :bio=>"Auckland based Mozilla Developer
+        Works on HTML 5 video & audio Firefox suport",
             :image=>"chris_double"
         }
     ]
