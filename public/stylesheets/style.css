@@ -842,6 +842,11 @@ table.schedule tr.end {
   margin-left: 100px;
 }
 
+/* line 491, ../../app/stylesheets/partials/_page.scss */
+#content .speakers p {
+  margin-left: 0px;
+}
+
 @media print {
   /* line 24, ../../../../.rvm/gems/ruby-head/gems/html5-boilerplate-0.3.2/stylesheets/html5-boilerplate/_media.scss */
   * {
