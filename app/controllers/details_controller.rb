@@ -140,7 +140,7 @@ class DetailsController < ApplicationController
         :sessions=>[{
                         :type=>:talk,
                         :speaker=>'Pamela Fox',
-                        :name=>'Why APIs Matter',
+                        :name=>'The Developer Experience',
                         :room=>'Te Aro'
                     }]
     }, {
