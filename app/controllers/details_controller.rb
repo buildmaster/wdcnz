@@ -10,7 +10,7 @@ class DetailsController < ApplicationController
             :image=>"pamela_fox"
         },
         {
-            :name=>"Jeff Wegesin",
+            :name=>"Jeffrey Wegesin",
             :twitter=>"jefweg",
             :bio=>"Wellington based, USA born CSS Master
         Likes to peek at your HTML",
@@ -147,7 +147,7 @@ class DetailsController < ApplicationController
         :time=>'10.00AM',
         :sessions=>[{
                         :type=>:talk,
-                        :speaker=>'Jeffrey Wegesin',
+                        :speaker=>'Jeff Wegesin',
                         :name=>'Preparation H',
                         :room=>'Te Aro'
                     },
