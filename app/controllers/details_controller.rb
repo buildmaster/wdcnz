@@ -147,7 +147,7 @@ class DetailsController < ApplicationController
         :time=>'10.00AM',
         :sessions=>[{
                         :type=>:talk,
-                        :speaker=>'Jeffery Wegesin',
+                        :speaker=>'Jeffrey Wegesin',
                         :name=>'Preparation H',
                         :room=>'Te Aro'
                     },
