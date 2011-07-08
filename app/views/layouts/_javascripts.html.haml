@@ -36,3 +36,9 @@
       g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       s.parentNode.insertBefore(g, s);
     })(document, 'script');
+    
+=javascript_include_tag "konami.js"
+%script
+  konami = new Konami();
+  konami.code=function(){$('#mask').removeClass('hide');};
+  konami.load();

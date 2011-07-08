@@ -494,3 +494,82 @@ table.schedule{
 		margin-left:0px;
 	}
 }
+.mask{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:url('/images/mask.png');
+  top:0;
+  left:0;
+  .winner{
+    .header{
+      background-color:#3a3b3f;
+      height:114px;
+      .close 
+      {
+        text-align:right;
+        a{
+        color:#FFF;
+        text-decoration:none;
+        }
+        padding-right:10px;
+        padding-top:10px;
+      }
+      .title
+      {
+        text-align:center;
+        font-weight:700;
+        font-size:60px;
+        color:#FFF;
+      }
+    }
+    .message{
+    font-size:21px;
+     font-wight:100;
+      color:#3a3b3f;
+      .line1{
+        padding-top:33px;
+        
+        padding-left:45px;
+        padding-right:45px;
+        #text-align:center;
+      }
+      .line2{
+        text-align:center;
+        padding-left:140px;
+        padding-right:140px;
+        padding-top:35px;
+        .bolded{
+          font-weight:700;
+        }
+      
+      }
+      h2{
+      padding-top:30px;
+        text-align:center;
+            a{
+              color:#FFF;
+              font-size:40px;
+              text-decoration:none;
+              text-transform:uppercase;
+              @include text-shadow($dropshadow-dark);
+              font-weight:700;
+            }
+      
+      }
+    }
+    background:#FF9900;
+    position:absolute;
+    width:665px;
+    height:405px;
+    top:295px;
+    left:180px;
+    border:3px #3a3b3f solid;
+    @include border-radius(5px, 5px);
+  }
+  
+}
+.hide
+{
+display:none;
+}
