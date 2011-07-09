@@ -907,7 +907,7 @@ table.schedule tr.end {
   padding-top: 33px;
   padding-left: 45px;
   padding-right: 45px;
-  #text-align: center;
+  text-align: center;
 }
 /* line 537, ../../app/stylesheets/partials/_page.scss */
 .mask .winner .message .line2 {
