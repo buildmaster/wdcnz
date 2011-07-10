@@ -20,7 +20,7 @@ class DetailsController < ApplicationController
             :name=>"Paul Irish",
             :twitter=>"paul_irish",
             :bio=>"Chrome developer relations guy
-        Responsible for Modernizr & HTM5 Boilerplate",
+        Responsible for Modernizr & HTML5 Boilerplate",
             :image=>"paul_irish"
         },
         {
