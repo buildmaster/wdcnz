@@ -154,7 +154,7 @@ class DetailsController < ApplicationController
                     {
                         :type=>:talk,
                         :speaker=>'Sam Minnée',
-                        :name=>'Building Web Apps in SilverStripe 3',
+                        :name=>'SilverStripe: do we really need another framework?',
                         :room=>'Waterfront'
                     }]
     },{
@@ -244,7 +244,7 @@ class DetailsController < ApplicationController
                     {
                         :type=>:talk,
                         :speaker=>'Robert Coup',
-                        :name=>'I Want A Pony',
+                        :name=>'I want a pony - why Python & Django will make your next web app rock',
                         :room=>'Waterfront'
                     }]
     }, {
@@ -252,7 +252,7 @@ class DetailsController < ApplicationController
         :sessions=>[{
                         :type=>:talk,
                         :speaker=>'James Pearce',
-                        :name=>'HTML5, CSS3, Javascript: an evolving web & new ways to reach mobile users',
+                        :name=>'Building rich mobile apps with the modern web stack',
                         :room=>'Te Aro'
                     }]
     },{
