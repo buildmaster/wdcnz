@@ -905,27 +905,25 @@ table.schedule tr.end {
 /* line 530, ../../app/stylesheets/partials/_page.scss */
 .mask .winner .message .line1 {
   padding-top: 33px;
-  padding-left: 45px;
-  padding-right: 45px;
   text-align: center;
 }
-/* line 537, ../../app/stylesheets/partials/_page.scss */
+/* line 534, ../../app/stylesheets/partials/_page.scss */
 .mask .winner .message .line2 {
   text-align: center;
-  padding-left: 140px;
-  padding-right: 140px;
   padding-top: 35px;
+  text-align: center;
+  font-weight: 700;
 }
-/* line 542, ../../app/stylesheets/partials/_page.scss */
+/* line 539, ../../app/stylesheets/partials/_page.scss */
 .mask .winner .message .line2 .bolded {
   font-weight: 700;
 }
-/* line 547, ../../app/stylesheets/partials/_page.scss */
+/* line 544, ../../app/stylesheets/partials/_page.scss */
 .mask .winner .message h2 {
   padding-top: 30px;
   text-align: center;
 }
-/* line 550, ../../app/stylesheets/partials/_page.scss */
+/* line 547, ../../app/stylesheets/partials/_page.scss */
 .mask .winner .message h2 a {
   color: #FFF;
   font-size: 40px;
@@ -935,7 +933,7 @@ table.schedule tr.end {
   font-weight: 700;
 }
 
-/* line 573, ../../app/stylesheets/partials/_page.scss */
+/* line 570, ../../app/stylesheets/partials/_page.scss */
 .hide {
   display: none;
 }
