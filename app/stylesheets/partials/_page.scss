@@ -218,6 +218,12 @@ h1 {
             @include text-shadow($dropshadow-light);
         }
         h2{
+        color:#FFF;
+        font-size:40px;
+        text-decoration:none;
+        text-transform:uppercase;
+        @include text-shadow($dropshadow-dark);
+        font-weight:700;
             height:43px;
         }
         h3{
