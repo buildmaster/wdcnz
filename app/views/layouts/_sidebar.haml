@@ -2,9 +2,17 @@
   %h2
     Game Over
   %h3
-    ="...until next year. Cheers!"
+    ="...back again 2 Aug 2012"
 .menu
   %menu.primary{:label=>"navigation"}
+    %li
+      Last time
+    %li
+      %a{:href => "http://vimeo.com/user7782032",:target=>"_blank"}
+        Videos
+    %li
+      %a{:href => "http://www.flickr.com/photos/wdcnz/",:target=>"_blank"}
+        Pictures
     %li{:class=>""}
       -unless current_page?(:controller => 'details', :action => 'speakers') 
         %a{:href => "/details/speakers"}
@@ -23,12 +31,6 @@
           Venue & stuff
       -else
         Venue & stuff
-    %li
-      %a{:href => "http://vimeo.com/user7782032",:target=>"_blank"}
-        Videos
-    %li
-      %a{:href => "http://www.flickr.com/photos/wdcnz/",:target=>"_blank"}
-        Pictures
         
   %menu.secondary{:label=>"navigation"}
     %li
