@@ -58,6 +58,7 @@ header{
 	}
 .page#home{
 	.speaker-name{
+	a{
 		font-weight:700;
 		font-family: "museo-1","museo-2",sans-serif;
 		color:#aefd47;
@@ -66,6 +67,8 @@ header{
 		height:58px;
 		text-transform:uppercase;
 		@include text-shadow(rgba(black,0.4) 0px 1px 0);
+		text-decoration:none;
+	}
 	}
 }
 .page#speakers{

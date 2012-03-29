@@ -20,3 +20,4 @@ $ ->
 			if $('#floating-menu').hasClass('floating')
 				$('#floating-menu').removeClass('floating')
 				$('#floating-menu').addClass('fixed')
+	
