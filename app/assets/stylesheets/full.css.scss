@@ -1,0 +1,154 @@
+@import "compass/css3/text-shadow";
+
+body{
+	background-color:#101010;
+	color:#7e7e7e;
+	font-family: ariel,sans-serif;
+	font-size:15px;
+	
+	width:1000px;
+}
+header{
+	padding-left:40px;
+	width:900px;
+	margin-top:40px;
+	#title{
+	}
+	#subtitle{
+		font-weight:700;
+		font-family: "museo-1","museo-2",sans-serif;
+		color:#aefd47;
+		font-size:60px;
+		margin-left:5px;
+		padding:0px;
+		height:65px;
+		line-height:65px;
+		@include text-shadow(rgba(black,0.2) 0px 1px 0);
+	}
+	#datetime{
+		color:#fff;
+		font-size:24px;
+		font-weight:500;
+		margin-left:5px;
+		font-family: "museo-1","museo-2",sans-serif;
+		line-height:24px;
+		height:24px;
+		text-transform:uppercase;
+		@include text-shadow(rgba(black,0.2) 0px 1px 0);
+	}
+}
+.page{
+	padding-left:40px;
+	padding-top:70px;
+	min-height:700px;
+	width:750px;
+	
+}
+.section_title{
+		margin-top:20px;
+		img {
+			margin-right:40px;
+		}
+		font-size:60px;
+		color:#fff;
+		font-family: "museo-1","museo-2",sans-serif;
+		font-weight:700;
+		text-transform:uppercase;
+
+	}
+.page#home{
+	.speaker-name{
+		font-weight:700;
+		font-family: "museo-1","museo-2",sans-serif;
+		color:#aefd47;
+		font-size:60px;
+		line-height:60px;
+		height:58px;
+		text-transform:uppercase;
+		@include text-shadow(rgba(black,0.4) 0px 1px 0);
+	}
+}
+.page#speakers{
+	.speaker{
+		margin-top:35px;
+
+	}
+	.speaker_image{
+		float:left;
+		
+	}
+	.bio{
+		a{
+			color:#FFF;
+		}
+		margin-left:225px;
+		width:450px;
+		.title{
+				font-weight:700;
+		font-family: "museo-1","museo-2",sans-serif;
+		text-transform:uppercase;
+		font-size:30px;
+		color:#aefd47;
+		}
+		.social{
+			a{
+				color:#FFF;
+				text-decoration:none;
+						font-weight:300;
+		font-family: "museo-1","museo-2",sans-serif;
+		font-size:18px;
+
+			}
+		}
+	}
+}
+div#floating-menu{
+	&.fixed{
+		position:absolute;
+		left:739px;
+		margin-top:65px;
+	}
+	&.floating{
+		position:fixed;
+		top:0px;
+		left:739px;
+	}
+	font-family: "museo-1","museo-2",sans-serif;
+	color:#fff;
+	text-align:right;
+	.register-link{
+	  a{
+	  	@include text-shadow(rgba(black,0.4) 0px 1px 0);
+	 	 font-weight:700;
+	  	font-size:40px;
+	  	color:#fff;
+	  	text-decoration:none;
+	  	text-transform:uppercase;
+	  }
+	}
+	menu{
+		text-transform:uppercase;
+		font-weigth:700;
+		font-size:24px;
+		text-align:right;
+		list-style:none;
+	    li a{
+	     text-decoration:none;
+	     color:#fff;
+		}
+		li.current a{
+			color:#aefd47;
+		}
+	}
+
+}
+
+span.divider{
+	color:#666666;
+	font-weight:300;
+
+}
+div.body{
+	width:750px;
+}
+
