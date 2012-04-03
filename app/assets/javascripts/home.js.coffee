@@ -12,6 +12,7 @@ $ ->
 	  easing: 'swing'
 	});
 	$(document).scroll => 
+		$("#floating-menu").css('left',$("#floating-menu").position().left);
 		if $(window).scrollTop()>255
 			if $('#floating-menu').hasClass('fixed')
 				$('#floating-menu').removeClass('fixed')
@@ -20,4 +21,5 @@ $ ->
 			if $('#floating-menu').hasClass('floating')
 				$('#floating-menu').removeClass('floating')
 				$('#floating-menu').addClass('fixed')
+
 	
