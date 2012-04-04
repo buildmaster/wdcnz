@@ -6,14 +6,14 @@ $ ->
 	  currentClass: 'current',
 	  changeHash: true,
 	  scrollSpeed: 750,
-	  scrollOffset: 10,
+	  scrollOffset: 0,
 	  scrollThreshold: 0.5,
-	  filter: '',
+	  filter: ':not(.external)',
 	  easing: 'swing'
 	});
 	$(document).scroll => 
 		$("#floating-menu").css('left',$("#floating-menu").position().left);
-		if $(window).scrollTop()>255
+		if $(window).scrollTop()>240
 			if $('#floating-menu').hasClass('fixed')
 				$('#floating-menu').removeClass('fixed')
 				$('#floating-menu').addClass('floating')

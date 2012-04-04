@@ -18,7 +18,7 @@ body{
 header{
 	#padding-left:40px;
 	width:900px;
-	margin-top:40px;
+	margin-top:20px;
 	#title{
 	}
 	#subtitle{
@@ -45,8 +45,7 @@ header{
 	}
 }
 .page{
-	#padding-left:40px;
-	padding-top:70px;
+	padding-top:15px;
 	min-height:700px;
 	width:750px;
 	
@@ -66,6 +65,7 @@ header{
 
 	}
 .page#home{
+	padding-top:68px;
 	.speaker-name{
 	a{
 		font-weight:700;
@@ -83,6 +83,7 @@ header{
 		}
 	}
 }
+
 .page#speakers{
 	.speaker{
 		margin-top:35px;
@@ -100,18 +101,21 @@ header{
 		width:450px;
 		.title{
 				font-weight:700;
-		font-family: "museo-1","museo-2",sans-serif;
-		text-transform:uppercase;
-		font-size:30px;
-		color:#aefd47;
+			font-family: "museo-1","museo-2",sans-serif;
+			text-transform:uppercase;
+			font-size:30px;
+			color:#aefd47;
+			height:25px;
+			vertical-align:top;
+			line-height:24px;
 		}
 		.social{
 			a{
 				color:#FFF;
 				text-decoration:none;
-						font-weight:300;
-		font-family: "museo-1","museo-2",sans-serif;
-		font-size:18px;
+				font-weight:300;
+				font-family: "museo-1","museo-2",sans-serif;
+				font-size:18px;
 
 			}
 			a:hover{
@@ -129,7 +133,7 @@ div#floating-menu{
 	&.floating{
 		position:fixed;
 		top:40px;
-		left:739px;
+		
 	}
 	font-family: "museo-1","museo-2",sans-serif;
 	color:#fff;
@@ -162,6 +166,45 @@ div#floating-menu{
 	  	}
 		li.current a{
 			color:#aefd47;
+		}
+	}
+	a.sm_link{
+		display:inline-block;
+		width: 19px;
+		height: 18px;
+		background: url('menu_sprites.png') no-repeat;
+		span{
+			display:none;
+		}
+	}
+	a.twitter_link{
+		
+		background-position:0 -20px;
+		&:hover{
+			background-position:0 0;
+		}
+	}
+
+	a.facebook_link{
+		margin-left:6px;
+		background-position: -34px -20px;
+		
+		&:hover{
+			background-position:-34px 0;
+		}
+	}
+	a.flickr_link{
+		
+		background-position:-58px -20px;
+		&:hover{
+			background-position:-58px 0px;
+		}
+	}
+	a.vimeo_link{
+		margin-left:8px;
+		background-position:-89px -20px;
+		&:hover{
+			background-position:-89px 0px;
 		}
 	}
 
