@@ -1,16 +1,25 @@
 # Place all the behaviors and hooks related to the matching controller here.
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
+
+	
 $ ->
-	$('#main-menu').onePageNav({
-	  currentClass: 'current',
-	  changeHash: true,
-	  scrollSpeed: 750,
-	  scrollOffset: 0,
-	  scrollThreshold: 0.5,
-	  filter: ':not(.external)',
-	  easing: 'swing'
-	});
+	config =
+		currentClass: 'current'
+		changeHash: false
+		scrollSpeed: 750
+		scrollOffset: 0
+		scrollThreshold: 0.5
+		filter: ':not(.external)'
+		easing: 'swing'
+		begin: () -> 
+			$('body').append('<div id="device-dummy" style="height: 1px;"></div>')
+			return
+  	end: () -> 
+  		$('#device-dummy').remove()
+	$('#main-menu').onePageNav(
+		config
+	);
 	$(document).scroll => 
 		$("#floating-menu").css('left',$("#floating-menu").position().left);
 		if $(window).scrollTop()>240
