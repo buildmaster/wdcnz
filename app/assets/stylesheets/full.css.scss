@@ -1,11 +1,12 @@
 @import "compass/css3/text-shadow";
+@import "compass/css3/images";
+
 
 body{
 	background-color:#101010;
 	color:#ccc;
 	font-family: ariel,sans-serif;
 	font-size:15px;
-	
 	width:100%;
 }
 .container{
@@ -50,6 +51,7 @@ header{
 	width:750px;
 	
 }
+
 .section_title{
 		margin-top:20px;
 		img {
@@ -83,10 +85,55 @@ header{
 		}
 	}
 }
+.page#sponsors{
+	
+	padding-bottom:20px;
+	background-color:#ebebeb;
+	background-image:url('sponsors_bg_edge.png');
+	background-position:top right;
+	background-repeat:repeat-y;
+	.section_title{
+	color:#000;
+	}
+	.sponsor{
+		position:relative;
+		font-size:14px;
+		color:#000;
+		margin-right:90px;
+		border-bottom:1px solid #C0C0C0;
+		height:188px;
+		&.first{
+			border-top:1px solid #C0C0C0;
+			margin-top:10px;
+		}
+		&.large{
+			height:250px;
 
+		}
+		&.last{
+			margin-bottom:15px;
+		}
+		.logo{
+		padding-top:45px;
+			 width:235px;
+			 float:left;
+		}
+		.blurb{
+			float:right;
+			padding-top:45px;
+			padding-bottom:45px;
+			width:425px;
+		}
+	}
+
+}
+.page#venue{
+	padding-bottom:20px;
+}
 .page#speakers{
+	
 	.speaker{
-		margin-top:35px;
+		margin-top:35px; 
 
 	}
 	.speaker_image{
@@ -217,5 +264,19 @@ span.divider{
 }
 div.body{
 	width:750px;
+}
+.backgrounds{
+	position:absolute;
+	top:207px;
+	width:100%;
+	z-index:-100;
+	.bg-section{
+		height:700px;
+		
+	}
+	.white{
+	  @include background(linear-gradient(left, #ebebeb, #ebebeb 50%, rgba(black,0) 50%));
+	}
+
 }
 
