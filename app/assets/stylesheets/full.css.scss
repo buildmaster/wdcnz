@@ -18,7 +18,7 @@ body{
 }
 header{
 	#padding-left:40px;
-	width:900px;
+	width:954px;
 	margin-top:20px;
 	.sponsor_float{
 		float:right;
@@ -83,6 +83,9 @@ header{
 		text-transform:uppercase;
 
 	}
+	.page#contact{
+	height:1000px;
+	}
 .page#home{
 	padding-top:68px;
 	.speaker-name{
@@ -103,7 +106,14 @@ header{
 	}
 }
 .page#sponsors{
-	
+	a{
+				color:#000;
+				text-decoration:none;
+
+			}
+			a:hover{
+				color:#aefd47;
+				}
 	padding-bottom:20px;
 	background-color:#ebebeb;
 	background-image:url('sponsors_bg_edge.png');
@@ -202,7 +212,7 @@ header{
 	}
 }
 .page#speakers{
-	
+		margin-bottom:75px;
 	.speaker{
 		margin-top:35px; 
 
