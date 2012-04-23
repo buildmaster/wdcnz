@@ -18,7 +18,7 @@ body{
 }
 header{
 	#padding-left:40px;
-	width:954px;
+	width:960px;
 	margin-top:20px;
 	.sponsor_float{
 		float:right;
@@ -108,24 +108,25 @@ header{
 .page#sponsors{
 	a{
 				color:#000;
-				text-decoration:none;
+				text-decoration:underline;
 
 			}
 			a:hover{
-				color:#aefd47;
+				color:#666666;
 				}
 	padding-bottom:20px;
 	background-color:#ebebeb;
 	background-image:url('sponsors_bg_edge.png');
 	background-position:top right;
 	background-repeat:repeat-y;
+	color:#666666;
 	.section_title{
 		color:#000;
 	}
 	.sponsor{
 		position:relative;
 		font-size:14px;
-		color:#000;
+		color:#666666;
 		margin-right:90px;
 		border-bottom:1px solid #C0C0C0;
 		height:188px;
