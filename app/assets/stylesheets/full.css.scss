@@ -93,7 +93,7 @@ header{
 	background-position:top right;
 	background-repeat:repeat-y;
 	.section_title{
-	color:#000;
+		color:#000;
 	}
 	.sponsor{
 		position:relative;
@@ -128,7 +128,61 @@ header{
 
 }
 .page#venue{
+	.section_title{
+		margin-bottom:35px;
+	}
 	padding-bottom:20px;
+	.hotel_block{
+		margin-bottom:20px;
+		span.info{
+			margin-left:5px;
+			padding-left:5px;
+			border-left:1px solid #333;
+			
+		}
+		span{
+			a{
+				color:#FFF;
+				&:hover{
+					color:#aefd47;
+				}
+			}
+		}
+	 	h3{
+			display:inline;
+
+		}
+	}
+	h2, h3{
+		margin-bottom:0px;
+		-webkit-margin-before: 0;
+		-webkit-margin-after: 0;
+		color:#FFF;
+		text-transform:uppercase;
+	}
+	h2{
+		font-family: "museo-1","museo-2",sans-serif;
+		font-weight:700px;
+		font-size:32px;
+	}
+	h3{
+		font-size:15px;
+		font-wight:bold;
+		
+	}
+	p{
+	a{
+	color:#FFF;
+		&:hover{
+			color:#aefd47;
+		}
+	}
+		-webkit-margin-before: 0;
+		-webkit-margin-after: 0;
+	}
+	P{
+		margin-bottom:30px;
+	}
 }
 .page#speakers{
 	
