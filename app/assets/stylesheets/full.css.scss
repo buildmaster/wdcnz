@@ -109,7 +109,7 @@ header {
 	a:hover { color:#666666; }
 	
 	.section_title { color:#000; }
-	.sponsor {
+	.heros {
 		position: relative;
 		font-size:14px;
 		color: #666;
@@ -151,33 +151,28 @@ header {
 	
 	.section_title { margin-bottom: 35px; }
 	
-	.hotel_block{
+	.hotel_block {
 		margin-bottom:20px;
+		
 		span.info{
-			margin-left:5px;
-			padding-left:5px;
-			border-left:1px solid #333;
-			
+			border-left: 1px solid #333;	
+			margin-left: 5px;
+			padding-left: 5px;		
 		}
 		span{
-			a{
-				color:#FFF;
-				&:hover{
-					color:#aefd47;
-				}
+			a {
+				color: #fff;
+				&:hover{ color:#aefd47; }
 			}
 		}
-	 	h3{
-			display:inline;
-
-		}
+	 	h3 { display:inline; }
 	}
 	h2, h3{
-		margin-bottom:0px;
+		color: #FFF;		
+		margin-bottom: 0;
 		-webkit-margin-before: 0;
 		-webkit-margin-after: 0;
-		color:#FFF;
-		text-transform:uppercase;
+		text-transform: uppercase;
 	}
 	h2{
 		font-family: "museo-1","museo-2",sans-serif;
@@ -187,7 +182,6 @@ header {
 	h3{
 		font-size:15px;
 		font-wight:bold;
-		
 	}
 	p{
 	a{
