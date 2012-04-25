@@ -1,165 +1,156 @@
 @import "compass/css3/text-shadow";
 @import "compass/css3/images";
 
-
 body{
-	background-color:#101010;
-	color:#ccc;
-	font-family: ariel,sans-serif;
-	font-size:15px;
-	width:100%;
+	background-color: #101010;
+	color: #ccc;
+	font: normal 15px arial,arial, sans-serif;
+	width: 100%;
 }
-.container{
-	padding-left:40px;
-	padding-top:40px;
-	margin-left:auto;
-	margin-right:auto;
-	width:960px;
-}
-header{
-	#padding-left:40px;
-	width:960px;
-	margin-top:20px;
-	.sponsor_float{
-		float:right;
-		span{
-			font-weight:700;
-			font-family: "museo-1","museo-2",sans-serif;
-			font-size:15px;
-			
-		}
-	}
-	#title{
-	}
-	#subtitle{
-		font-weight:700;
-		font-family: "museo-1","museo-2",sans-serif;
-		color:#aefd47;
-		font-size:60px;
-		margin-left:5px;
-		padding:0px;
-		height:65px;
-		line-height:65px;
-		@include text-shadow(rgba(black,0.2) 0px 1px 0);
-	}
-	#datetime{
-		color:#fff;
-		font-size:24px;
-		font-weight:500;
-		margin-left:5px;
-		font-family: "museo-1","museo-2",sans-serif;
-		line-height:24px;
-		height:24px;
-		text-transform:uppercase;
-		@include text-shadow(rgba(black,0.2) 0px 1px 0);
-	}
-}
-.page{
-	padding-top:15px;
-	min-height:700px;
-	width:750px;
-	a{
-				color:#FFF;
-				text-decoration:none;
 
-			}
-			a:hover{
-				color:#aefd47;
-				}
+.container { margin-top: 60px; }
+
+.center {
+	margin: 0 auto;
+	padding-top: 15px;
+	width: 960px;
+}
+
+.inner { width: 750px; }
+
+header {
 	
+	font-family: "museo-1","museo-2",sans-serif;
+	font-weight: 700;
+	@include text-shadow(rgba(black,0.2) 0px 1px 0);
+	
+	h1, h2 {
+		margin: 0;
+		padding: 0;		
+	}
+	
+	h1{
+		color: #fff;
+		font-size: 80px;
+		line-height: 80px;
+	}
+	h2 {
+		color: #aefd47;
+		font-size: 60px;
+		line-height: 65px;
+		margin-left: 5px;
+	}	
+
+	.sponsor {
+		float:right;
+		font-size: 15px;
+	}
+	
+	.details {
+		color: #fff;
+		font-size: 24px;
+		font-weight: 500;
+		line-height: 24px;
+		height: 24px;
+		margin-left: 5px;
+		text-transform: uppercase;
+	}
 }
 
-.section_title{
-		margin-top:20px;
-		img {
-			float:left;
-			margin-top:20px;
-			margin-right:20px;
-		}
-		font-size:60px;
-		color:#fff;
-		font-family: "museo-1","museo-2",sans-serif;
-		font-weight:700;
-		text-transform:uppercase;
-
-	}
-	.page#contact{
-	height:1000px;
-	}
-.page#home{
-	padding-top:68px;
-	.speaker-name{
-	a{
-		font-weight:700;
-		font-family: "museo-1","museo-2",sans-serif;
-		color:#aefd47;
-		font-size:60px;
-		line-height:60px;
-		height:58px;
-		text-transform:uppercase;
-		@include text-shadow(rgba(black,0.4) 0px 1px 0);
+.page {
+	margin-top: 20px;
+	min-height: 700px;	
+	
+	a,
+	a:link,
+	a:visited {
+		color: #fff;
 		text-decoration:none;
 	}
-	a:hover{
-		color:#FFF;
+	a:hover { color: #aefd47; }	
+}
+
+.section_title {
+	color: #fff;
+	font: 700 60px "museo-1","museo-2",sans-serif;
+	text-transform:uppercase;	
+	img {
+		float:left;
+		margin: 20px 20px 0 0;
+	}
+}
+
+.page#contact{ height: 1000px; }
+
+.page#home{
+	margin-top: 68px; 
+	
+	.speaker-name {
+		a {
+			color: #aefd47;
+			font: 700 60px/60px "museo-1","museo-2",sans-serif;
+			height: 58px;
+			text-decoration: none;
+			text-transform: uppercase;
+			@include text-shadow(rgba(black,0.4) 0px 1px 0);
 		}
+		a:hover{ color: #fff; }
 	}
 }
 .page#sponsors{
-	a{
-				color:#000;
-				text-decoration:underline;
-
-			}
-			a:hover{
-				color:#666666;
-				}
-	padding-bottom:20px;
-	background-color:#ebebeb;
-	background-image:url('sponsors_bg_edge.png');
-	background-position:top right;
-	background-repeat:repeat-y;
-	color:#666666;
-	.section_title{
+	background: url(bg-sponsor.png) repeat-y;
+	background-size: 50% 100%;
+	color: #666;
+	
+	a {
 		color:#000;
+		text-decoration:underline;
 	}
-	.sponsor{
-		position:relative;
+	a:hover { color:#666666; }
+	
+	.section_title { color:#000; }
+	.sponsor {
+		position: relative;
 		font-size:14px;
-		color:#666666;
-		margin-right:90px;
-		border-bottom:1px solid #C0C0C0;
-		height:188px;
-		&.first{
-			border-top:1px solid #C0C0C0;
-			margin-top:10px;
+		color: #666;
+		margin-right: 90px;
+		border-bottom: 1px solid #C0C0C0;
+		height: 188px;
+		
+		&.first {
+			border-top: 1px solid #C0C0C0;
+			margin-top: 10px;
 		}
-		&.large{
-			height:250px;
-
-		}
-		&.last{
-			margin-bottom:15px;
-		}
+		&.large { height: 250px; }
+		&.last{ margin-bottom: 15px; }
+		
 		.logo{
-		padding-top:45px;
-			 width:235px;
-			 float:left;
+			padding-top: 45px;
+			float: left;
+			width: 235px;			 
 		}
-		.blurb{
-			float:right;
-			padding-top:45px;
-			padding-bottom:45px;
-			width:425px;
+		.blurb {
+			float: right;
+			padding: 45px 0;
+			width: 425px;
 		}
 	}
 
 }
+
+.page#sponsors .center { padding-top: 0; }
+
+.page#sponsors .center .inner { 
+	background: #ebebeb url(sponsors_bg_edge.png) repeat-y right 0;
+	padding: 20px 0;	
+}
+
 .page#venue{
-	.section_title{
-		margin-bottom:35px;
-	}
-	padding-bottom:20px;
+
+	padding-bottom: 20px;
+	
+	.section_title { margin-bottom: 35px; }
+	
 	.hotel_block{
 		margin-bottom:20px;
 		span.info{
@@ -254,10 +245,10 @@ header{
 		}
 	}
 }
-div#floating-menu{
+div#floating-menu{ 
 	&.fixed{
 		float:right;
-		margin-top:63px
+		margin-top: 83px
 	}
 	&.floating{
 		position:fixed;
@@ -354,7 +345,7 @@ div.content{
 	z-index:-100;
 	.bg-section{
 		height:700px;
-		
+		border: 1px solid red;
 	}
 	.white{
 	  @include background(linear-gradient(left, #ebebeb, #ebebeb 50%, rgba(black,0) 50%));

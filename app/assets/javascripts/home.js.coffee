@@ -15,8 +15,8 @@ $ ->
 		begin: () -> 
 			$('body').append('<div id="device-dummy" style="height: 1px;"></div>')
 			return
-  	end: () -> 
-  		$('#device-dummy').remove()
+		end: () -> 
+			$('#device-dummy').remove()
 	$('#main-menu').onePageNav(
 		config
 	);

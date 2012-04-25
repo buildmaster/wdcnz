@@ -36,32 +36,44 @@
 
 <body>
   <span id="begin"></span>
-
+  <div class="backgrounds">
+    <div class="bg-section" style="height:769px">
+    </div>
+    <div class="bg-section" style="height:1988px">
+    </div>
+    <div class="bg-section" style="height:1295px">
+    </div>
+    <div class="bg-section white" style="height:983px">
+    </div>
+  </div>
   <div class="container">
-	<header class="header wide center">
-		<div class="sponsor">
-			<span>Sponsored by</span>
-			<a href="http://www.xero.com/careers/?utm_source=wdcnz.com&utm_medium=Web&utm_campaign=Event_Misc">
-				<%= image_tag "sponsored_by.png" %>
-			</a>
-		</div>
+  <header id="header">
+      <div class="sponsor_float">
+      <span>Sponsored by</span>
+      <a href="http://www.xero.com/careers/?utm_source=wdcnz.com&utm_medium=Web&utm_campaign=Event_Misc">
+        <%= image_tag "sponsored_by.png" %>
+      </a>
+    </div>
+    <div id="title">
+      <%= image_tag "wdcnz_logo.png" %>
+    </div>
+    <div id="subtitle">
+      Tech talks for web devs
+    </div>
+    <div id="datetime">
+      2 Aug 2012 <span class="divider">|</span> Wellington, NZ 
+    </div>
 
-		<h1>WDCNZ</h1>
-		<h2>Tech talks for web devs</h2>
+  </header>
 
-		<div class="details">
-			2 Aug 2012 <span class="divider">|</span> Wellington, NZ 
-		</div>
+  <div id="content">
+     <%= render "shared/menu" %>
+  <%= yield %>
 
-	</header>
-
-	<div id="content">
-		<%= render "shared/menu" %>
-		<%= yield %>
-	</div>
-	
-	<footer id="footer"></footer>
 </div>
+<footer id="footer">
+  </footer>
+   </div>
 
   <!-- JavaScript at the bottom for fast page loading -->
   <%= javascript_include_tag "application" %>
