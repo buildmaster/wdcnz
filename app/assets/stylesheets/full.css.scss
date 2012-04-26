@@ -1,11 +1,38 @@
 @import "compass/css3/text-shadow";
 @import "compass/css3/images";
 
+$primary: #fff;
+$secondary: #aefd47;
+$family: "museo-1","museo-2",sans-serif;
+
 body{
 	background-color: #101010;
 	color: #ccc;
 	font: normal 15px arial,arial, sans-serif;
 	width: 100%;
+}
+
+h1, h2, h3 {
+	font-family: $family;
+	font-weight: 700;	
+	margin: 0;
+	padding: 0;		
+}
+
+h1 {
+	color: $primary;
+	font-size: 80px;
+	line-height: 80px;
+}
+
+h2 { color: $secondary; }
+
+a, a:link { text-decoration: none; }
+
+ul, li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;	
 }
 
 .container { margin-top: 60px; }
@@ -20,38 +47,22 @@ body{
 
 header {
 	
-	font-family: "museo-1","museo-2",sans-serif;
-	font-weight: 700;
-	@include text-shadow(rgba(black,0.2) 0px 1px 0);
+	@include text-shadow(rgba(black,0.2) 0 1px 0);
 	
-	h1, h2 {
-		margin: 0;
-		padding: 0;		
-	}
-	
-	h1{
-		color: #fff;
-		font-size: 80px;
-		line-height: 80px;
-	}
 	h2 {
-		color: #aefd47;
 		font-size: 60px;
 		line-height: 65px;
 		margin-left: 5px;
 	}	
 
 	.sponsor {
-		float:right;
+		float: right;
 		font-size: 15px;
 	}
 	
 	.details {
-		color: #fff;
-		font-size: 24px;
-		font-weight: 500;
-		line-height: 24px;
-		height: 24px;
+		color: $primary;
+		font: 500 24px/24px $family;
 		margin-left: 5px;
 		text-transform: uppercase;
 	}
@@ -63,19 +74,16 @@ header {
 	
 	a,
 	a:link,
-	a:visited {
-		color: #fff;
-		text-decoration:none;
-	}
-	a:hover { color: #aefd47; }	
+	a:visited { color: $primary; }
+	a:hover { color: $secondary; }	
 }
 
 .section_title {
-	color: #fff;
-	font: 700 60px "museo-1","museo-2",sans-serif;
-	text-transform:uppercase;	
+	color: $primary;
+	font: 700 60px $family;
+	text-transform: uppercase;	
 	img {
-		float:left;
+		float: left;
 		margin: 20px 20px 0 0;
 	}
 }
@@ -83,32 +91,30 @@ header {
 .page#contact{ height: 1000px; }
 
 .page#home{
-	margin-top: 68px; 
+	margin-top: 68px;  
 	
-	.speaker-name {
-		a {
-			color: #aefd47;
-			font: 700 60px/60px "museo-1","museo-2",sans-serif;
-			height: 58px;
-			text-decoration: none;
-			text-transform: uppercase;
-			@include text-shadow(rgba(black,0.4) 0px 1px 0);
-		}
-		a:hover{ color: #fff; }
+	a {
+		color: $secondary;
+		font: 700 60px/60px $family;
+		height: 58px;
+		text-transform: uppercase;
+		@include text-shadow(rgba(black,0.4) 0 1px 0);
 	}
+	a:hover{ color: $primary; }
 }
+
 .page#sponsors{
 	background: url(bg-sponsor.png) repeat-y;
 	background-size: 50% 100%;
 	color: #666;
 	
 	a {
-		color:#000;
-		text-decoration:underline;
+		color: #000;
+		text-decoration: underline;
 	}
-	a:hover { color:#666666; }
+	a:hover { color: #666; }
 	
-	.section_title { color:#000; }
+	.section_title { color: #000; }
 	.heros {
 		position: relative;
 		font-size:14px;
@@ -122,7 +128,7 @@ header {
 			margin-top: 10px;
 		}
 		&.large { height: 250px; }
-		&.last{ margin-bottom: 15px; }
+		&.last { margin-bottom: 15px; }
 		
 		.logo{
 			padding-top: 45px;
@@ -133,9 +139,10 @@ header {
 			float: right;
 			padding: 45px 0;
 			width: 425px;
+			
+			p { margin: 0 0 15px; }
 		}
 	}
-
 }
 
 .page#sponsors .center { padding-top: 0; }
@@ -145,205 +152,141 @@ header {
 	padding: 20px 0;	
 }
 
-.page#venue{
+.page#venue {
 
 	padding-bottom: 20px;
 	
 	.section_title { margin-bottom: 35px; }
 	
-	.hotel_block {
+	.hotel {
 		margin-bottom:20px;
 		
-		span.info{
+	 	h4 { display: inline; }		
+			
+		ul, li { display: inline; }
+		
+		li {
 			border-left: 1px solid #333;	
 			margin-left: 5px;
-			padding-left: 5px;		
+			padding-left: 5px;			
 		}
-		span{
-			a {
-				color: #fff;
-				&:hover{ color:#aefd47; }
-			}
+		li.noDivider { 
+			border: 0; 
+			margin: 0;
+			padding: 0;
 		}
-	 	h3 { display:inline; }
 	}
-	h2, h3{
-		color: #FFF;		
-		margin-bottom: 0;
+	
+	h3, h4 {
+		color: $primary;		
 		-webkit-margin-before: 0;
 		-webkit-margin-after: 0;
 		text-transform: uppercase;
 	}
-	h2{
-		font-family: "museo-1","museo-2",sans-serif;
-		font-weight:700px;
-		font-size:32px;
-	}
-	h3{
-		font-size:15px;
-		font-wight:bold;
-	}
-	p{
-	a{
-	color:#FFF;
-		&:hover{
-			color:#aefd47;
-		}
-	}
+	h3{ 	font-size: 32px; }
+	h4 { font-size: 15px; }
+	
+	p {
 		-webkit-margin-before: 0;
-		-webkit-margin-after: 0;
-	}
-	P{
-		margin-bottom:30px;
+		-webkit-margin-after: 0; 
+		margin-bottom: 30px; 
 	}
 }
-.page#speakers{
-		margin-bottom:75px;
-	.speaker{
-		margin-top:35px; 
 
-	}
-	.speaker_image{
-		float:left;
+.page#speakers {
+	
+	margin-bottom: 75px;
+	
+	.speaker { margin-top: 35px; }
+	.speaker_image { float: left; }
+	
+	h3 { color: $secondary; }
+	
+	.bio {
+	
+		margin-left: 225px;
+		width: 450px;
 		
-	}
-	.bio{
-		a{
-			color:#FFF;
+		h3 {
+			font-size: 30px;
+			line-height: 24px;
+			text-transform: uppercase;
 		}
-		margin-left:225px;
-		width:450px;
-		.title{
-				font-weight:700;
-			font-family: "museo-1","museo-2",sans-serif;
-			text-transform:uppercase;
-			font-size:30px;
-			color:#aefd47;
-			height:25px;
-			vertical-align:top;
-			line-height:24px;
-		}
-		.social{
-			a{
-				color:#FFF;
-				text-decoration:none;
-				font-weight:300;
-				font-family: "museo-1","museo-2",sans-serif;
-				font-size:18px;
 
-			}
-			a:hover{
-				color:#aefd47;
-				}
-
+		p { margin: 0; }
+		
+		.social{ 
+			a { font: 300 18px $family; }
+			a:hover { color: $secondary; }
 		}
 	}
 }
-div#floating-menu{ 
+
+div#floating-menu { 
+
+	font-family: $family;
+	color: $primary;
+	text-align: right;
+	
+	a { color: $primary; }
+	a:hover { color: $secondary; }
+
 	&.fixed{
-		float:right;
+		float: right;
 		margin-top: 83px
 	}
 	&.floating{
-		position:fixed;
-		top:40px;
-		
+		position: fixed;
+		top: 40px;	
 	}
-	font-family: "museo-1","museo-2",sans-serif;
-	color:#fff;
-	text-align:right;
+
 	.register-link{
-	  a{
-	  	@include text-shadow(rgba(black,0.4) 0px 1px 0);
-	 	 font-weight:700;
-	  	font-size:40px;
-	  	color:#fff;
-	  	text-decoration:none;
-	  	text-transform:uppercase;
-	  }
-	  a:hover{
-	  	color:#aefd47;
+	  a {	 	
+		font-weight: 700;
+	  	font-size: 40px;
+	  	text-transform: uppercase;
+	  	@include text-shadow(rgba(black,0.4) 0 1px 0);		
 	  }
 	}
+	
 	menu{
 		text-transform:uppercase;
 		font-weigth:700;
 		font-size:24px;
 		text-align:right;
 		list-style:none;
-	    li a{
-	     text-decoration:none;
-	     color:#fff;
-		}
-		 li a:hover{
-	  		color:#aefd47;
-	  	}
-		li.current a{
-			color:#aefd47;
-		}
-	}
-	a.sm_link{
-		display:inline-block;
-		width: 19px;
-		height: 18px;
-		background: url('menu_sprites.png') no-repeat;
-		span{
-			display:none;
-		}
-	}
-	a.twitter_link{
-		
-		background-position:0 -20px;
-		&:hover{
-			background-position:0 0;
-		}
-	}
 
-	a.facebook_link{
-		margin-left:6px;
-		background-position: -34px -20px;
-		
-		&:hover{
-			background-position:-34px 0;
-		}
+		li.current a { color:$secondary; }
 	}
-	a.flickr_link{
-		
-		background-position:-58px -20px;
-		&:hover{
-			background-position:-58px 0px;
-		}
+	a.sm_link {
+		background: url('menu_sprites.png') no-repeat;
+		display: inline-block;
+		height: 18px;
+		width: 19px;
+		span{ display:none; }
+	}
+	a.twitter_link {
+		background-position: 0 -20px;
+		&:hover { background-position: 0 0; }
+	}
+	a.facebook_link {
+		margin-left: 6px;
+		background-position: -34px -20px;
+		&:hover{ background-position: -34px 0; }
+	}
+	a.flickr_link {
+		background-position: -58px -20px;
+		&:hover { background-position: -58px 0; }
 	}
 	a.vimeo_link{
-		margin-left:8px;
-		background-position:-89px -20px;
-		&:hover{
-			background-position:-89px 0px;
-		}
+		margin-left: 8px;
+		background-position: -89px -20px;
+		&:hover{ background-position: -89px 0px; }
 	}
-
 }
 
 span.divider{
-	color:#666666;
-	font-weight:300;
-
-}
-div.content{
-	width:750px;
-}
-.backgrounds{
-	position:absolute;
-	top:207px;
-	width:100%;
-	z-index:-100;
-	.bg-section{
-		height:700px;
-		border: 1px solid red;
-	}
-	.white{
-	  @include background(linear-gradient(left, #ebebeb, #ebebeb 50%, rgba(black,0) 50%));
-	}
-
+	color: #666;
+	font-weight: 300;
 }
 
