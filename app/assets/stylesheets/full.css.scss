@@ -222,7 +222,12 @@ header {
 	}
 }
 
-.page#why { min-height: 300px; }
+.page#why { 
+	
+	min-height: 300px; 
+
+	a { text-decoration: underline; }	
+}
 
 div#floating-menu { 
 
