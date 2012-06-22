@@ -103,11 +103,18 @@ header {
 	a:hover{ color: $primary; }
 }
 
-.page#sponsors{
+.page#sponsors,
+.page#programme{
 	background: url(bg-sponsor.png) repeat-y;
 	background-size: 50% 100%;
 	color: #666;
-	
+	.center { 
+		padding-top: 0; 
+		.inner{ 
+			background: #ebebeb url(sponsors_bg_edge.png) repeat-y right 0;
+			padding: 20px 0;	
+		}
+	}
 	a {
 		color: #000;
 		text-decoration: underline;
@@ -144,12 +151,42 @@ header {
 		}
 	}
 }
-
-.page#sponsors .center { padding-top: 0; }
-
-.page#sponsors .center .inner { 
-	background: #ebebeb url(sponsors_bg_edge.png) repeat-y right 0;
-	padding: 20px 0;	
+.page#programme{
+	table.programme{
+		margin-top: 10px;
+		border-top:1px solid #6a6a6a;
+		font-family:$family;
+		font-size:18px;
+		font-weight:300;
+		color:#000;
+		tr{
+			td{
+				padding-top:15px;
+				padding-bottom:15px;
+				&.details{
+					text-transform:uppercase;
+					color:#6a6a6a
+				}
+				&.bold{
+					color:#000;
+					font-size:32px;
+					font-weight:700;
+				}
+				.talk{
+					color:#000;
+					font-size:32px;
+					font-weight:700;
+				}
+				.tag{
+					color:#000;
+				}
+			}
+			td.time{
+				width:135px;
+			}
+			border-bottom:1px solid #6a6a6a;
+		}
+	}	
 }
 
 .page#venue {
