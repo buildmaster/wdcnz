@@ -1,6 +1,10 @@
 require File.expand_path('../boot', __FILE__)
 
-require 'rails/all'
+require "action_controller/railtie"
+require "action_mailer/railtie"
+require "active_resource/railtie"
+require "rails/test_unit/railtie"
+require "sprockets/railtie"
 
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
@@ -14,7 +18,9 @@ module Wdcnz2012
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
-
+    
+    #config.frameworks -= [ :active_record, :active_resource, :action_mailer]
+    
     # Custom directories with classes and modules you want to be autoloadable.
     # config.autoload_paths += %W(#{config.root}/extras)
 
