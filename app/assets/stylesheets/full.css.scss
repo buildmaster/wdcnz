@@ -285,12 +285,18 @@ div#floating-menu {
 	}
 
 	.register-link{
-	  a {	 	
+	  span.big {	 	
 		font-weight: 700;
 	  	font-size: 40px;
 	  	text-transform: uppercase;
 	  	@include text-shadow(rgba(black,0.4) 0 1px 0);		
+	  	float:right;
 	  }
+		a,
+		a:link,
+		a:visited { color: $secondary; }
+		a:hover { color: $primary; }	
+	  
 	}
 	
 	menu{
