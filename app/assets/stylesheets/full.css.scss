@@ -102,7 +102,44 @@ header {
 	}
 	a:hover{ color: $primary; }
 }
-
+.page#waitinglist{
+	div.section{
+		margin-top:20px;
+		h3{
+			color: #FFF;
+			font: 700 18px/18px $family;
+		}
+	}
+	form{
+		margin-top:30px;
+	
+		div {
+			margin-top:9px;
+			input{
+				height:30px;
+				border:none;
+				padding-left:5px;
+				background-color:#ebebeb;
+			}
+			input.submit{
+				margin-left:70px;
+				background:none;
+				text-transform:uppercase;
+				color:#FFF;
+				font: 700 40px/40px $family;
+				height:50px;
+				padding-left:0px;
+			}
+			span.label{
+				display:inline-block;
+				width:70px;
+				text-transform:uppercase;
+				color:#FFF;
+				font: 200 18px/18px $family;
+			}
+		}
+	}
+}
 .page#sponsors,
 .page#programme{
 	background: url(bg-sponsor.png) repeat-y;
@@ -285,6 +322,7 @@ div#floating-menu {
 	}
 
 	.register-link{
+	margin-bottom:60px;
 	  span.big {	 	
 		font-weight: 700;
 	  	font-size: 40px;
