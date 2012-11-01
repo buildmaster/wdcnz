@@ -4,6 +4,11 @@
 
 	
 $ ->
+	$("#update_button").click =>
+		$("#contact").removeClass("collapsed")
+		$("#contact div").removeClass("hidden")
+		$(window).scrollTo("#contact",800)
+		return false
 	config =
 		currentClass: 'current'
 		changeHash: false
