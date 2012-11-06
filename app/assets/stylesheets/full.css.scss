@@ -38,7 +38,7 @@ h1, h2, h3 {
 h1 {
 	color: $primary;
 	font-size: 80px;
-	line-height: 55px;
+	line-height: 63px;
 }
 
 h2 { color: $secondary; }
@@ -77,6 +77,9 @@ header {
 		font-weight:700;
 		span{
 			padding-right:10px;
+		}
+		img{
+			margin-top:1px;
 		}
 	}
 	
