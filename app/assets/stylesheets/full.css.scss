@@ -76,6 +76,9 @@ header {
 		color:#999;
 		font-family: $family;
 		font-weight:700;
+		span{
+			padding-right:10px;
+		}
 	}
 	
 	.details {
@@ -106,27 +109,34 @@ div#floating-menu {
 		top: 0px;	
 	}
 
-	.register-link{
-	margin-bottom:60px;
-	  a.big {	 	
-		font-weight: 700;
-	  	font-size: 24px;
-	  	text-transform: uppercase;
-	  	float:right;
-	  }
-	  a.secondary{
-	  	font-weight: 500;
-	  	font-size: 18px;
-	  	float:right;
-	  }
-		a,
-		a:link,
-		a:visited { color: $primary; }
-		a:hover { color: $secondary; }	
-	  
-	}
+.register-link{
+	margin-bottom:35px;
 	
-	menu{
+	a.big {	 	
+		font-weight: 700;
+		font-size: 24px;
+		text-transform: uppercase;
+		float:right;
+	}
+	a.secondary{
+		font-weight: 500;
+		font-size: 18px;
+		float:right;
+	}
+	a,
+	a:link,
+	a:visited { color: $primary; }
+	a:hover { color: $secondary; }
+	
+	
+}
+.hr{
+	border-bottom:1px solid #343434;
+	margin-bottom:35px;
+	width:300px;
+	height:1px;
+}
+menu{
 		text-transform:uppercase;
 		font-weigth:700;
 		font-size:24px;
@@ -237,14 +247,14 @@ input.send {
 	border: none;
 	background: none;
 	color: #FFF;
-	width: 74px;
+	width: 45px;
 	text-align: middle;
 	padding: 0px;
 	letter-spacing: 1.5px;
 	text-tansform:uppercase;
 	font:700 14px $family;
 	&:hover{
-		color:#3a3b3f;
+		color:$secondary;
 	}
 }
 input.email{
@@ -257,8 +267,9 @@ input.email{
 	font-weight: 700;
 	color: #000;
 	height:45px;
+	padding-left:15px;
 	@include box-shadow(#333 0 0 2px inset);
-	@include input-placeholder(#D7D7D8);
+	@include input-placeholder(#666666);
 	&.red{
 		border-color:red;
 	}
