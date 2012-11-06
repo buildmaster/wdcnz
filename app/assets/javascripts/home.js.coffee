@@ -4,10 +4,23 @@
 
 	
 $ ->
+	$("input#email").placeholder()
+	$("#subForm").submit (e) =>
+		e.preventDefault();
+		if($("input.email").val()=="")
+			$("input.email").addClass("red");
+			return false;
+		$.getJSON(
+			$("#subForm").attr("action") + "?callback=?",
+			$("#subForm").serialize(),
+			->
+				$("#subForm").addClass("hidden")
+				$("#formConfirm").removeClass("hidden")
+		)
+
 	$("#update_button").click =>
-		$("#contact").removeClass("collapsed")
-		$("#contact div").removeClass("hidden")
-		$(window).scrollTo("#contact",800)
+		$("#subForm").removeClass("hidden")
+		$("#update_button").addClass("hidden")
 		return false
 	config =
 		currentClass: 'current'
