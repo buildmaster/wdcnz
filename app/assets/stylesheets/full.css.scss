@@ -235,7 +235,13 @@ header {
 				padding-bottom:15px;
 				&.details{
 					text-transform:uppercase;
-					color:#6a6a6a
+					color:#6a6a6a;
+					a{
+						text-decoration:none;
+					}
+					a:hover{
+						color:$secondary;
+					}
 				}
 				&.bold{
 					padding-top:12px;
