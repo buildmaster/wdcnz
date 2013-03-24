@@ -50,16 +50,21 @@ ul, li {
 header {
 	
 	@include text-shadow(rgba(black,0.2) 0 1px 0);
-	
+	h1{
+		line-height:60px;
+	}
 	h2 {
 		font-size: 60px;
-		line-height: 65px;
+		line-height: 60px;
 		margin-left: 5px;
 	}	
 
 	.sponsor {
 		float: right;
 		font-size: 15px;
+		span{
+			margin-right:10px;
+		}
 	}
 	
 	.details {
@@ -71,7 +76,7 @@ header {
 }
 
 .page {
-	margin-top: 20px;
+	margin-top: 86px;
 	//min-height: 700px;	
 	
 	a,
@@ -93,7 +98,7 @@ header {
 .page#contact{ height: 1000px; }
 
 .page#home{
-	margin-top: 68px;  
+	margin-top: 3px;  
 	
 	a {
 		color: $secondary;
@@ -179,6 +184,7 @@ header {
 		.logo{
 			padding-top: 45px;
 			float: left;
+			text-align: center;
 			width: 235px;			 
 		}
 		.blurb {
@@ -280,7 +286,7 @@ header {
 	h3 { color: $secondary; }
 	
 	.bio {
-	
+		min-height:151px;
 		margin-left: 225px;
 		width: 450px;
 		
@@ -350,6 +356,9 @@ div#floating-menu {
 		list-style:none;
 
 		li.current a { color:$secondary; }
+		li.sm_links{
+			margin-top:16px;
+		}
 	}
 	a.sm_link {
 		background: url('menu_sprites.png') no-repeat;
