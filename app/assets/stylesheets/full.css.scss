@@ -205,7 +205,31 @@ header {
 		font-weight:300;
 		width:601px;
 		color:#000;
+		tr.one{
+				border-bottom: none;
+				td{
+				padding-bottom:0px;
+				}
+			}
+			tr.divider{
+				td{
+					padding-top:0px;
+				padding-bottom:0px;
+				}
+				td.time{
+					color:#666;
+				}
+				border-top:none;
+				border-bottom:none;
+			}
+			tr.two{
+				td{
+				padding-top:0px;
+			}
+				border-top:none;
+			}
 		tr{
+
 			td{
 				padding-top:15px;
 				padding-bottom:15px;
@@ -228,6 +252,9 @@ header {
 				}
 			}
 			td.time{
+				.room{
+					color:#999;
+				}
 				width:135px;
 			}
 			border-bottom:1px solid #6a6a6a;
