@@ -40,7 +40,7 @@ $ ->
 	);
 	$(document).scroll => 
 		$("#floating-menu").css('left',$("#floating-menu").position().left);
-		if $(window).scrollTop()>240
+		if $(window).scrollTop()>200
 			if $('#floating-menu').hasClass('fixed')
 				$('#floating-menu').removeClass('fixed')
 				$('#floating-menu').addClass('floating')

@@ -37,7 +37,7 @@ ul, li {
 	padding: 0;	
 }
 
-.container { margin-top: 60px; }
+.container { margin-top: 30px; }
 
 .center {
 	margin: 0 auto;
@@ -98,7 +98,7 @@ header {
 .page#contact{ height: 1000px; }
 
 .page#home{
-	margin-top: 3px;  
+	margin-top: 30px;  
 	
 	a {
 		color: $secondary;
@@ -118,7 +118,7 @@ header {
 		}
 	}
 	form{
-		margin-top:30px;
+		margin-top:33px;
 	
 		div {
 			margin-top:9px;
@@ -350,7 +350,7 @@ div#floating-menu {
 
 	&.fixed{
 		float: right;
-		margin-top: 83px
+		margin-top: 43px
 	}
 	&.floating{
 		position: fixed;
@@ -381,7 +381,9 @@ div#floating-menu {
 		font-size:24px;
 		text-align:right;
 		list-style:none;
-
+		li{
+			margin-top:10px;
+		}
 		li.current a { color:$secondary; }
 		li.sm_links{
 			margin-top:16px;
