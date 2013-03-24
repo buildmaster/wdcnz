@@ -208,13 +208,13 @@ header {
 		tr.one{
 				border-bottom: none;
 				td{
-				padding-bottom:0px;
+					padding-bottom:0px;
 				}
 			}
 			tr.divider{
 				td{
 					padding-top:0px;
-				padding-bottom:0px;
+					padding-bottom:0px;
 				}
 				td.time{
 					color:#666;
@@ -238,11 +238,13 @@ header {
 					color:#6a6a6a
 				}
 				&.bold{
+					padding-top:12px;
 					color:#000;
 					font-size:32px;
 					font-weight:700;
 				}
 				.talk{
+					margin-top:-3px;
 					color:#000;
 					font-size:32px;
 					font-weight:700;
@@ -252,7 +254,6 @@ header {
 				}
 			}
 			td.time{
-				padding-top:18px;
 				.room{
 					color:#999;
 				}
