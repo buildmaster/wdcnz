@@ -178,7 +178,15 @@ header {
 			border-top: 1px solid #C0C0C0;
 			margin-top: 10px;
 		}
-		&.large { height: 250px; }
+		&.large { 
+			height: 250px;
+			.logo{
+				//padding-top:45px;
+			}
+			.blurb{
+				//padding:45px 0;
+			}
+		 }
 		&.last { margin-bottom: 15px; }
 		
 		.logo{
