@@ -172,32 +172,33 @@ header {
 		color: #666;
 		margin-right: 90px;
 		border-bottom: 1px solid #C0C0C0;
-		height: 188px;
+		height: 140px;
 		
 		&.first {
 			border-top: 1px solid #C0C0C0;
 			margin-top: 10px;
+			height: 188px;
 		}
 		&.large { 
 			height: 250px;
 			.logo{
-				//padding-top:45px;
+				padding-top:45px;
 			}
 			.blurb{
-				//padding:45px 0;
+				padding:45px 0;
 			}
 		 }
-		&.last { margin-bottom: 15px; }
+		&.last { margin-bottom: 5px; }
 		
 		.logo{
-			padding-top: 45px;
+			padding-top: 25px;
 			float: left;
 			text-align: center;
 			width: 235px;			 
 		}
 		.blurb {
 			float: right;
-			padding: 45px 0;
+			padding: 25px 0;
 			width: 405px;
 			
 			p { margin: 0 0 15px; }
