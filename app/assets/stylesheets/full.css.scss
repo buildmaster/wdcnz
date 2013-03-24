@@ -188,7 +188,10 @@ header {
 				padding:45px 0;
 			}
 		 }
-		&.last { margin-bottom: 5px; }
+		&.last { 
+			margin-bottom: 5px;
+			height: 100px; 
+		}
 		
 		.logo{
 			padding-top: 25px;
