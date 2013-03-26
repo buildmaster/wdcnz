@@ -365,8 +365,8 @@ div#floating-menu {
 	color: $primary;
 	text-align: right;
 	
-	a { color: $secondary; }
-	a:hover { color: $primary; }
+	a { color: $primary; }
+	a:hover { color: $secondary; }
 
 	&.fixed{
 		float: right;
@@ -390,8 +390,8 @@ div#floating-menu {
 	  }
 		a,
 		a:link,
-		a:visited { color: $secondary; }
-		a:hover { color: $primary; }	
+		a:visited { color: $primary; }
+		a:hover { color: $secondary; }	
 	  
 	}
 	
