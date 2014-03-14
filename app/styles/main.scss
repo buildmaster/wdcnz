@@ -1,0 +1,585 @@
+/*------------------------------------------------------------------------------------------------------------------------
+ @package: wdcnz
+
+ @author: Owen Evans
+ @www: wdcnz.com
+
+ @copyright: COPYRIGHT 7 Owen Evans
+ @license: MIT
+
+ =============================================================================
+ Filename: main.scss
+ =============================================================================
+ This file is responsible for all styles on the wdcnz app.  Styles should be compiled using compass and sass.
+ --------------------------------------------------------------------------------------------------------------------- */
+@import "partials/_reset.scss";
+@import "partials/_variables.scss";
+@import "partials/_helpers.scss";
+@import "partials/_media-queries.scss";
+
+html, body{
+
+	width:100%;
+	border:0;
+	margin:0;
+	height:100%;
+	padding:0;
+
+}
+body {
+	background: $body-background;
+	font-family: $base-font-family;
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+}
+.center{
+	@media #{$phone}{
+		width:310px;
+		padding-left:5px;
+		padding-right:5px;
+	}
+	width:940px;
+	margin:0 auto;
+}
+header{
+	@media #{$phone}{
+		margin-top:45px;
+		text-align:center;
+	}
+	background-color: $orange;
+	border:0;
+	margin:0;
+	height:230;
+	padding-top:40px;
+	img#logo{
+		@media #{$phone}{
+			width:254px;
+			height:50px;
+		}
+		width:570px;
+		height:112px;
+	}
+	.normal{
+		@media #{$phone}{
+			display:none;
+		}
+	}
+	.small{
+		display:none;
+		@media #{$phone}{
+			display:block;
+		}
+	}
+	h2{
+
+		font-family:  $museo-font-family;
+		font-weight: 700;
+		font-style:normal;
+		font-size:60px;
+		@media #{$phone}{
+			font-size:32px;
+		}
+		text-transform: uppercase;
+	}
+	h3{
+		font-family: $museo-font-family;
+		font-weight:500;
+		font-size:26px;
+		@media #{$phone}{
+			font-size:16px;
+		}
+		font-style:normal;
+		color:#e5b700;
+		text-transform: uppercase;
+		span{
+			color:#000;
+			font-weight:700;
+			margin:0px 7px;
+
+		}
+		span:first-child{
+			margin-left:0px;
+		}
+		span:last-child{
+			margin-right:0px;
+		}
+	}
+	div.tickets{
+		display:none;
+		@media #{$phone}{
+			display:block;
+		}
+		background: #FFF;
+		width: 254px;
+		margin:0 auto;
+		height:45px;
+		margin-top:38px;
+		text-transform: uppercase;
+		font-family: $museo-font-family;
+		font-size: 28px;
+		padding-top:15px;
+		font-weight: 700;
+		a{
+			color:#000;
+		}
+	}
+	div.last{
+		margin-top:40px;
+		@media #{$phone}{
+			width:310px;
+		}
+		width:711px;
+		border-bottom:1px solid rgba(0, 0, 0, .1)
+	}
+}
+ul, li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+a, a:link { text-decoration: none; }
+div.container{
+	&.topmenu{
+		&.hidden{
+			display:none;
+		}
+		@media #{$phone}{
+			z-index: 9999;
+			display: block;
+		}
+		background-color: #FFF;
+		position:fixed;
+		top:0;
+		left:0;
+		width:100%;
+		display:none;
+		text-align: center;
+		font-family: $museo-font-family;
+		font-weight: 700;
+		font-size:24px;
+		.close{
+			height:38px;
+			font-family: sans-serif;
+			padding-top:7px;
+			cursor: pointer;
+		}
+		a{
+			color:black;
+		}
+		.logo{
+			margin-top:10px;
+			margin-bottom:15px;
+			background-color: #FFF;
+		}
+		menu{
+		background-color: #FFF;
+		width:100%;
+		text-transform:uppercase;
+		font-weigth:700;
+		font-size:24px;
+		text-align:center;
+		list-style:none;
+
+		li{
+
+			height:45px;
+			margin-top:10px;
+		}
+		li.secondary{
+			font-size:18px;
+		}
+		li.current a { color:$red; }
+		li.sm_links{
+			margin-top:16px;
+		}
+
+	}
+	a.sm_link {
+		background: url('/img/menu_sprites.png') no-repeat;
+		display: inline-block;
+		height: 18px;
+		width: 19px;
+		span{ display:none; }
+	}
+	a.twitter_link {
+		background-position: 0 -20px;
+		&:hover { background-position: 0 0; }
+		margin-right:25px;
+	}
+	a.facebook_link {
+		margin-left: 25px;
+		margin-right:20px;
+		background-position: -34px -20px;
+		&:hover{ background-position: -34px 0; }
+	}
+	a.flickr_link {
+		margin-left:20px;
+		margin-right:27px;
+		background-position: -58px -20px;
+		&:hover { background-position: -58px 0; }
+	}
+	a.vimeo_link{
+		margin-left: 27px;
+		background-position: -89px -20px;
+		&:hover{ background-position: -89px 0px; }
+	}
+
+
+	}
+	&.hamburger{
+		&.hidden{
+			display:none;
+		}
+		@media #{$phone}{
+			z-index: 9999;
+			display:block;
+		}
+		padding-top:5px;
+		font-size:25px;
+		cursor: pointer;
+		width:100%;
+		display:none;
+		height:45px;
+		position:fixed;
+		top:0;
+		left:0;
+		text-align: center;
+
+	}
+	width:100%;
+	&.orange{
+		background-color:$orange;
+	}
+	section{
+		padding-top:80px;
+		min-height:700px;
+		a{
+			color:#000;
+		}
+		a:hover{
+			color:$red;
+		}
+		h4{
+			font-family: $museo-font-family;
+			font-weight: 700;
+			font-size: 18px;
+			text-transform: uppercase;
+			margin-top:30px;
+		}
+		h3{
+			font-family: $museo-font-family;
+			font-size: 32px;
+			font-weight: 700;
+			margin-top:40px;
+			text-transform: uppercase;
+
+		}
+		h3.first{
+			margin-top:30px;
+		}
+		p{
+			margin-top:10px;
+		}
+		&#speakers{
+			.speaker:nth-child(n+2){
+				@media #{$phone}{
+					margin-top:20px;
+					padding-bottom:20px;
+					border-bottom:1px solid rgba(0, 0, 0, .1);
+					width:310px;
+				}
+
+				margin-top:50px;
+				width:711px;
+				min-height:150px;
+			}
+			.speaker_image{
+				@media #{$phone}{
+					float:none;
+				}
+				float:right;
+				img{
+					width:195px;
+					height:130px;
+				}
+			}
+			.bio{
+				padding-right:235px;
+				@media #{$phone}{
+					padding-right:0;
+					padding-left:5px;
+				}
+
+				h3{
+					font-size: 30px;
+					font-weight: 700;
+					font-family: $museo-font-family;
+					text-transform: uppercase;
+					line-height: 24px;
+					margin-bottom:5px;
+				}
+				.social a{
+					text-transform: lowercase;
+					font-family: $museo-font-family;
+					font-weight: 300;
+					font-size:18px;
+				}
+				a{
+					color:#000;
+					text-decoration: underline;
+				}
+				a:hover{
+					color:$red;
+				}
+			}
+			p{
+				font-size: 15px;
+				margin-top:10px;
+
+			}
+		}
+		&#speaker_heros{
+			@media #{$phone}{
+				font-size: 30px;
+				text-align: center;
+			}
+			padding-top: 40px;
+			font: 700 60px/60px $museo-font-family;
+
+			a {
+				color: $black;
+				height: 58px;
+				text-transform: uppercase;
+
+			}
+			li{
+				margin:10px 0;
+			}
+			li:first-child{
+				margin-top:0px;
+			}
+			a:hover{ color: $red; }
+		}
+		&#sponsors{
+			@media #{$phone}{
+
+			}
+			.heros{
+				position: relative;
+				font-size:14px;
+				color: #000;
+				margin-right: 90px;
+				border-bottom: 1px solid rgba(0, 0, 0, .1);
+				height: 140px;
+				@media #{$phone}{
+						height:auto;
+				}
+				@media #{$phone}{
+					width:310px;
+				}
+				width:711px;
+
+				&.first {
+					border-top: 1px solid rgba(0, 0, 0, .1);
+					margin-top: 10px;
+				}
+				&.medium{
+					@media #{$phone}{
+						height:auto;
+					}
+					height: 195px;
+				}
+				&.large {
+					@media #{$phone}{
+						height:auto;
+					}
+					height: 250px;
+					.logo{
+						padding-top:45px;
+					}
+					.blurb{
+						padding:45px 0;
+					}
+				}
+				&.last {
+					margin-bottom: 5px;
+				}
+
+				.logo{
+					&.move_down{
+						@media #{$phone}{
+							margin-top:none;
+						}
+						margin-top:40px;
+					}
+					padding-top: 25px;
+					@media #{$phone}{
+						width:310px;
+						float:none;
+					}
+					float: left;
+					text-align: center;
+					width: 205px;
+				}
+				.blurb {
+					@media #{$phone}{
+						float:none;
+						width:100%;
+					}
+					float: right;
+					padding: 25px 0;
+					width: 405px;
+					a{
+						text-decoration: underline;
+					}
+					p { margin: 0 0 15px; }
+				}
+			}
+		}
+		&#venue{
+			@media #{$phone}{
+					padding-bottom:50px;
+				}
+			a{
+				text-decoration: underline;
+			}
+		}
+		.section_title{
+				@media #{$phone}{
+					font-size:40px;
+				}
+			font: 700 60px/60px $museo-font-family;
+			text-transform: uppercase;
+			.ident{
+				@media #{$phone}{
+					display:none;
+				}
+			}
+			.hr{
+				@media #{$phone}{
+					display:none;
+				}
+				height:5px;
+				width:711px;
+				background-color:#ffcc00;
+				margin-top:27px;
+			}
+		}
+	}
+	footer#contact{
+		height:72px;
+		padding-top:50px;
+		font-size: 14px;
+		a{
+			color:#000;
+			text-decoration: underline;
+		}
+		a:hover{
+			color:$red;
+		}
+		span:first-child{
+			display:block;
+			float:left;
+		}
+		span:nth-child(2){
+			display:block;
+			float:right;
+		}
+
+	}
+}
+
+
+
+/** floating menu **/
+
+div#floating-menu {
+	@media #{$phone}{
+		display:none;
+	}
+	font-family: $museo-font-family;
+	color: $black;
+	text-align: right;
+	width:210px;
+
+
+	a { color: $black; }
+	a:hover { color: $red; }
+
+	&.fixed{
+		float: right;
+		margin-top: 43px
+	}
+	&.floating{
+		position: fixed;
+		top: 43px;
+	}
+
+	.register-link{
+		margin-bottom:20px;
+		padding-top:12px;
+		height:60px;
+		background: #FFF;
+		padding-right:20px;
+	  a,
+	  span.big{
+		font-weight: 700;
+		font-size: 40px;
+		text-transform: uppercase;
+		float:none;
+	  }
+		a,
+		a:link,
+		a:visited { color: $black; }
+		a:hover { color: $red; }
+		border-bottom:1px solid rgba(0, 0, 0, .1);
+	}
+
+	menu{
+		padding-right:20px;
+		text-transform:uppercase;
+		font-weigth:700;
+		font-size:24px;
+		text-align:right;
+		list-style:none;
+		li{
+			margin-top:10px;
+		}
+		li.secondary{
+			font-size:18px;
+		}
+		li.current a { color:$red; }
+		li.sm_links{
+			margin-top:16px;
+		}
+
+	}
+	a.sm_link {
+		background: url('/img/menu_sprites.png') no-repeat;
+		display: inline-block;
+		height: 18px;
+		width: 19px;
+		span{ display:none; }
+	}
+	a.twitter_link {
+		background-position: 0 -20px;
+		&:hover { background-position: 0 0; }
+	}
+	a.facebook_link {
+		margin-left: 19px;
+		background-position: -34px -20px;
+		&:hover{ background-position: -34px 0; }
+	}
+	a.flickr_link {
+		margin-left:9px;
+		background-position: -58px -20px;
+		&:hover { background-position: -58px 0; }
+	}
+	a.vimeo_link{
+		margin-left: 12px;
+		background-position: -89px -20px;
+		&:hover{ background-position: -89px 0px; }
+	}
+	padding-bottom:20px;
+	border-bottom:1px solid rgba(0, 0, 0, .1);
+}
