@@ -43,7 +43,7 @@ body {
 }
 header{
 	@media #{$phone}{
-		margin-top:45px;
+		margin-top:30px;
 		text-align:center;
 	}
 	background-color: $orange;
@@ -112,12 +112,12 @@ header{
 		background: #FFF;
 		width: 254px;
 		margin:0 auto;
-		height:45px;
+		height:47px;
 		margin-top:38px;
 		text-transform: uppercase;
 		font-family: $museo-font-family;
 		font-size: 28px;
-		padding-top:15px;
+		padding-top:13px;
 		font-weight: 700;
 		a{
 			color:#000;
@@ -168,7 +168,7 @@ div.container{
 		}
 		.logo{
 			margin-top:10px;
-			margin-bottom:15px;
+			margin-bottom:20px;
 			background-color: #FFF;
 		}
 		menu{
@@ -179,14 +179,15 @@ div.container{
 		font-size:24px;
 		text-align:center;
 		list-style:none;
+		margin-bottom:15px;
 
 		li{
 
 			height:45px;
-			margin-top:10px;
+			margin-top:5px;
 		}
 		li.secondary{
-			font-size:18px;
+			font-size:13px;
 		}
 		li.current a { color:$red; }
 		li.sm_links{
@@ -234,12 +235,12 @@ div.container{
 			z-index: 9999;
 			display:block;
 		}
-		padding-top:5px;
+		padding-top:10px;
 		font-size:25px;
 		cursor: pointer;
 		width:100%;
 		display:none;
-		height:45px;
+		height:40px;
 		position:fixed;
 		top:0;
 		left:0;
@@ -342,7 +343,9 @@ div.container{
 			@media #{$phone}{
 				font-size: 30px;
 				text-align: center;
+				padding-top:20px;
 			}
+
 			padding-top: 40px;
 			font: 700 60px/60px $museo-font-family;
 
@@ -437,9 +440,7 @@ div.container{
 			}
 		}
 		&#venue{
-			@media #{$phone}{
-					padding-bottom:50px;
-				}
+			padding-bottom:50px;
 			a{
 				text-decoration: underline;
 			}
