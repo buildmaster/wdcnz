@@ -443,6 +443,36 @@ div.container{
 			a{
 				text-decoration: underline;
 			}
+			ul, li{
+				display: inline;
+			}
+			.hotel{
+				span{
+					@media #{$phone}{
+						display: block;
+					}
+				}
+				font-style: normal;
+				font-size:15px;
+				font-family: sans-serif;
+				h4{
+					font-weight: bold;
+					display:inline;
+				}
+				.dot{
+					@media #{$phone}{
+						display: none;
+					}
+					margin-right:10px;
+					margin-left:10px;
+					color:#cccccc;
+				}
+				span.rowend:after {
+					content:"\a";
+					white-space: pre;
+				}
+			}
+
 		}
 		.section_title{
 				@media #{$phone}{
