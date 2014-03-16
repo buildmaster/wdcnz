@@ -162,6 +162,10 @@ div.container{
 			font-family: sans-serif;
 			padding-top:7px;
 			cursor: pointer;
+			background-position: center;
+			background-repeat:no-repeat;
+			background-image: url('/img/icon_x.png');
+			background-size:19px 19px;
 		}
 		a{
 			color:black;
@@ -196,33 +200,40 @@ div.container{
 
 	}
 	a.sm_link {
-		background: url('/img/menu_sprites.png') no-repeat;
 		display: inline-block;
 		height: 18px;
 		width: 19px;
 		span{ display:none; }
 	}
 	a.twitter_link {
-		background-position: 0 -20px;
-		&:hover { background-position: 0 0; }
+		background-position: center;
+		background-repeat:no-repeat;
+		background-image: url('/img/icon_twitter.png');
+		background-size:19px 19px;
 		margin-right:25px;
 	}
 	a.facebook_link {
 		margin-left: 25px;
 		margin-right:20px;
-		background-position: -34px -20px;
-		&:hover{ background-position: -34px 0; }
+		background-position: center;
+		background-repeat:no-repeat;
+		background-image: url('/img/icon_facebook.png');
+		background-size:19px 19px;
 	}
 	a.flickr_link {
 		margin-left:20px;
 		margin-right:27px;
-		background-position: -58px -20px;
-		&:hover { background-position: -58px 0; }
+		background-position: center;
+		background-repeat:no-repeat;
+		background-image: url('/img/icon_flickr.png');
+		background-size:19px 19px;
 	}
 	a.vimeo_link{
 		margin-left: 27px;
-		background-position: -89px -20px;
-		&:hover{ background-position: -89px 0px; }
+		background-position: center;
+		background-repeat:no-repeat;
+		background-image: url('/img/icon_vimeo.png');
+		background-size:19px 19px;
 	}
 
 
@@ -234,7 +245,12 @@ div.container{
 		@media #{$phone}{
 			z-index: 9999;
 			display:block;
+
 		}
+		background-position: center;
+		background-repeat:no-repeat;
+		background-image: url('/img/icon_menu.png');
+		background-size:19px 19px;
 		padding-top:10px;
 		font-size:25px;
 		cursor: pointer;
@@ -252,6 +268,9 @@ div.container{
 		background-color:$orange;
 	}
 	section{
+		@media #{$phone}{
+			padding-top:25px;
+		}
 		padding-top:80px;
 		min-height:700px;
 		a{
@@ -293,7 +312,14 @@ div.container{
 				margin-top:50px;
 				width:711px;
 				min-height:150px;
+				&.last{
+					@media #{$phone}{
+						border-bottom:5px solid $orange;
+						padding-bottom:15px;
+					}
+				}
 			}
+
 			.speaker_image{
 				@media #{$phone}{
 					float:none;
@@ -305,6 +331,11 @@ div.container{
 				}
 			}
 			.bio{
+				h3{
+					@media #{$phone}{
+						margin-top:13px;
+					}
+				}
 				padding-right:235px;
 				@media #{$phone}{
 					padding-right:0;
@@ -344,6 +375,8 @@ div.container{
 				font-size: 30px;
 				text-align: center;
 				padding-top:20px;
+				min-height:0;
+				padding-bottom:20px;
 			}
 
 			padding-top: 40px;
@@ -446,6 +479,11 @@ div.container{
 			}
 			ul, li{
 				display: inline;
+			}
+			h3{
+				@media #{$phone}{
+					font-size: 20px;
+				}
 			}
 			.hotel{
 				margin-top:20px;
