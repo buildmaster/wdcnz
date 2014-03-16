@@ -33,7 +33,7 @@ $ ->
 	$( '.hamburger' ).click =>
 		$('.hamburger').addClass('hidden');
 		$('.topmenu').removeClass('hidden');
-	$('.topmenu .close, .topmenu li').click =>
+	$('.topmenu a, .topmenu .close').click =>
 		$('.hamburger').removeClass('hidden');
 		$('.topmenu').addClass('hidden');
 	$( window ).resize =>
