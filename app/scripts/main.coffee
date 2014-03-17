@@ -18,7 +18,7 @@ $ ->
 		currentClass: 'current'
 		changeHash: false
 		scrollSpeed: 750
-		scrollOffset: 19
+		scrollOffset: -25
 		scrollThreshold: 0.5
 		filter: ':not(.external)'
 		easing: 'swing'
@@ -27,7 +27,12 @@ $ ->
 			return
 		end: () ->
 			$('#device-dummy').remove()
+
 	$('#main-menu').onePageNav(
+		config
+	);
+	config.scrollOffset=20;
+	$('#mobile-menu').onePageNav(
 		config
 	);
 	$( '.hamburger' ).click =>
