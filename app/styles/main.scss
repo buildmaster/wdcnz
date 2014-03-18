@@ -46,6 +46,10 @@ header{
 		margin-top:30px;
 		text-align:center;
 	}
+	a, a:link{
+		color:#000;
+		text-decoration: underline;
+	}
 	background-color: $orange;
 	border:0;
 	margin:0;
