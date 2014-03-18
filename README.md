@@ -1,7 +1,7 @@
 wdcnz
 =====
 
-Welcome to the code for WDCNZ.
+Welcome to the code for WDCNZ. http://wdcnz.com
 
 it should be relatively simple to get started. 
 
