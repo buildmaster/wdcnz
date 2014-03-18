@@ -5,10 +5,10 @@ Welcome to the code for WDCNZ.
 
 it should be relatively simple to get started. 
 
-1) install node and npm
-2) install grunt (npm install grunt-cli -g)
-3) run grunt serve
-4) hack away
+* install node and npm
+* install grunt (npm install grunt-cli -g)
+* run grunt serve
+* hack away
 
 Pull requests should pass any linting tests, and should run via grunt serve.
 
