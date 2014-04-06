@@ -405,6 +405,14 @@ div.container{
 
 			}
 			.heros{
+        &:before, &:after{
+          content:"";
+          display:table;
+        }
+        &:after{
+          clear:both;
+        }
+        zoom:1;
 				position: relative;
 				font-size:14px;
 				color: #000;
@@ -422,24 +430,25 @@ div.container{
 				&.first {
 					border-top: 1px solid rgba(0, 0, 0, .1);
 					margin-top: 10px;
+          .blurb{
+            padding:45px 0;
+          }
 				}
 				&.medium{
 					@media #{$phone}{
 						height:auto;
 					}
-					height: 195px;
+					height: auto;
 				}
 				&.large {
 					@media #{$phone}{
 						height:auto;
 					}
-					height: 250px;
+					height: auto;
 					.logo{
 						padding-top:45px;
 					}
-					.blurb{
-						padding:45px 0;
-					}
+
 				}
 				&.last {
 					margin-bottom: 5px;
