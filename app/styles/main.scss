@@ -655,9 +655,13 @@ div#floating-menu {
 	  a,
 	  span.big{
 		font-weight: 700;
-		font-size: 33px;
-		text-transform: uppercase;
+		font-size: 25px;
+		line-height:25px;
 		float:none;
+		text-transform:uppercase;
+		a{
+			font-size:15px;
+		}
 	  }
 		a,
 		a:link,
