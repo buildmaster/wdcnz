@@ -1,0 +1,57 @@
+
+$light: #a09f9f;
+
+.xero-logo {
+  max-width: 300px;
+  height: 300px;
+  background-color: $light;
+  background: url('images/sponsors/xero.png') center no-repeat;
+  @include image-2x("images/sponsors/xero@2x.png", 300px, 300px);
+}
+.lilregie-logo {
+  max-width: 300px;
+  height: 300px;
+  background-color: $light;
+  background: url('images/sponsors/lilregie.png') center no-repeat;
+}
+.raygun-logo {
+  max-width: 300px;
+  height: 300px;
+  background-color: $light;
+  background: url('images/sponsors/raygun.png') center no-repeat;
+  @include image-2x("images/sponsors/raygun@2x.png", 300px, 300px);
+}
+.eighti-logo {
+  max-width: 300px;
+  height: 300px;
+  background-color: $light;
+  background: url('images/sponsors/8i.png') center no-repeat;
+  @include image-2x("images/sponsors/8i@2x.png", 250px, 250px);
+}
+.aws-logo {
+  max-width: 300px;
+  height: 300px;
+  background-color: $light;
+  background: url('images/sponsors/aws.png') center no-repeat;
+  @include image-2x("images/sponsors/aws@2x.png", 225px, 94px);
+}
+.trademe-logo {
+  max-width: 300px;
+  height: 300px;
+  background-color: $light;
+  background: url('images/sponsors/trademe.png') center no-repeat;
+  @include image-2x("images/sponsors/trademe@2x.png", 300px, 94px);
+}
+.multimedia-logo {
+  max-width: 300px;
+  height: 300px;
+  background-color: $light;
+  background: url('images/sponsors/multi_media.png') center no-repeat;
+}
+.umbrella-logo {
+  max-width: 300px;
+  height: 300px;
+  background-color: $light;
+  background: url('images/sponsors/umbrella.png') center no-repeat;
+  @include image-2x("images/sponsors/umbrella@2x.png", 300px, 94px);
+}
