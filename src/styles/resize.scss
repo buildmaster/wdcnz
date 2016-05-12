@@ -1,0 +1,97 @@
+@media all and (max-width: 1280px) {
+  section {
+    width: 100%;
+    margin: 0 auto;
+  }
+  section.speakers {
+    width: 640px;
+    padding-top: 150px;
+    margin: 0 auto;
+    .speaker:nth-child(2n) {
+      clear: both;
+    }
+  }
+  section.sponsors {
+    width: 600px;
+    padding-top: 150px;
+    margin: 0 auto;
+    .speaker-group .sponsor:nth-child(2n) {
+      clear: both;
+    }
+  }
+  footer {
+    width:100%;
+    .left {
+      width: 100%;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+}
+@media all and (max-width: 640px) {
+
+  section.speakers {
+    width: 320px;
+    padding-top: 150px;
+    margin: 0 auto;
+    .speaker:nth-child(2n) {
+      clear: auto;
+    }
+  }
+  section.sponsors {
+    width: 320px;
+    padding-top: 150px;
+    margin: 0 auto;
+    .sponsor:nth-child(2n) {
+      clear: auto;
+    }
+  }
+  section.sell {
+    .hard-sell {
+      display: block;
+      text-align: center;
+      margin-right: 0;
+    }
+    a.buy-button {
+      display: inline-block;
+      clear: both;
+      margin-top: 20px;
+    }
+  }
+
+  /* At this point start making the text smaller for mobile */
+  header {
+    .main-logo {
+      width: 206px;
+      height: 220px;
+      background-size: 206px 220px;
+      margin-bottom: 40px;
+    }
+    nav {
+      .small-logo {
+        display: none;
+      }
+      ul {
+        width: 100%;
+        margin-right: 0;
+        li {
+          margin: 0;
+          display: block;
+          float: none;
+          margin-bottom: 20px;
+          &.buy {
+            text-align: center;
+          }
+        }
+      }
+    }
+    h2 {
+      font-size: 25px;
+      line-height: 38px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+}
