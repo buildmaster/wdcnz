@@ -636,6 +636,45 @@ section {
         background-image: url("images/divider@2x.png");
         background-size: 58px 19px; } }
 
+section.schedule {
+  padding-top: 150px; }
+  section.schedule .details {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px; }
+    section.schedule .details table {
+      background: transparent;
+      margin-bottom: 1.25rem;
+      border: solid 1px transparent;
+      table-layout: auto; }
+    section.schedule .details .programme-table td {
+      vertical-align: top; }
+    section.schedule .details .programme-time {
+      text-align: right;
+      margin-top: 0.9375rem; }
+    section.schedule .details .programme-time, section.schedule .details .programme-name {
+      font-family: "clear_sansbold", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      letter-spacing: 1.5px;
+      text-transform: uppercase; }
+    section.schedule .details .programme-name {
+      font-size: 1.125rem;
+      margin-bottom: 0.3125rem;
+      line-height: 1.3em;
+      margin-top: 0.9375rem; }
+    section.schedule .details .programme-description {
+      line-height: 20px;
+      font-size: 0.9375rem; }
+    section.schedule .details .programme-left-col {
+      padding-left: 20px; }
+    section.schedule .details .programme-right-col {
+      width: 590px;
+      padding-left: 60px;
+      padding-top: 0; }
+    @media only screen and (max-width: 667px) {
+      section.schedule .details .programme-right-col {
+        width: 300px;
+        padding-left: 10px; } }
+
 section.speakers {
   padding-top: 150px; }
   section.speakers .speaker {
