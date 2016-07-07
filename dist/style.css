@@ -468,7 +468,7 @@ section.sponsors .sponsor-group:after {
     .raygun-logo {
       /* on retina, use image that's scaled by 2 */
       background-image: url("images/sponsors/raygun@2x.png");
-      background-size: 300px 300px; } }
+      background-size: 250px 250px; } }
 
 .eighti-logo {
   max-width: 300px;
@@ -479,7 +479,7 @@ section.sponsors .sponsor-group:after {
     .eighti-logo {
       /* on retina, use image that's scaled by 2 */
       background-image: url("images/sponsors/8i@2x.png");
-      background-size: 250px 250px; } }
+      background-size: 300px 300px; } }
 
 .aws-logo {
   max-width: 300px;
@@ -501,7 +501,7 @@ section.sponsors .sponsor-group:after {
     .trademe-logo {
       /* on retina, use image that's scaled by 2 */
       background-image: url("images/sponsors/trademe@2x.png");
-      background-size: 300px 94px; } }
+      background-size: 300px 59px; } }
 
 .multimedia-logo {
   max-width: 300px;
@@ -518,7 +518,7 @@ section.sponsors .sponsor-group:after {
     .umbrella-logo {
       /* on retina, use image that's scaled by 2 */
       background-image: url("images/sponsors/umbrella@2x.png");
-      background-size: 300px 94px; } }
+      background-size: 250px 95px; } }
 
 /* Colors */
 /* Type */
